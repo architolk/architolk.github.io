@@ -1,0 +1,61 @@
+dxfm2:
+  - title: Introduction
+    url: /dxfm2
+
+  - title: Usage
+    children:
+      - title: "Overview"
+        url: /docs/configuration/
+      - title: "LFO"
+        url: /docs/navigation/
+      - title: "Oscillators"
+        url: /docs/ui-text/
+      - title: "Operators"
+        url: /docs/authors/
+      - title: "Effects"
+        url: /docs/layouts/
+
+  - title: Build
+    children:
+      - title: "Introduction"
+        url: /docs/posts/
+      - title: "PSU"
+        url: /docs/pages/
+      - title: "Teensy"
+        url: /docs/collections/
+      - title: "XFM2"
+        url: /docs/helpers/
+      - title: "Case"
+        url: /docs/utility-classes/
+
+  - title: FM Theory
+    children:
+      - title: "Introduction"
+        url: /dxfm2/fm-theory/
+      - title: "Carriers and Modulators"
+        url: /dxfm2/fm-theory/
+
+ac5:
+  - title: Introduction
+    url: /ac5
+
+  - title: History
+    children:
+      - title: "History of the AC4"
+        url: /docs/configuration/
+
+  - title: Build
+    children:
+      - title: "Introduction"
+        url: /docs/posts/
+
+  - title: Tube Theory
+    children:
+      - title: "Introduction"
+        url: /dxfm2/tube-theory/
+      - title: "Resources"
+        url: /dxfm2/tube-theory/
+
+vocoder:
+  - title: Introduction
+    url: /vocoder

@@ -18,14 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Architolk Docs
-description: Portfolio en documentation of the Architolk.nl projects
+title: Architolk projects
+description: Documentation of the Architolk projects
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://architolk.nl" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  architolk
+url: "https://docs.architolk.nl" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: architolk
+
+include: ["_pages"]
 
 # Build settings
-theme: jekyll-theme-cayman
+#theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+minimal_mistakes_skin: "dark"
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/architolk"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -35,19 +49,14 @@ theme: jekyll-theme-cayman
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-  - README.md
-  - .sass-cache/
-  - .jekyll-cache/
-  - .bundle/
-  - .git/
-  - .gitignore
-  - gemfiles/
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
