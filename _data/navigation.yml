@@ -41,20 +41,24 @@ ac5:
 
   - title: History
     children:
-      - title: "History of the AC4"
-        url: /docs/configuration/
+      - title: "The AC4"
+        url: /ac5/ac4history
+      - title: "The AC30"
+        url: /ac5/ac30history
 
   - title: Build
     children:
       - title: "Introduction"
-        url: /docs/posts/
+        url: /ac5/build
+      - title: "The circuit"
+        url: /ac5/circuit
 
   - title: Tube Theory
     children:
       - title: "Introduction"
-        url: /dxfm2/tube-theory/
+        url: /ac5/tube-theory
       - title: "Resources"
-        url: /dxfm2/tube-theory/
+        url: /ac5/resources
 
 vocoder:
   - title: Introduction
