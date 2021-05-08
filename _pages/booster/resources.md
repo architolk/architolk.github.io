@@ -22,3 +22,4 @@ classes: wide
 - [Blackstufflabs - Information about the Brian May treble boosters and PCB](https://www.blackstufflabs.com/pcbstore/). The [pdf](https://www.blackstufflabs.com/wp-content/uploads/2020/06/tboostfactory146.pdf) gives a lot of information!
 - [Mark Hennessy - Vintage transistors](https://www.markhennessy.co.uk/articles/vintage_transistors.htm)
 - [Pete Cornish - the Queen years](http://www.petecornish.co.uk/queen.html)
+- [Transistor hFE measuring](http://www.geofex.com/Article_Folders/fuzzface/fftech.htm#Picking%20transistors)
