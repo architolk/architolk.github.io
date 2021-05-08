@@ -18,3 +18,4 @@ classes: wide
 - [Youtube - Pathfinder 10 Speaker upgrade](https://youtu.be/F96dS50MvE0)
 - [Tubetown - Molly Kit](https://www.tube-town.net/cms/?DIY/LoW-Projekte/Molly_-engl-)
 - [The valve wizard - A whole lot of information!](http://www.valvewizard.co.uk)
+- [Tube startup procedure](https://robrobinette.com/Tube_Amp_Startup.htm)

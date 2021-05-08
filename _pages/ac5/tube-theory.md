@@ -22,3 +22,7 @@ Most tube amplifiers have the following sections:
 - The Output transformer, to convert the high voltage - low current output from the power tube section to a lower voltage - higher current output to drive the speakers.
 
 Speaker and guitar coils are not part of the amplifier itself, but are off course necessary and have an impact on the sound. Using an amplifier without a speaker (loud) will probably damage the output transformer, so that's not a very good idea.
+
+[Uncle Doug](https://www.youtube.com/user/Stratosaurus1) is a very popular Youtuber (in the tube amp community ;-)). He made a very good series explaining tube theory:
+- [How tube amps work - Part 1: The Power Supply](https://youtu.be/x5SSKX74DKg)
+- [How tube amps work - Part 2: The Pre-Amp and Power Amp](https://youtu.be/901iaPVVzY0)

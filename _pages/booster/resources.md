@@ -23,3 +23,5 @@ classes: wide
 - [Mark Hennessy - Vintage transistors](https://www.markhennessy.co.uk/articles/vintage_transistors.htm)
 - [Pete Cornish - the Queen years](http://www.petecornish.co.uk/queen.html)
 - [Transistor hFE measuring](http://www.geofex.com/Article_Folders/fuzzface/fftech.htm#Picking%20transistors)
+- [Guild Brian May Treble Boosters](https://www.gad.net/Blog/2019/03/03/guild-1984-brian-may-treble-booster-pedals/)
+- [Range master plus](http://pedalparts.co.uk/docs/RangeMasterPlus.pdf), good example and circuit of both a Ge en a Si treble booster in one package

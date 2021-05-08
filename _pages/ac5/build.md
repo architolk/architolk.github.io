@@ -20,3 +20,7 @@ Building the AC5:
 - Building the Molly Kit
 - Installing everything
 - First test! Using a light bulb current limiter
+
+I got some inspiration from these youtube videos:
+- [Stefans Guitars - Building our own tube amp, part 1](https://youtu.be/EGZEgBNAKxM), [part 2](https://youtu.be/kn6WKTkKwtQ), [part 3](https://youtu.be/fnh4aY1C9QA), [part 4](https://youtu.be/Tf0nXF1losE) and [part 5](https://youtu.be/O_SStu3ECvI). Not the Molly, but another kit from TubeTown.
+- [Molly kit Tube Town by Stalker effects](https://www.youtube.com/watch?v=Kaimab6wDFA), it's a custom build using the old version of the kit.
