@@ -63,3 +63,9 @@ ac5:
 vocoder:
   - title: Introduction
     url: /vocoder
+
+booster:
+  - title: Introduction
+    url: /booster
+  - title: "Resources"
+    url: /booster/resources

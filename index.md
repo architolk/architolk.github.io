@@ -22,6 +22,11 @@ feature_row:
     excerpt: "The ongoing project to create a real analog vocoder"
     url: "/vocoder/"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/booster.png"
+    title: "Treble booster"
+    excerpt: "The onging project to create a treble booster"
+    url: "/booster/"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}
