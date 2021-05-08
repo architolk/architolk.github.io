@@ -50,6 +50,12 @@ ac5:
     children:
       - title: "Introduction"
         url: /ac5/build
+      - title: "Speaker upgrade"
+        url: /ac5/speakers
+      - title: "Chassis internals"
+        url: /ac5/internals
+      - title: "Operating panel"
+        url: /ac5/panel
       - title: "The circuit"
         url: /ac5/circuit
 

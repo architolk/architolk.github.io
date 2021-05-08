@@ -12,18 +12,26 @@ action: false
 classes: wide
 
 ---
+![](/assets/images/ac5/ac5-back.png)
+
+The build of this AC5 is visible in one picture: the back of the AC5. The front is still the same: a pathfinder 10. But the back shows the real deal:
+
+- It's a pathfinder (and as a fellow band member stated: "*what does it say: CAUTION DON'T open???*");
+- The VOX 6.5 speaker is replaced with a Celestion 8 inch speaker;
+- It has tubes! I placed the tubes to the left of the speaker, diagonal (V1 and V3 a bit to the front, V2 a bit to the back) to create enough space between the tubes and to the left of the speaker, so the speaker coil magnetic field won't interfere with the tubes.
+- The output transformer is place to the right of the speaker, so no interference here as well.
+- The power transformer is not visible: it is in behind the chassis. It's a toroidal transformer and well away from the output transformer, so no interference here as well.
+
 ## Building the AC5:
 
-- Changing the original 6.5 inch VOX speaker with a 8 inch Celestion speaker.
+- [Changing the original 6.5 inch VOX speaker with a 8 inch Celestion speaker](/ac5/speakers).
 - Removing the case of the Pathfinder 10 and removing all internals
 - Drilling new holes in the original Pathfinder 10 case.
 - Building the Molly Kit
 - Installing everything
 - First test! Using a light bulb current limiter
 
-### Speaker replacement
-
-### grounding
+## grounding
 
 The chassis is actually part of the circuitry of the amplifier, it's the ground of the electric circuit, as are other elements of the amplifier and attached equipement:
 - The earth line from the AC input socket;
@@ -68,7 +76,7 @@ I got some inspiration from these youtube videos:
 - Two [flat cable plugs](https://www.tube-town.net/ttstore/flat-cable-plug-cable-shoe-1-2-5-mm-tin-plated.html)
 - A [speaker jack plug](https://www.tube-town.net/ttstore/hicon-j63ma05-superflat-jack-plug-mono-angled-silver.html)
 
-Total price: 159+72+37+2.80+1.65+0.48+2.50 = 275,43 for a "vintage" AC5!
+Total price: 159+72+37+2.80+1.65+0.48+2.50 = 275,43 euro for a "vintage" sounding AC5!
 (hobby hours are free & fun...)
 
 The Celestion speaker is much larger than the original 6.5 inch speaker. It does fit, but you have to cut a bit of wood away. And it just fits behind the chassis of the amp section (about 3 mm space).

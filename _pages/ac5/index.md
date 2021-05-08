@@ -12,6 +12,8 @@ action: false
 classes: wide
 
 ---
+![](/assets/images/ac5/ac5-back.png)
+
 The iconic AC30 is used by many artists, notably Brian May of Queen. However the shear volume of the AC30 makes it impossible to use it at the appropriate level (a.k.a. as "11") in the studio.
 
 The [original AC4, using an EF86 pentode pre-amp tube](http://www.voxshowroom.com/uk/amp/ac4.html), is only available as a vintage amp (read: expensive), the [new AC4's are equiped with regular 12AX7s triode tubes](https://voxamps.com/product/ac-4-custom-vintage-black-series/). So.. how do we get to the AC5?
