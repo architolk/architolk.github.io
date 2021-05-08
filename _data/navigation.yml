@@ -67,5 +67,9 @@ vocoder:
 booster:
   - title: Introduction
     url: /booster
-  - title: "Resources"
-    url: /booster/resources
+  - title: "Treble booster theory"
+    children:
+    - title: "Introduction"
+      url: /booster/booster-theory
+    - title: "Resources"
+      url: /booster/resources
