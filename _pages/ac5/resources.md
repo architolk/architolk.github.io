@@ -19,3 +19,6 @@ classes: wide
 - [Tubetown - Molly Kit](https://www.tube-town.net/cms/?DIY/LoW-Projekte/Molly_-engl-)
 - [The valve wizard - A whole lot of information!](http://www.valvewizard.co.uk)
 - [Tube startup procedure](https://robrobinette.com/Tube_Amp_Startup.htm)
+- [Hoffman - Grounding](https://el34world.com/charts/grounds.htm)
+- [Aikenamps - Grounding](https://www.aikenamps.com/index.php/grounding)
+- [Heater wiring](https://www.diyaudio.com/forums/tubes-valves/211731-heater-wiring-bad-ugly.html)
