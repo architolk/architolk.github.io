@@ -41,3 +41,9 @@ I decided not to mirror the internals of the Molly, so I needed to mirror the in
 ![](/assets/images/ac5/front-modified.png)
 
 Chickenhead knobs are to be ordered... The original pathfinder used self-tapping knobs, the Molly kit had set-screw pots, so I need to order some new knobs :-(.
+
+So the dials are:
+
+- Treble: master volume
+- Bass: cut
+- Volume: gain (overdrive from level 5 and up)
