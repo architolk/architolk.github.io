@@ -33,3 +33,9 @@ This site runs on Jekyll, an opensource static site generating platform.
   ```
 
 - Go to http://localhost:4000/ in your browser
+
+## Github.io native operation
+
+Nothing is needed! Just make changes to the source, and everything will be published.
+
+The only reason to use a local server and a local build is for testing, it is not necessary for publication on github.io.

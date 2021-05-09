@@ -1,3 +1,6 @@
+retroloti:
+  - title: Introduction
+    url: /retroloti
 dxfm2:
   - title: Introduction
     url: /dxfm2
@@ -5,35 +8,35 @@ dxfm2:
   - title: Usage
     children:
       - title: "Overview"
-        url: /docs/configuration/
+        url: /dxfm2/usage
       - title: "LFO"
-        url: /docs/navigation/
+        url: /dxfm2/usage
       - title: "Oscillators"
-        url: /docs/ui-text/
+        url: /dxfm2/usage
       - title: "Operators"
-        url: /docs/authors/
+        url: /dxfm2/usage
       - title: "Effects"
-        url: /docs/layouts/
+        url: /dxfm2/usage
 
   - title: Build
     children:
       - title: "Introduction"
-        url: /docs/posts/
+        url: /dxfm2/build
       - title: "PSU"
-        url: /docs/pages/
+        url: /dxfm2/build
       - title: "Teensy"
-        url: /docs/collections/
+        url: /dxfm2/build
       - title: "XFM2"
-        url: /docs/helpers/
+        url: /dxfm2/build
       - title: "Case"
-        url: /docs/utility-classes/
+        url: /dxfm2/build
 
   - title: FM Theory
     children:
       - title: "Introduction"
-        url: /dxfm2/fm-theory/
+        url: /dxfm2/fm-theory
       - title: "Carriers and Modulators"
-        url: /dxfm2/fm-theory/
+        url: /dxfm2/fm-theory
 
 ac5:
   - title: Introduction
@@ -69,6 +72,10 @@ ac5:
 vocoder:
   - title: Introduction
     url: /vocoder
+  - title: Vocoder theory
+    children:
+    - title: "Resources"
+      url: /vocoder/resources
 
 booster:
   - title: Introduction

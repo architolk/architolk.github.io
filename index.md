@@ -7,6 +7,11 @@ excerpt: "Documentation of projects"
 action: false
 
 feature_row:
+  - image_path: "assets/thumbs/retroloti.png"
+    title: "Retroloti"
+    excerpt: "A generic controler for the Axoloti Audio DSP board, retro style"
+    url: "/retroloti/"
+    btn_class: "btn--info"
   - image_path: "assets/thumbs/dxfm2.png"
     title: "dXFM2"
     excerpt: "My attempt to create an FM synthesizer with an 'easy' one-know-one-function interface"
