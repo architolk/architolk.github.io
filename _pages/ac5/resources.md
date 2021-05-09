@@ -22,3 +22,4 @@ classes: wide
 - [Hoffman - Grounding](https://el34world.com/charts/grounds.htm)
 - [Aikenamps - Grounding](https://www.aikenamps.com/index.php/grounding)
 - [Heater wiring](https://www.diyaudio.com/forums/tubes-valves/211731-heater-wiring-bad-ugly.html)
+- [Class B amplifiers tutorial](https://www.electronics-tutorials.ws/amplifier/amp_6.html). Good tutorial, it is however geared towards solid state amps.
