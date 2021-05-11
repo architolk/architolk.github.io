@@ -20,8 +20,8 @@ This gives is a tube amplifier with an original AC30/4 preamp circuit, and a pus
 
 ## Power Transformer
 
-The Power transformer is a toroidal transformer, [TT T30 V2](https://www.tube-town.net/ttstore/toroidal-30va-8808.html). The primary is universal with four taps 0-120-230-240 VAC (black, yellow, purple red wires). The secondaries are 200 VAC 0.085 mA (red) and 6.3 VAC 2A (green).
+The Power transformer is a 70mm toroidal transformer, [TT T30 V2](https://www.tube-town.net/ttstore/toroidal-30va-8808.html). The primary is universal with four taps 0-120-230-240 VAC (black, yellow, purple red wires). The secondaries are 200 VAC 0.085 mA (red) and 6.3 VAC 2A (green).
 
 ![](/assets/images/ac5/pt.svg)
 
-The [SPICE model](/assets/spice/pt.asc) is the ideal representation of such a transformer. Values for the inductance are calculated by using the formula Lpri/Lsec = (Npri/Nsec)^2. The model uses the European 230 VAC 50Hz input voltage.
+The [SPICE model](/assets/spice/pt.asc) is the ideal representation of such a transformer. Values for the inductance are calculated by using the formula Lpri/Lsec = (Npri/Nsec)^2. The model uses the European 230 VAC 50Hz input voltage. I used an [inductance calculator for toroids](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/indtor.html) to get an estimate for the inductance of the primary windings, using 70mm for the size of the transformer and 543 windings (a guess that works good for the needed ratio).
