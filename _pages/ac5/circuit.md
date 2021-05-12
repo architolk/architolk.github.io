@@ -32,4 +32,4 @@ The solid state full rectifier and filter capacitors are from the [PSU Mini kit]
 
 ![](/assets/images/ac5/psu.svg)
 
-The PSU contains a solid state bridge rectifier. The capacitors across the diodes are added to [filter out oscillation noise](https://www.vintage-radio.net/forum/showthread.php?p=1126978) (I'm actually not sure which diodes are used, but if UF5408 diodes are used, these capacitors might not be as necessary as original proposed). The 1K resistor load is added as a proxy for the load of the amplifier itself.
+The PSU contains a solid state bridge rectifier. The capacitors across the diodes are added to [filter out oscillation noise](https://www.vintage-radio.net/forum/showthread.php?p=1126978). The current [SPICE model](/assets/spice/psu.asc) uses 1n4007 diodes. If UF5408 diodes are used, these capacitors might not be as necessary. The 1K resistor load is added as a proxy for the load of the amplifier itself.
