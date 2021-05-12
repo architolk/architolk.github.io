@@ -24,4 +24,8 @@ The Power transformer is a 70mm x 35mm (DxH) toroidal transformer, [TT T30 V2](h
 
 ![](/assets/images/ac5/pt.svg)
 
-The [SPICE model](/assets/spice/pt.asc) is the ideal representation of such a transformer. Values for the inductance are calculated by using the formula Lpri/Lsec = (Npri/Nsec)^2. The model uses the European 230 VAC 50Hz input voltage. I used an [inductance calculator for toroids](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/indtor.html) to get an estimate for the inductance of the primary windings, using 35mm for the radius of the transformer and 384 windings (a guess that works good for the needed ratio).
+The [SPICE model](/assets/spice/pt.asc) is the ideal representation of such a transformer. Values for the inductance are calculated by using the formula Lpri/Lsec = (Npri/Nsec)^2. The model uses the European 230 VAC rms 50Hz input voltage. This results into 230x√2 = 325 VAC peak to peak. I used an [inductance calculator for toroids](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/indtor.html) to get an estimate for the inductance of the primary windings, using 35mm for the radius of the transformer and 384 windings (a guess that works good for the needed ratio, the actual number of windings is probably some factor of 2 to 5 higher).
+
+## Rectifier and filter capacitors
+
+The solid state full rectifier and filter capacitors are from the [PSU Mini kit](https://www.tube-town.net/info/datenblaetter/kits/kit-psumini-doc.pdf) and placed on a separate PCB board, making it very easy separate the power from the rest of the circuit.
