@@ -29,3 +29,7 @@ The [SPICE model](/assets/spice/pt.asc) is the ideal representation of such a tr
 ## Rectifier and filter capacitors
 
 The solid state full rectifier and filter capacitors are from the [PSU Mini kit](https://www.tube-town.net/info/datenblaetter/kits/kit-psumini-doc.pdf) and placed on a separate PCB board, making it very easy separate the power from the rest of the circuit.
+
+![](/assets/images/ac5/psu.svg)
+
+The PSU contains a solid state bridge rectifier. The capacitors across the diodes are added to [filter out oscillation noise](https://www.vintage-radio.net/forum/showthread.php?p=1126978) (I'm actually not sure which diodes are used, but if UF5408 diodes are used, these capacitors might not be as necessary as original proposed). The 1K resistor load is added as a proxy for the load of the amplifier itself.
