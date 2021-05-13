@@ -32,4 +32,18 @@ The solid state full rectifier and filter capacitors are from the [PSU Mini kit]
 
 ![](/assets/images/ac5/psu.svg)
 
-The PSU contains a solid state bridge rectifier. The capacitors across the diodes are added to [filter out oscillation noise](https://www.vintage-radio.net/forum/showthread.php?p=1126978). The current [SPICE model](/assets/spice/psu.asc) uses 1n4007 diodes. If UF5408 diodes are used, these capacitors might not be as necessary. The 1K resistor load is added as a proxy for the load of the amplifier itself.
+The PSU contains a solid state bridge rectifier. The capacitors across the diodes are added to [filter out oscillation noise](https://www.vintage-radio.net/forum/showthread.php?p=1126978). The current [SPICE model](/assets/spice/psu.asc) uses 1n4007 diodes. If UF5408 diodes are used, these capacitors might not be as necessary.
+
+Filter capacitors C1 to C7 filter out any AC ripple from the rectifier. The different stages (B1, B2, B3) are made clearly visible in the diagram. Resistors R1, R2, R4 and R5 work as safety discharge resistors. Resistors R3 and R6 form an RC low-pass filter together with capacitors C5+C6 and C7, delivering increasingly cleaner DC voltage at B2 and B3 outputs.
+
+Resistor Ramp is added to simulate the load of the amplifier as it is observed by the PSU (which gives B3 = 250V).
+
+## Input stage
+
+The input stage circuit diagram is a bit confusing, because it makes use of the way the input sockets works: without a jack plugged in, the socket make a different connection than with a jack plugged in, as made visible in the figure below. The red line is the input signal (tip of the jack), the blue line the ground (sleeve of the jack). The green line displays the route that the signal *also* travels.
+
+![](/assets/images/ac5/inputs.png)
+
+The actual circuits with a jack plugged into either the Lo(w) or Hi(gh) gain input sockets is displayed below. The High gain input uses a resistor devider network, so that the actual voltage that is received at the gate of the tube is half the original voltage. The Low gain input doesn't have a resistor devider network (theoretically it does, but the voltage drop of the 1Meg + 68k resistors is negligible). R2 (Hi) and R2+R3 (Lo) have a secundaire function: maintaining a ground reference for the grid (the green line). Without these reference to ground, the grid will gradually collect electrons traveling from the cathode to the plate, making it more positive and the pre amp won't work any more. Without any jack plugged in, both paths to ground are active, maintaining the ground reference. A problem might occur when both the Hi and Lo sockets are used, because in that case the ground reference depends on the instruments plugged in.
+
+![](/assets/images/ac5/inputs.svg)
