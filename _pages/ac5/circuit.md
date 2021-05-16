@@ -50,4 +50,4 @@ The actual circuits with a jack plugged into either the Lo(w) or Hi(gh) gain inp
 
 ## Preamp stage
 
-The preamp stage features an EF86 pentode tube.
+The preamp stage features an EF86 pentode tube. 
