@@ -1,0 +1,32 @@
+---
+layout: single
+author_profile: false
+permalink: /ac5/modeling
+
+sidebar:
+  nav: "ac5"
+
+title: "Tube amp modeling"
+excerpt: "Using LT-SPICE to model a tube amp"
+action: false
+classes: wide
+
+---
+[SPICE](https://en.wikipedia.org/wiki/SPICE) is a general-purpose circuit simulation program for electronic circuits. It is probably the go-to circuit simulator that most people are familiar with. Multiple implementations are made that use the SPICE program or at least the model language. One of the most commonly used (probably because it's free and works OK) is a [LT-Spice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html), made available by analog.com.
+
+## Operation of LT-Spice
+The user interface of LT-Spice is not that great (understatement), and even worse on a Mac. But if you get the hang of it and know how to operate LT-Spice with keyboard shortcuts, it's pretty OK. Most important: don't select an object and expect the shortcut key to do something. It works the other way around: press a hotkey and *then* select an object. For example <F5> (delete) *then* select the object you want to delete. Press <ESC> to quit the current mode.
+
+|Key|Operation|
+|---|---------|
+| F2| Draw component |
+| F3| Draw wire |
+| F4| Net name (inputs & outputs)|
+| F5| Delete |
+| F6| Duplicate |
+| F7| Move (CTRL-R rotate, CTRL-E mirror) |
+| g | Draw ground |
+| s | Add spice directive |
+| t | Add text comment |
+
+## Adding models to LT-Spice

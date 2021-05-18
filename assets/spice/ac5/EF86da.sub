@@ -1,0 +1,60 @@
+*-----------------------------------------------------------------------
+* Filename:		EF86.inc  17/5/97 (Version 3)
+* Simulator:		PSpice
+* Device type:		Pentode
+* Device model:		EF86
+*
+* Author:		Duncan Munro
+* Date:			16/5/97
+* Copyright:		(C)1997-2000 Duncan Amplification
+*
+* The following parameters are not modelled:
+*
+*   (1) Heater
+*   (2) Grid current
+*
+* Please note that this model is provided "as is" and
+* no warranty is provided in respect of its suitability
+* for any application.
+*
+* This model is provided for educational and non-profit use.
+*
+* Email queries to postmaster@duncanamps.com
+*
+* Pins   A  Anode
+*        S  Screen
+*        G  Grid
+*        K  Cathode
+*
+*-----------------------------------------------------------------------
+
+.SUBCKT EF86da A S G K
+
+*
+* Calculate reduction in mu when Vg < -3V
+*
+Emu	mu	0	VALUE={LIMIT{V(G,K),-3,999}+LIMIT{V(G,K)+3,-999,0}*0.714}
+*
+* Calculate contribution to cathode current
+*
+Eat	at	0	VALUE={0.636*ATAN(V(A,K)/15)}
+Egs	gs	0	VALUE={LIMIT{V(S,K)/27.5+V(mu)*1.32+1,0,1E6}}
+Egs2	gs2	0	VALUE={PWRS(V(gs),1.5)}
+Ecath  	cc    	0 	VALUE={V(gs2)*V(at)}
+*
+* Calculate anode current
+*
+Ga     	A     	K     	VALUE={5.83E-4*V(cc)}
+*
+* Calculate screen current
+*
+Escrn	sc	0	VALUE={V(gs2)*(1.1-V(at))}
+Gs     	S     	K	VALUE={0.5E-3*V(sc)}
+*
+* Capacitances
+*
+Cg1	G	K	3.8p
+Cak	A	K	5.3p
+Cg1a	G	A	0.05p
+
+.ENDS

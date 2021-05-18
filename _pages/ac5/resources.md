@@ -23,3 +23,8 @@ classes: wide
 - [Aikenamps - Grounding](https://www.aikenamps.com/index.php/grounding)
 - [Heater wiring](https://www.diyaudio.com/forums/tubes-valves/211731-heater-wiring-bad-ugly.html)
 - [Class B amplifiers tutorial](https://www.electronics-tutorials.ws/amplifier/amp_6.html). Good tutorial, it is however geared towards solid state amps.
+
+Spice simulation:
+- [AmpBooks - Spice simulation](https://www.ampbooks.com/mobile/tutorials/imd/)
+- [DiyAudio - Distortion simulation](https://www.diyaudio.com/forums/solid-state/29119-distortion-simulation-ltspice.html)
+- [LTSpice distortion measurements](http://www.audio-perfection.com/spice-ltspice/distortion-measurements-with-ltspice.html)

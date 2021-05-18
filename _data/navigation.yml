@@ -66,6 +66,14 @@ ac5:
     children:
       - title: "Introduction"
         url: /ac5/tube-theory
+      - title: "Triodes"
+        url: /ac5/triodes
+      - title: "Pentodes"
+        url: /ac5/pentodes
+      - title: "EF86"
+        url: /ac5/EF86
+      - title: "Spice modeling"
+        url: /ac5/modeling
       - title: "Resources"
         url: /ac5/resources
 
