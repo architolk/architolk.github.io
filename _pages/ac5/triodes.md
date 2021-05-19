@@ -16,7 +16,7 @@ A triode is an electronic amplifying vacuum tube (or valve in British English) c
 
 ![](/assets/images/ac5/triode.svg)
 
-The operation of a triode is surprisingly simple: the filament heats the cathode. This boils the electrons of the cathode. These electrons are attracted to the positive plate and travel upwards to the plate (and because of the vacuum within the tube, they are undisturbed along the way). On their journey they will, however, encounter the grid. If the grid has a sufficient high negative voltage (relative to the voltage of the cathode), all electrons will be stopped (repelled back to the cathode) and the tube is "closed". By making the grid less negative, some electrons can flow to the plate and the tube is opened.
+The operation of a triode is surprisingly simple: the filament heats the cathode. This boils the electrons off the cathode. These electrons are attracted to the positive plate and travel upwards to the plate (and because of the vacuum within the tube, they are undisturbed along the way). On their journey they will, however, encounter the grid. If the grid has a sufficient high negative voltage (relative to the voltage of the cathode), all electrons will be stopped (repelled back to the cathode) and the tube is "closed". By making the grid less negative, some electrons can flow to the plate and the tube is opened.
 
 Some electrons might hit the grid: this will heat up the grid (thus destroying it), so we need to make sure that the electrons can leave the grid and travel back to were they belong (using large resister that is connected to ground).
 

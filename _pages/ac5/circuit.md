@@ -50,8 +50,10 @@ The actual circuits with a jack plugged into either the Lo(w) or Hi(gh) gain inp
 
 ## Preamp stage
 
-The preamp stage features an EF86 pentode tube, with is essentially identical to the circuits in the original AC15 and AC30.
+The preamp stage features an EF86 pentode tube, with is essentially identical to the [circuits in the original AC15 and AC30](https://www.ampbooks.com/mobile/classic-circuits/vox-ac15/).
 
 ![](/assets/images/ac5/preamp.svg)
 
-A 150mV 440Hz input signal is used as input signal. A 1Meg resistor is used as load for the rest of the circuit. This results in an output signal around 27V, which gives a gain of 180 in the spice model.
+Vin is connected to the input stage of the amplifier, so a 1068k resistor to ground (Hi input) or a 68k resistor to ground (Lo input) is connected to the control grid. The suppressor grid is directly connected to the cathode. The cathode is biased to ground via a 2k2 resistor.
+
+The gain of the preamp stage is around 180. More information and a SPICE model for the preamp can be found on the [EF86 page](/ac5/EF86).
