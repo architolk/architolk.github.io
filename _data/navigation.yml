@@ -72,10 +72,17 @@ ac5:
         url: /ac5/pentodes
       - title: "EF86"
         url: /ac5/EF86
-      - title: "Spice modeling"
-        url: /ac5/modeling
+      - title: "12AX7"
+        url: /ac5/12AX7
       - title: "Resources"
         url: /ac5/resources
+
+  - title: "Spice modeling"
+    children:
+      - title: "Using LT-Spice"
+        url: /ac5/modeling
+      - title: "Preamp model"
+        url: /ac5/preamp-model
 
 vocoder:
   - title: Introduction

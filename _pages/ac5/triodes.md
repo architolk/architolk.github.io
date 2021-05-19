@@ -22,4 +22,4 @@ Some electrons might hit the grid: this will heat up the grid (thus destroying i
 
 A triode commonly has five outside connections: the cathode, the grid, the anode and two filament connections. As the filament isn't part of the signal path, in most circuit diagrams the filament heater connections are omitted.
 
-Some triodes (like the 12AX7 and the ECC99 used in the AC5) are actually dual triodes: two triodes in one tube. These tubes commonly have nine output pins: the heater filament wire is center tapped, connecting the heater filament wires for each triode, so we have three connections for the heater, and three connections (cathode, grid, anode) for each triode.
+Some triodes (like the [12AX7](/ac5/12AX7) and the ECC99 used in the AC5) are actually dual triodes: two triodes in one tube. These tubes commonly have nine output pins: the heater filament wire is center tapped, connecting the heater filament wires for each triode, so we have three connections for the heater, and three connections (cathode, grid, anode) for each triode.

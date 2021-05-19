@@ -58,4 +58,4 @@ Vin is connected to the input stage of the amplifier, so a 1068k resistor to gro
 
 The cathode is biased to ground via a 2k2 resistor.
 
-The gain of the preamp stage is around 180. More information and a SPICE model for the preamp can be found on the [EF86 page](/ac5/EF86).
+The gain of the preamp stage is around 180. More information and a SPICE model for the preamp can be found on the [Preamp model page](/ac5/preamp-model).
