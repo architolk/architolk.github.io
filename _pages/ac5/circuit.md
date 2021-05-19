@@ -59,3 +59,11 @@ Vin is connected to the input stage of the amplifier, so a 1068k resistor to gro
 The cathode is biased to ground via a 2k2 resistor.
 
 The gain of the preamp stage is around 180. More information and a SPICE model for the preamp can be found on the [Preamp model page](/ac5/preamp-model).
+
+## Gain stage
+
+As the "gain" stage is actually around a potentiometer, it is actually an attenuation stage. But because the signal from the preamp is really hot, you might say that you add "gain"...
+
+![](/assets/images/ac5/gain.svg)
+
+P1a and P1b represent the gain pot. In the position displayed in the circuit, the gain pot is fully "open", which will still attenuate the signal by 25/(25+47) ≈ 35% (the resistor divider network with R22), resulting in a output voltage of 32V at an input voltage of 92V.
