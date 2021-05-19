@@ -54,6 +54,8 @@ The preamp stage features an EF86 pentode tube, with is essentially identical to
 
 ![](/assets/images/ac5/preamp.svg)
 
-Vin is connected to the input stage of the amplifier, so a 1068k resistor to ground (Hi input) or a 68k resistor to ground (Lo input) is connected to the control grid. The suppressor grid is directly connected to the cathode. The cathode is biased to ground via a 2k2 resistor.
+Vin is connected to the input stage of the amplifier, so a 1068k resistor to ground (Hi input) or a 68k resistor to ground (Lo input) is connected to the control grid. The input stage also contains the 68k [grid stopper resistor](http://www.valvewizard.co.uk/gridstopper.html). The suppressor grid is directly connected to the cathode.
+
+The cathode is biased to ground via a 2k2 resistor.
 
 The gain of the preamp stage is around 180. More information and a SPICE model for the preamp can be found on the [EF86 page](/ac5/EF86).
