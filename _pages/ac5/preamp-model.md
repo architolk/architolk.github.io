@@ -20,7 +20,7 @@ A 1Meg resistor is added as the load for the rest of the circuit. B3 is at 250V.
 
 ![](/assets/images/ac5/preamp-wave-150mV.svg)
 
-The output signal is almost 25V, which give a gain of 166. The output wave has a 180 phase shift with respect to the input. The output wave is not perfectly centered around 0V: the bottom of the curve doesn't reach as far as the top of the curve. The waveform isn't much distorted: it's almost a pure sinoid, which is visible from the FFT frequency diagram. The THD (Total Harmonic Distortion) is calculated at 2.8%. The table below give the percentages for the harmonic overtones:
+The output signal is almost 25V, which gives a gain of 166. The output wave has a 180 phase shift with respect to the input. The output wave is not perfectly centered around 0V: the bottom of the curve doesn't reach as far as the top of the curve. The waveform isn't much distorted: it's almost a pure sinoid, which is visible from the FFT frequency diagram. The THD (Total Harmonic Distortion) is calculated at 2.8%. The table below give the percentages for the harmonic overtones:
 
 | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|

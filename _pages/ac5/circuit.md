@@ -56,7 +56,7 @@ The preamp stage features an EF86 pentode tube, with is essentially identical to
 
 Vin is connected to the input stage of the amplifier, so a 1068k resistor to ground (Hi input) or a 68k resistor to ground (Lo input) is connected to the control grid. The input stage also contains the 68k [grid stopper resistor](http://www.valvewizard.co.uk/gridstopper.html). The suppressor grid is directly connected to the cathode.
 
-The cathode is biased to ground via a 2k2 resistor.
+The cathode is biased to ground via a 2k2 resistor. Condensator C2 decouples the preamp stage from the gain stage of the amplifier, filtering out the high DC voltage.
 
 The gain of the preamp stage is around 180. More information and a SPICE model for the preamp can be found on the [Preamp model page](/ac5/preamp-model).
 
@@ -66,4 +66,10 @@ As the "gain" stage is actually around a potentiometer, it is actually an attenu
 
 ![](/assets/images/ac5/gain.svg)
 
-P1a and P1b represent the gain pot. In the position displayed in the circuit, the gain pot is fully "open", which will still attenuate the signal by 25/(25+47) ≈ 35% (the resistor divider network with R22), resulting in a output voltage of 32V at an input voltage of 92V.
+P1a and P1b represent the gain pot. In the position displayed in the circuit, the gain pot is fully "open", which will still attenuate the signal by 25/(25+47) ≈ 35% (the resistor divider network with R22), resulting in a output voltage of 32V at an input voltage of 92V. The silver mila 500p condensator will allow to pass some high frequencies whatever position the pot is in.
+
+## Phase inverter
+
+A long tail phase inverter with the two halves of a 12AX7 tube is used for this circuit.
+
+![](/assets/images/ac5/phase-inverter.svg)
