@@ -50,13 +50,13 @@ The actual circuits with a jack plugged into either the Lo(w) or Hi(gh) gain inp
 
 ## Preamp stage
 
-The preamp stage features an EF86 pentode tube, with is essentially identical to the [circuits in the original AC15 and AC30](https://www.ampbooks.com/mobile/classic-circuits/vox-ac15/).
+The preamp stage features an EF86 pentode tube, with is essentially identical to the [circuits in the original AC15 and AC30](https://www.ampbooks.com/mobile/classic-circuits/vox-ac15/), displayed in the [spice model](/assets/spice/ac5/preamp.asc) below.
 
 ![](/assets/images/ac5/preamp.svg)
 
 Vin is connected to the input stage of the amplifier, so a 1068k resistor to ground (Hi input) or a 68k resistor to ground (Lo input) is connected to the control grid. The input stage also contains the 68k [grid stopper resistor](http://www.valvewizard.co.uk/gridstopper.html). The suppressor grid is directly connected to the cathode.
 
-The cathode is biased to ground via a 2k2 resistor. Condensator C2 decouples the preamp stage from the gain stage of the amplifier, filtering out the high DC voltage.
+The cathode is biased to ground via a 2k2 resistor. Coupling capacitor C2 passes the AC signal from the preamp stage to the gain stage of the amplifier, filtering out the high DC voltage.
 
 The gain of the preamp stage is around 180. More information and a SPICE model for the preamp can be found on the [Preamp model page](/ac5/preamp-model).
 
@@ -70,6 +70,16 @@ P1a and P1b represent the gain pot. In the position displayed in the circuit, th
 
 ## Phase inverter
 
-A long tail phase inverter with the two halves of a 12AX7 tube is used for this circuit.
+A long tail phase inverter with the two halves of a 12AX7 tube is used for this circuit, displayed in the [spice model(/assets/spice/ac5/phase-inverter.asc) below:
 
 ![](/assets/images/ac5/phase-inverter.svg)
+
+The phase inverter has the classical AC coupled long-tailed pair topology as described by the [valve wizard](http://www.valvewizard.co.uk/acltp.html). Coupling capacitors C5, C7 and C8 passes the AC signal from the preamp stage to the gain stage of the amplifier, filtering out the high DC voltage.
+
+## Master volume and Cut stage
+
+I've added the optional master-mod to the circuit, which enables full preamp distortion at a very low level. According to the description on the Tube-Town project description, a resistor divider network is already present, because the gain from the preamp would overdrive the ECC99 power tube to quickly. So actually two resister divider networks are present in this stage: one for the master volume (P3a/P3b and P3c/P3d) and a fixed one (R21/R14 and R20/R13). The master volume pot is a audiog (logaritmic) stereo potentiometer, so P3a/P3b will always have the same attenuation value as P3c/P3d. The gain from the preamp is reduced to half the amount, which can be even more reduced by using the master volume pot. The whole circuit is displayed in the [spice model](/assets/spice/ac5/master-cut.asc) below:
+
+![](/assets/images/ac5/master-cut.svg)
+
+Resistors R13 and R14 are not only part of this stage, but are also part of the self-biasing circuit for the push-pull power amp stage. The cut potentiometer P2 controls the amount of signal is passed by capacitor C9 (10n), filtering out some high frequencies. Because the wiper of the pot is connected to one of the other pins, the pot operates as a simple variable resistor: only resistor P2b has an effect on the circuit (the resistance of P2a in parallel with the wire always has a combined resistance of 0 Ohm). As the [analysis of the Cut circuit](/ac/master-cut-model) shows, the value of 10n for capacitor C9 is a bit high. This will attenuate also the lower frequencies more, the the cut control as a whole will function more or less the same: as resistor P2b is opened, the frequency cut-off will also change, letting more low frequencies pass.

@@ -85,6 +85,8 @@ ac5:
         url: /ac5/preamp-model
       - title: "Phase inverter model"
         url: /ac5/phase-inverter-model
+      - title: "Master & Cut model"
+        url: /ac5/master-cut-model
 
 vocoder:
   - title: Introduction

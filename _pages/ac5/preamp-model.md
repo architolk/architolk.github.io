@@ -12,11 +12,11 @@ action: false
 classes: wide
 
 ---
-We use almost the same circuit for the preamp analysis as mentioned on the [circuit](/ac5/circuit) page, but we add the Hi gain input stage to the circuit.
+We use almost the same circuit for the preamp analysis as mentioned on the [circuit](/ac5/circuit) page, but we add the Hi gain input stage to the circuit, resulting in the [spice model](/assets/spice/ac5/preamp-hi-input.asc) below:
 
 ![](/assets/images/ac5/preamp-hi-input.svg)
 
-A 1Meg resistor is added as the load for the rest of the circuit. B3 is at 250V. Our first analysis uses a 150mV input signal at 440Hz (note A4, the second fret on the third string (G) of a guitar. The output of the preamp stage results in the following waveform. For the waveform, we look at 10ms of data, after we let the circuit stabilize for 1000ms. For the FFT analysis, more datapoints are needed, so we look at 1000ms of data instead.
+A 1Meg resistor is added as the load for the rest of the circuit. B3 is at 250V. Our first analysis uses a 150mV input signal at 440Hz (note A4, the fifth fret on the high E-string of a guitar. The output of the preamp stage results in the following waveform. For the waveform, we look at 10ms of data, after we let the circuit stabilize for 1000ms. For the FFT analysis, more datapoints are needed, so we look at 1000ms of data instead.
 
 ![](/assets/images/ac5/preamp-wave-150mV.svg)
 
