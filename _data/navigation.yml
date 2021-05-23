@@ -74,6 +74,8 @@ ac5:
         url: /ac5/EF86
       - title: "12AX7"
         url: /ac5/12AX7
+      - title: "ECC99"
+        url: /ac5/ECC99
       - title: "Resources"
         url: /ac5/resources
 

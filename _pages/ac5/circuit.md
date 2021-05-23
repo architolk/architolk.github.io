@@ -24,7 +24,7 @@ The Power transformer is a 70mm x 35mm (DxH) toroidal transformer, [TT T30 V2](h
 
 ![](/assets/images/ac5/pt.svg)
 
-The [SPICE model](/assets/spice/pt.asc) is the ideal representation of such a transformer. Values for the inductance are calculated by using the formula Lpri/Lsec = (Npri/Nsec)^2. The model uses the European 230 VAC rms 50Hz input voltage. This results into 230x√2 = 325 VAC peak to peak. I used an [inductance calculator for toroids](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/indtor.html) to get an estimate for the inductance of the primary windings, using 35mm for the radius of the transformer and 384 windings (a guess that works good for the needed ratio, the actual number of windings is probably some factor of 2 to 5 higher).
+The [SPICE model](/assets/spice/pt.asc) is the ideal representation of such a transformer. Values for the inductance are calculated by using the formula Lpri/Lsec = (Npri/Nsec)^2. The model uses the European 230 VAC rms 50Hz input voltage. This results into 230*√2 = 325 VAC peak to peak. I used an [inductance calculator for toroids](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/indtor.html) to get an estimate for the inductance of the primary windings, using 35mm for the radius of the transformer and 384 windings (a guess that works good for the needed ratio, the actual number of windings is probably some factor of 2 to 5 higher).
 
 ## Rectifier and filter capacitors
 
@@ -83,3 +83,13 @@ I've added the optional master-mod to the circuit, which enables full preamp dis
 ![](/assets/images/ac5/master-cut.svg)
 
 Resistors R13 and R14 are not only part of this stage, but are also part of the self-biasing circuit for the push-pull power amp stage. The cut potentiometer P2 controls the amount of signal is passed by capacitor C9 (10n), filtering out some high frequencies. Because the wiper of the pot is connected to one of the other pins, the pot operates as a simple variable resistor: only resistor P2b has an effect on the circuit (the resistance of P2a in parallel with the wire always has a combined resistance of 0 Ohm). As the [analysis of the Cut circuit](/ac5/master-cut-model) shows, the value of 10n for capacitor C9 is a bit high. This will attenuate also the lower frequencies more, the the cut control as a whole will function more or less the same: as resistor P2b is opened, the frequency cut-off will also change, letting more low frequencies pass.
+
+## Power stage
+
+The power stage uses a [ECC99](/ac5/ECC99) tube and a Hammond 125C output transformer. It's a classic [push-pull](http://www.valvewizard.co.uk/pp.html) cathode biased output stage. The circuit below show both parts (the B2+ high voltage is connected to the center tap of the transformer, this is need for the plate voltage!). Modeling the output transformer is not an easy task, we opt for just an ideal transformer to get the [output transformer impedance](http://www.radioremembered.org/outimp.htm) correct, leaving out all the details from the real one, as explained in these videos ([part 1](https://youtu.be/no5cyEaZ6tk), [part 2](https://youtu.be/OdULDNLgOYk)) and this [forum post](https://audiokarma.org/forums/index.php?threads/modeling-transformers-in-ltspice.786384/).
+
+The [datasheet of the 125C OT](http://www.hammondmfg.com/pdf/5c0054.pdf) states a plate-to-plate impedance of 12.8k Ohm at am 8 ohm load on the secundary (pins 4 and 6). From this, we can calculate the inductance ratio: it's the same as the impedance ratio. In the same datasheet, the primary inductance is stated as 5.6H (unclear if this is plate-to-plate, we asume this is the case). This results in a secundary inductance of 3.5mH. The inductance of each half of the primary coil: (0.5*√5.6)^2 = 1.4H.
+
+![](/assets/images/ac5/power.svg)
+
+B2 is set at 270V (as obtained by the psu circuit simulation), Rspeaker = 8 Ohm is added as the load for the transformer.

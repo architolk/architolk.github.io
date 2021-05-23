@@ -1,0 +1,17 @@
+*
+*
+* Cathode---------.
+* Grid----------. |
+* Anode-------. | |
+*             | | |
+.SUBCKT ECC99 1 2 3
+E1 7 0 VALUE={V(1,3)/500*LOG(1+EXP(500*(1/22+V(2,3)/SQRT(300+V(1,3)*V(1,3)))))}
+G1 1 3 VALUE={(PWR(V(7),1.3)+PWRS(V(7),1.3))/362}
+RCP 1 3 1G ; TO AVOID FLOATING NODES IN MU-FOLLOWER
+C1 2 3 5.8p
+C2 2 1 5.1p
+C3 1 3 0.91p
+D3 5 3 DX ; FOR GRID CURRENT
+R1 2 5 2000 ; FOR GRID CURRENT
+.MODEL DX D(IS=1N RS=1 CJO=0 TT=1N)
+.ENDS
