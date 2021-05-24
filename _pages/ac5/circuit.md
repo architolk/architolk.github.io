@@ -12,11 +12,19 @@ action: false
 classes: wide
 
 ---
-The circuit for the AC5 is, as you might expect, the circuit for the TT Molly kit. A single EF86 pentode is used as for the preamp input tube (as in the original AC4/AC10/AC15 and the very first AC30/4), followed by a 12AX7 dual triode rectifying tube, going into the two parts of the ECC99 dual triode tube. The ECC99 is normally not used as a power tube, but in this small package, it delivers about 4 watts of power, as the original AC4.
+The circuit for the AC5 is, as you might expect, the circuit for the TT Molly kit. A single EF86 pentode is used as for the preamp input tube (as in the original AC4/AC10/AC15 and the very first AC30/4), followed by a 12AX7 dual triode tube for the phase inverter, going into the two parts of the ECC99 dual triode tube in a push-pull cathode biased configuration. The ECC99 is normally not used as a power tube, but in this small package, it delivers about 4 watts of power, as the original AC4.
 
 And, in fashion with the original VOX AC2/AC4/AC6 (which are actually the same 4 watt amplifiers...), we simply call it the AC5.
 
-This gives is a tube amplifier with an original AC30/4 preamp circuit, and a push/pull power amplifier circuit, as in all AC30s (but not in the original AC4!).
+This gives is a tube amplifier with an original AC30/4 preamp circuit with a penthode tube, and a push/pull cathode biased power amplifier circuit, as in all AC30s (but not in the original AC4!). The table below give the differences between the different amps. The AC5 doesn't have a pentode power output stage, as the other Vox AC amps had, it uses a dual triode instead.
+
+|Stage|"AC5"|Vox AC4|Vox AC15|Vox AC30/4|
+|-----|-----|-------|--------|----------|
+|Preamp|EF86 CB|EF86 CB|EF86 CB|EF86 CB|
+|Phase inverter|12AX7 LTAC|12AX7 LTAC|12AX7 LTAC|12AX7 LTAC|
+|Power output|ECC99 PPCB|EL84 SE|2xEL84 PPCB|4xEL84 PPCB|
+
+(CB = Cathode Biased, LTAC = Long-Tail AC Coupled, SE = Single Ended, PPCB = Push-Pull Cathode Biased)
 
 ## Power Transformer
 
