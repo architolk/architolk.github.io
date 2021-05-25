@@ -23,3 +23,17 @@ A [German company sells the TT Molly kit](https://www.tube-town.net/cms/?DIY/LoW
 Luckily, [VOX sells the Pathfinder 10](https://voxamps.com/product/pathfinder-10/), a small solid state practice amp. This amp contains the body and the steel chassis for the components! It may seem kinda weird to buy a complete product, and strip it from all its part, but in this way: the outside IS essentially a VOX amp :-).
 
 The Pathfinder 10 is equiped with a 6,5 inch VOX special made speaker, but can actually hold (with some tinkering), an 8 inch Cellestion speaker, making it even more the AC5 we are looking for.
+
+# How it sounds
+
+I'm actually not a guitar player, so be kind on me :-). Below are some examples of the sound. Recorded with a Sure SM57 and a Brian May Red Special clone. No effects, just plain recording.
+
+Clean sample
+<audio controls>
+  <source src="/assets/audio/clean.mp3" type="audio/mp3">
+</audio>
+
+Overdrive sample
+<audio controls>
+  <source src="/assets/audio/overdrive.mp3" type="audio/mp3">
+</audio>
