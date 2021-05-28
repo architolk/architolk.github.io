@@ -57,4 +57,19 @@ Three values are need to be calculated:
 - The Cathode resistor;
 - The plate-to plate (Ra-a) impedance.
 
-The plate voltage is set at 270V, so we start with that figure. At this figure, we can calculate the maximum bias current, this will be the crosspoint between the max watt for the ECC99 and 270V. As P = I * V, this results into: 3.5 = I * 270, I = 3.5 / 270V = 13.0mA. The grid bias voltage that corresponds with this figure is the point where the grid voltage line would cross that point.
+The plate voltage is set at 270V, so we start with that figure. At this figure, we can calculate the maximum bias current, this will be the crosspoint between the max watt for the ECC99 and 270V. As P = I * V, this results into: 3.5 = I * 270, I = 3.5 / 270V = 13.0mA. The grid bias voltage that corresponds with this figure is the point where the grid voltage line would cross that point. This point corresponds with Vgk = -10.4V. From this we can calculate Rk = -10.4V / 13.0mA = 800 Ohm.
+
+For push-pull operations, the actual load that is seen by each tube is:
+
+- For a pure class A operation: 0.5 * Ra-a (both tubes are active);
+- For a pure class B operation: 0.25 * Ra-a (only one tube is active, so only have of the winding of the transformer is used)
+
+Let's start with Ra-a = 12800 ohm. Class A operation results in a load-line with R = 6400 and class B operation results in a load-line with R = 3200. Because of the biasing, the load-line should be raised to the point that the load-line hits the bias point, as presented in the figure below.
+
+![](/assets/images/ac5/ECC99-loadline.svg)
+
+As is clearly visible, the load-lines are in the danger-area. As [Rob Robinette](https://robrobinette.com/Drawing_Tube_Load_Lines.htm) describes, this is possible but will drive the tubes to their max.
+
+But...the actual Molly tube amp has a Rk = 270 Ohm. This will raise the Class-A load-line to a very high point inside the "warning area". I'm not sure if this is correct, but it seems that we'll never get into the Class-B area?
+
+Some more things to find out: [Turner audio](http://www.turneraudio.com.au/loadmatch-3-PP-triodes.html) has some nice descriptions to find out safe operation points for push-pull amplifiers.
