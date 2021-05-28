@@ -45,3 +45,16 @@ The result of this analyses, when plotting the current of the Anode, gives:
 ![](/assets/images/ac5/spice-ECC99-plot.svg)
 
 Although not exactly the same as the graph from the datasheet, it's pretty close. When you compare it to the 12AX7, it is obvious that the ECC99 can produce a lot more power than the 12AX7.
+
+## Push-pull use
+
+The ECC99 dual triode tube is used in a push-pull operation. So let's find out how this works. The circuit below is used to perform our calculations.
+
+![](/assets/images/ac5/ECC99-amp.svg)
+
+Three values are need to be calculated:
+- The plate voltage (B+);
+- The Cathode resistor;
+- The plate-to plate (Ra-a) impedance.
+
+The plate voltage is set at 270V, so we start with that figure. At this figure, we can calculate the maximum bias current, this will be the crosspoint between the max watt for the ECC99 and 270V. As P = I * V, this results into: 3.5 = I * 270, I = 3.5 / 270V = 13.0mA. The grid bias voltage that corresponds with this figure is the point where the grid voltage line would cross that point.
