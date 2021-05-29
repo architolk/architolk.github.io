@@ -77,13 +77,13 @@ But...the actual Molly tube amp has a Rk = 270 Ohm. This will raise the Class-A 
 
 So let's use these figures! Imax = 5.0W / 250V = 20mA. This gives Rk = 9.0V / (2x20.0mA) = 225 Ohm (100%) and Rk = 265 Ohm at 85%. So by using Rk = 270, the original design of the Molly circuit was perfectly in order. But while Rk=270 gives a power rating around 84% max at 5W, Rk-270 is actually around 120% max at 3.5W. The table below give the corresponding values for R at different power ratings:
 
-|Power | 3.5W | 4.0W | 4.5W | 5.0W |
+|Power | 3.5W | 4.2W | 4.5W | 5.0W |
 |------|------|------|------|------|
 | 84%  | 383  | 319  | 298  |**268**|
 | 85%  | 378  | 315  | 294  | 265  |
 | 100% | 321  |**268**|250  | 225  |
 | 120% |**268**|223  | 208  | 188  |
 
-If we plot the load-lines using the figures from the Molly circuit (Va = 250V, Rk = 270, Vk = 9V, thus Ik = Ia = 16.6mA), we get the following result. The blue line is the original 3.5W max power line, the red line is the 5.0W max power line. The dotted line indicates the bias point. The class-A load-line (purple) is precisely within the safe area, as is the class-B load-line. I suspect that the Molly circuit was designed for the 5.0W rating of the ECC99 tube and never redesigned for the lower wattage? As discussed in [this google group](https://groups.google.com/g/uk.rec.audio/c/hFWbjvrSF8c), some state that the ECC99 sounds best near its max power ratings, so...
+If we plot the load-lines using the figures from the Molly circuit (Va = 250V, Rk = 270, Vk = 9V, thus Ia = Ik = 9V / (2*270Ω) = 16.6mA, we get the following result. The blue line is the original 3.5W max power line, the red line is the 5.0W max power line. The dotted line indicates the bias point. The class-A load-line (purple) is precisely within the safe area, as is the class-B load-line. I suspect that the Molly circuit was designed for the 5.0W rating of the ECC99 tube and never redesigned for the lower wattage? As discussed in [this google group](https://groups.google.com/g/uk.rec.audio/c/hFWbjvrSF8c), some state that the ECC99 sounds best near its max power ratings, so...
 
 ![](/assets/images/ac5/ECC99-loadline-5W.svg)
