@@ -24,6 +24,7 @@ classes: wide
 - [Heater wiring](https://www.diyaudio.com/forums/tubes-valves/211731-heater-wiring-bad-ugly.html)
 - [Class B amplifiers tutorial](https://www.electronics-tutorials.ws/amplifier/amp_6.html). Good tutorial, it is however geared towards solid state amps.
 - [Tubes 201 - How vacuum tubes really work](https://www.john-a-harper.com/tubes201/)
+- [Turner audio](http://www.turneraudio.com.au/loadmatch-3-PP-triodes.html) has some nice descriptions to find out safe operation points for push-pull amplifiers.
 
 Spice simulation:
 - [AmpBooks - Spice simulation](https://www.ampbooks.com/mobile/tutorials/imd/)
