@@ -84,4 +84,8 @@ So let's use these figures! Imax = 5.0W / 250V = 20mA. This gives Rk = 9.0V / (2
 | 100% | 321  |**268**|250  | 225  |
 | 120% |**268**|223  | 208  | 188  |
 
+If we plot the load-lines using the figures from the Molly circuit (Va = 250V, Rk = 270, Vk = 9V, thus Ik = Ia = 16.6mA), we get the following result. The blue line is the original 3.5W max power line, the red line is the 5.0W max power line. The dotted line indicates the bias point. The class-A load-line (purple) is precisely within the safe area, as is the class-B load-line. I suspect that the Molly circuit was designed for the 5.0W rating of the ECC99 tube and never redesigned for the lower wattage?
+
+![](/assets/images/ac5/ECC99-loadline-5W.svg)
+
 Some more things to find out: [Turner audio](http://www.turneraudio.com.au/loadmatch-3-PP-triodes.html) has some nice descriptions to find out safe operation points for push-pull amplifiers.
