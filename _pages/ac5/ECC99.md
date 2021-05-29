@@ -57,7 +57,7 @@ Three values are need to be calculated:
 - The Cathode resistor;
 - The plate-to plate (Ra-a) impedance.
 
-The plate voltage is set at 270V, so we start with that figure. At this figure, we can calculate the maximum bias current, this will be the crosspoint between the max watt for the ECC99 and 270V. As P = I * V, this results into: 3.5 = I * 270, I = 3.5 / 270V = 13.0mA. The grid bias voltage that corresponds with this figure is the point where the grid voltage line would cross that point. This point corresponds with Vgk = -10.4V. From this we can calculate Rk = -10.4V / 13.0mA = 800 Ohm.
+The plate voltage is set at 270V, so we start with that figure. At this figure, we can calculate the maximum bias current, this will be the crosspoint between the max watt for the ECC99 and 270V. As P = I * V, this results into: 3.5 = I * 270, I = 3.5W / 270V = 13.0mA. The grid bias voltage that corresponds with this figure is the point where the grid voltage line would cross that point. This point corresponds with Vgk = -10.4V. Total current accross one cathode resistor will be twice the plate current of one tube, so from this we can calculate Rk = -10.4V / (2*13.0mA) = 400 Ohm.
 
 For push-pull operations, the actual load that is seen by each tube is:
 
@@ -70,6 +70,18 @@ Let's start with Ra-a = 12800 ohm. Class A operation results in a load-line with
 
 As is clearly visible, the load-lines are in the danger-area. As [Rob Robinette](https://robrobinette.com/Drawing_Tube_Load_Lines.htm) describes, this is possible but will drive the tubes to their max.
 
-But...the actual Molly tube amp has a Rk = 270 Ohm. This will raise the Class-A load-line to a very high point inside the "warning area". I'm not sure if this is correct, but it seems that we'll never get into the Class-B area?
+But...the actual Molly tube amp has a Rk = 270 Ohm. This will raise the Class-A load-line to a very high point inside the "warning area". Some point can be made:
+
+- Original, the max power of the JJ ECC99 was rated at 5W, which will reduce the danger area.
+- The circuit diagram of the Molly states 250V plate voltage and 9V cathode voltage.
+
+So let's use these figures! Imax = 5.0W / 250V = 20mA. This gives Rk = 9.0V / (2x20.0mA) = 225 Ohm (100%) and Rk = 265 Ohm at 85%. So by using Rk = 270, the original design of the Molly circuit was perfectly in order. But while Rk=270 gives a power rating around 84% max at 5W, Rk-270 is actually around 120% max at 3.5W. The table below give the corresponding values for R at different power ratings:
+
+|Power | 3.5W | 4.0W | 4.5W | 5.0W |
+|------|------|------|------|------|
+| 84%  | 383  | 319  | 298  |**268**|
+| 85%  | 378  | 315  | 294  | 265  |
+| 100% | 321  |**268**|250  | 225  |
+| 120% |**268**|223  | 208  | 188  |
 
 Some more things to find out: [Turner audio](http://www.turneraudio.com.au/loadmatch-3-PP-triodes.html) has some nice descriptions to find out safe operation points for push-pull amplifiers.
