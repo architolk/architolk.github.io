@@ -29,4 +29,4 @@ As can be observed from the figure below, this will not overdrive the tube much.
 
 It is however possible to get into Class-B operation. As we still have some room left, we can go up to 10.5V peak input signal, at which point the cathode voltage will also be around 10.5. The figure below clearly makes that visible, resembling the analysis that [Aiken amp](https://www.aikenamps.com/is-the-vox-ac-30-really-class-a) made with regard to the Class AB operation of the original Vox AC30.
 
-![](/assets/images/ac5/power-plate-current-10_2.svg)
+![](/assets/images/ac5/power-plate-current-10_5.svg)
