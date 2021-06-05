@@ -113,5 +113,7 @@ booster:
     children:
     - title: "Introduction"
       url: /booster/booster-theory
+    - title: "BJT Transistor"
+      url: /booster/bjt
     - title: "Resources"
       url: /booster/resources
