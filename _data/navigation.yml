@@ -115,5 +115,7 @@ booster:
       url: /booster/booster-theory
     - title: "BJT Transistor"
       url: /booster/bjt
+    - title: "BC549C"
+      url: /booster/BC549C
     - title: "Resources"
       url: /booster/resources

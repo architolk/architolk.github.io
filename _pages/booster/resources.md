@@ -25,3 +25,5 @@ classes: wide
 - [Transistor hFE measuring](http://www.geofex.com/Article_Folders/fuzzface/fftech.htm#Picking%20transistors)
 - [Guild Brian May Treble Boosters](https://www.gad.net/Blog/2019/03/03/guild-1984-brian-may-treble-booster-pedals/)
 - [Range master plus](http://pedalparts.co.uk/docs/RangeMasterPlus.pdf), good example and circuit of both a Ge en a Si treble booster in one package
+- [The common emitter amplifier](https://www.electronics-tutorials.ws/amplifier/amp_2.html)
+- [LT Spice model for 12AX7 low voltage](http://rezzonics.blogspot.com/2017/05/korg-nutube-6p1-vs-12ax7-starved-tube.html?m=1)
