@@ -27,3 +27,4 @@ classes: wide
 - [Range master plus](http://pedalparts.co.uk/docs/RangeMasterPlus.pdf), good example and circuit of both a Ge en a Si treble booster in one package
 - [The common emitter amplifier](https://www.electronics-tutorials.ws/amplifier/amp_2.html)
 - [LT Spice model for 12AX7 low voltage](http://rezzonics.blogspot.com/2017/05/korg-nutube-6p1-vs-12ax7-starved-tube.html?m=1)
+- [CE Amp calculator](http://www.guitarscience.net/calcs/ce.htm)
