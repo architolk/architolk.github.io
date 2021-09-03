@@ -1,6 +1,8 @@
 retroloti:
   - title: Introduction
     url: /retroloti
+  - title: "GPIO mapping"
+    url: /retroloti/gpio
 dxfm2:
   - title: Introduction
     url: /dxfm2
