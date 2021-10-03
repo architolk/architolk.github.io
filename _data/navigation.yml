@@ -1,8 +1,25 @@
 retroloti:
   - title: Introduction
     url: /retroloti
-  - title: "GPIO mapping"
-    url: /retroloti/gpio
+
+  - title: Build
+    children:
+    - title: "GPIO mapping"
+      url: /retroloti/gpio
+  - title: Configuring
+    children:
+    - title: "Patch selection"
+      url: /retroloti/patch-select
+    - title: "Sample audio"
+      url: /retroloti/sample
+
+  - title: Patches
+    children:
+    - title: "Patch list"
+      url: /retroloti/patches
+    - title: "Mellotron"
+      url: /retroloti/mellotron
+
 dxfm2:
   - title: Introduction
     url: /dxfm2
