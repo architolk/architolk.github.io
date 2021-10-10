@@ -29,13 +29,17 @@ dxfm2:
       - title: "Overview"
         url: /dxfm2/usage
       - title: "LFO"
-        url: /dxfm2/usage
+        url: /dxfm2/LFO-menu
       - title: "Oscillators"
-        url: /dxfm2/usage
+        url: /dxfm2/OSC-menu
       - title: "Operators"
-        url: /dxfm2/usage
+        url: /dxfm2/OPS-menu
       - title: "Effects"
-        url: /dxfm2/usage
+        url: /dxfm2/EFX-menu
+      - title: "Master"
+        url: /dxfm2/MASTER-menu
+      - title: "Param & Patch dials"
+        url: /dxfm2/MENU
 
   - title: Build
     children:
@@ -49,6 +53,13 @@ dxfm2:
         url: /dxfm2/build
       - title: "Case"
         url: /dxfm2/build
+
+  - title: Patches
+    children:
+      - title: "DX7 original presets"
+        url: /dxfm2/dx7presets
+      - title: Resources
+        url: /dxf2m/resources
 
   - title: FM Theory
     children:
