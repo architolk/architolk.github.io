@@ -14,7 +14,20 @@ classes: wide
 ---
 Basically, FM is modulating the frequency (pitch) of one waveform with the frequency of another waveform. If the modulator has a low frequency, you create a vibrato effect. But when the frequency of the modulator is in the audible range, something special happens and a completely new timbre emerges.
 
-More precise: if the frequency of the modulator is an integer ratio of the original frequency, harmonic overtones are produced (read: a nice sound emerges). If the frequency of the modulator is not an integer ratio of the original frequency, also inharmonic overtunes are produced (read: it might sound not that nice, or more "metallic").
+Any individual note on any musical instrument has a root frequency: the actual frequency of the note you "hear". For example: the middle A-note has a frequency of 440Hz. It doesn't matter if that A-note is played on a piano, guitar, flute or by a human voice: it still has a fundamental root frequency of 440Hz.
+
+When you create a single waveform with a frequency of 440Hz, it looks like a sine wave. This is the most pure sound you can hear, but actually: it sounds quite dull.
+
+You "hear" a particular instrument by the color of the sound and how that color changes over time. This sound-color is created by the overtones of the root frequency that are also present in the sound created by the instrument. These overtones are higher frequencies of the original frequency. Each individual overtone is a sine wave as well, but the resulting waveform with the fundamental frequency and all overtones might look completely different! Harmonic overtones have frequencies that are an integer ratio of the original frequency. Inharmonic overtones are all the other overtones.
+
+|Frequency|Harmonic|
+|---------|--------|
+|440Hz|Root frequency, 1st harmonic|
+|660Hz|Inharmonic overtone|
+|880Hz|2nd harmonic, an even harmonic overtone|
+|1320Hz|3th harmonic, an odd harmonic overtone|
+
+When the frequency of the modulator is an integer ratio of the original frequency, harmonic overtones are produced (read: a nice sound emerges). When the frequency of the modulator is not an integer ratio of the original frequency, also inharmonic overtunes are produced (read: it might not sound that nice, or more "metallic").
 
 Some examples:
 
