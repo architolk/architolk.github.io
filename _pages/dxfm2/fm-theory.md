@@ -13,3 +13,5 @@ classes: wide
 
 ---
 Currently, the FM theory information is still at the [Github repo](https://github.com/architolk/fm-synth/tree/main/doc/fmsynthesis).
+
+{% include waveform %}

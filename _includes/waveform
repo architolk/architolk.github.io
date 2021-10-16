@@ -1,0 +1,25 @@
+<script type="text/javascript" charset="UTF-8" src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"></script>
+
+<div id="waveform" class="jxgbox" style="width:800px; height:200px;"></div>
+
+<script language="JavaScript">
+  var waveform = JXG.JSXGraph.initBoard('waveform', {boundingbox:[0,2,720,-1.2], axis:true, showCopyright:false});
+
+  var si = waveform.create('slider', [[10, 1.8], [190, 1.8], [0, 1, 10]],{suffixLabel:'index:'});
+  var smc = waveform.create('slider', [[10, 1.3], [190, 1.3], [0, 1, 10]],{snapWidth:1,suffixLabel:'ratio:'});
+  var smf = waveform.create('slider', [[360, 1.3], [540, 1.3], [0, 0, 1]],{suffixLabel:'fine ratio:'});
+
+  function ratio() {
+    return smc.Value()+smf.Value();
+  }
+  function index() {
+    return si.Value();
+  }
+
+  function wave(x) {
+    return Math.sin(x/57.3+index()*Math.sin(ratio()*x/57.3));
+  }
+
+  graph = waveform.create('functiongraph', [wave], {strokewidth:2});
+
+</script>
