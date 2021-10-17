@@ -62,3 +62,4 @@ Most of the theory on these pages is extracted from different sources on the int
 - [http://ccrma.stanford.edu/software/snd/snd/fm.html](http://ccrma.stanford.edu/software/snd/snd/fm.html)
 - [https://homepages.abdn.ac.uk/d.j.benson/pages/html/music.pdf](https://homepages.abdn.ac.uk/d.j.benson/pages/html/music.pdf)
 - [https://www.sfu.ca/~truax/fmtut.html](https://www.sfu.ca/~truax/fmtut.html)
+- [https://cmtext.indiana.edu/synthesis/chapter4_fm.php](https://cmtext.indiana.edu/synthesis/chapter4_fm.php)
