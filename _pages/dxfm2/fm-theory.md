@@ -39,7 +39,7 @@ Some examples:
 | 330Hz | 660Hz | 1:2 | Odd harmonics |
 | 440Hz | 1100Hz | 1:2.5 | Inharmonics & harmonics |
 
-You can try this out yourselves at the [waveforms](/dxfm2/waveforms) page.
+You can try this out yourselves at the [ratio simulator](/dxfm2/simulator-ratios) or [carrier-modulator simulator](/dxfm2/simulator-cm) page.
 
 ## FM theory
 

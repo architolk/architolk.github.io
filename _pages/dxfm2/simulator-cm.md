@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: false
-permalink: /dxfm2/waveforms
+permalink: /dxfm2/simulator-cm
 
 sidebar:
   nav: "dxfm2"
@@ -12,4 +12,4 @@ action: false
 classes: wide
 
 ---
-{% include waveform %}
+{% include sim-cm %}

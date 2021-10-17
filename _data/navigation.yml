@@ -65,8 +65,6 @@ dxfm2:
     children:
       - title: "Introduction"
         url: /dxfm2/fm-theory
-      - title: "FM Waveforms"
-        url: /dxfm2/waveforms
       - title: "Frequency spectrum"
         url: /dxfm2/spectrum
       - title: "Feedback"
@@ -75,6 +73,12 @@ dxfm2:
         url: /dxfm2/carriers-modulators
       - title: "FM Math"
         url: /dxfm2/fm-math
+  - title: FM Waveform simulator
+    children:
+      - title: "Ratios"
+        url: /dxfm2/simulator-ratios
+      - title: "Carrier-Modulator"
+        url: /dxfm2/simulator-cm
 
 ac5:
   - title: Introduction

@@ -1,0 +1,122 @@
+<script type="text/javascript" charset="UTF-8" src="/assets/js/jsxgraphcore.js"></script>
+<script type="text/javascript" charset="UTF-8" src="/assets/js/math.js"></script>
+
+<div id="modulator" class="jxgbox" style="width:100%; height:200px;"></div>
+<p/>
+<div id="carrier" class="jxgbox" style="width:100%; height:200px;"></div>
+<p/>
+<div id="waveform" class="jxgbox" style="width:100%; height:200px;"></div>
+<p/>
+<div id="sidebands" class="jxgbox" style="width:100%; height:200px;"></div>
+<p/>
+<div id="spectrum" class="jxgbox" style="width:100%; height:200px;"></div>
+
+<script language="JavaScript">
+  var carrier = JXG.JSXGraph.initBoard('carrier', {boundingbox:[0,2,720,-1.2], axis:true, showCopyright:false});
+  var modulator = JXG.JSXGraph.initBoard('modulator', {boundingbox:[0,2,720,-1.2], axis:true, showCopyright:false, title: 'XYZModulator'});
+  var waveform = JXG.JSXGraph.initBoard('waveform', {boundingbox:[0,2,720,-1.2], axis:true, showCopyright:false});
+  var sidebands = JXG.JSXGraph.initBoard('sidebands', {boundingbox: [-10, 1, 10, -1], axis:true, showCopyright:false});
+  var spectrum = JXG.JSXGraph.initBoard('spectrum', {boundingbox: [-0.5, 1, 16, -0.1], axis:true, showCopyright:false});
+
+  carrier.create('text',[8,-1,"Carrier"],{fontSize:20});
+  modulator.create('text',[8,-1,"Modulator"],{fontSize:20});
+  waveform.create('text',[8,-1,"FM Waveform"],{fontSize:20});
+  sidebands.create('text',[-9.8,-0.86,"Sidebands"],{fontSize:20});
+  spectrum.create('text',[12,0.9,"Frequency spectrum"],{fontSize:20});
+
+  var sca = carrier.create('slider', [[10, 1.8], [190, 1.8], [0, 1, 10]],{suffixLabel:'amplitude:'});
+  var scf = carrier.create('slider', [[10, 1.3], [190, 1.3], [0, 1, 10]],{snapWidth:1,suffixLabel:'freq:'});
+  var scff = carrier.create('slider', [[360, 1.3], [540, 1.3], [0, 0, 1]],{suffixLabel:'fine freq:'});
+
+  var sma = modulator.create('slider', [[10, 1.8], [190, 1.8], [0, 1, 10]],{suffixLabel:'amplitude:'});
+  var smf = modulator.create('slider', [[10, 1.3], [190, 1.3], [0, 1, 10]],{snapWidth:1,suffixLabel:'freq:'});
+  var smff = modulator.create('slider', [[360, 1.3], [540, 1.3], [0, 0, 1]],{suffixLabel:'fine freq:'});
+
+  function carrieramp() {
+    return sca.Value();
+  }
+  function carrierfreq() {
+    return scf.Value()+scff.Value();
+  }
+  function carrierwave(x) {
+    return carrieramp()*Math.sin(carrierfreq()*x/57.3);
+  }
+
+  function modulatoramp() {
+    return sma.Value();
+  }
+  function modulatorfreq() {
+    return smf.Value()+smff.Value();
+  }
+  function modulatorwave(x) {
+    return modulatoramp()*Math.sin(modulatorfreq()*x/57.3);
+  }
+
+  function wave(x) {
+    return carrieramp()*Math.sin(carrierfreq()*x/57.3+modulatoramp()*Math.sin(modulatorfreq()*x/57.3));
+  }
+
+  carriergraph = carrier.create('functiongraph', [carrierwave], {strokewidth:2});
+
+  carriergraph.updateDataArray = function() {
+    waveform.update();
+    sidebands.update();
+    spectrum.update();
+  }
+
+  modulatorgraph = modulator.create('functiongraph', [modulatorwave], {strokewidth:2});
+
+  modulatorgraph.updateDataArray = function() {
+    waveform.update();
+    sidebands.update();
+    spectrum.update();
+  }
+
+  graph = waveform.create('functiongraph', [wave], {strokewidth:2});
+
+  var bands = sidebands.create('curve', [[0],[0]], {strokeWidth: 4});
+
+  bands.updateDataArray = function() {
+    this.dataX = [];
+    this.dataY = [];
+
+    var i, y;
+
+    for (i = -10; i < 10; i++) {
+
+      y = besselJ(i,modulatoramp());
+      this.dataX.push(i, i, NaN);
+      this.dataY.push(0, y, NaN);
+    }
+
+  };
+
+
+  var harmonics = spectrum.create('curve', [[0],[0]], {strokeWidth: 4});
+
+  harmonics.updateDataArray = function() {
+    this.dataX = [];
+    this.dataY = [];
+
+    var freqs = {};
+    var i, x, y;
+
+    for (i = -10; i < 10; i++) {
+      x = carrierfreq()+i*modulatorfreq();
+      y = (x<0 ? -1 : 1)*besselJ(i,modulatoramp());
+      if (freqs[abs(x)]) {
+        freqs[abs(x)] += y;
+      } else {
+        freqs[abs(x)] = y;
+      }
+    }
+
+    for (const freq in freqs) {
+      if (freq!=0) {
+        this.dataX.push(freq, freq, NaN);
+        this.dataY.push(0, abs(freqs[freq]), NaN);
+      }
+    }
+  };
+
+</script>

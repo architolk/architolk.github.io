@@ -12,6 +12,10 @@
   var sidebands = JXG.JSXGraph.initBoard('sidebands', {boundingbox: [-10, 1, 10, -1], axis:true, showCopyright:false});
   var spectrum = JXG.JSXGraph.initBoard('spectrum', {boundingbox: [-0.5, 1, 16, -0.1], axis:true, showCopyright:false});
 
+  waveform.create('text',[8,-1,"FM Waveform"],{fontSize:20});
+  sidebands.create('text',[-9.8,-0.86,"Sidebands"],{fontSize:20});
+  spectrum.create('text',[12,0.9,"Frequency spectrum"],{fontSize:20});
+
   var si = waveform.create('slider', [[10, 1.8], [190, 1.8], [0, 1, 10]],{suffixLabel:'index:'});
   var smc = waveform.create('slider', [[10, 1.3], [190, 1.3], [0, 1, 10]],{snapWidth:1,suffixLabel:'ratio:'});
   var smf = waveform.create('slider', [[360, 1.3], [540, 1.3], [0, 0, 1]],{suffixLabel:'fine ratio:'});
