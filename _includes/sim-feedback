@@ -1,0 +1,82 @@
+<script type="text/javascript" charset="UTF-8" src="/assets/js/jsxgraphcore.js"></script>
+<script type="text/javascript" charset="UTF-8" src="/assets/js/math.js"></script>
+
+<div id="waveform" class="jxgbox" style="width:800px; height:200px;"></div>
+<p/>
+<div id="sidebands" class="jxgbox" style="width:800px; height:200px;"></div>
+
+<script language="JavaScript">
+  var waveform = JXG.JSXGraph.initBoard('waveform', {boundingbox:[0,2,720,-1.2], axis:true, showCopyright:false});
+  var sidebands = JXG.JSXGraph.initBoard('sidebands', {boundingbox: [-0.5, 1, 16, -0.1], axis:true, showCopyright:false});
+
+  waveform.create('text',[8,-1,"FM Waveform"],{fontSize:20});
+  sidebands.create('text',[12,0.9,"Frequency spectrum"],{fontSize:20});
+
+  var sfb = waveform.create('slider', [[10, 1.8], [190, 1.8], [0, 0, 2]],{suffixLabel:'feedback:'});
+
+  var animationDirection = 1;
+
+  var prev1 = 0, prev2 = 0;
+
+  function feedback() {
+    return sfb.Value();
+  }
+
+  function wave(x) {
+    var y = Math.sin(x/57.3+feedback()*(prev2+prev1)/2);
+    prev2 = prev1;
+    prev1 = y;
+    return y;
+  }
+
+  graph = waveform.create('curve', [[0],[0]], {strokewidth:2});
+
+  graph.updateDataArray = function() {
+    //Calculate the plots ourselves, because otherwise it doesn't work with feedback!
+    this.dataX = [];
+    this.dataY = [];
+    for (x = 0; x<720; x++) {
+      y = wave(x);
+      this.dataX.push(x);
+      this.dataY.push(y);
+    }
+    //Forces sidebands and spectrum graph to update
+    sidebands.update();
+  }
+
+  var bands = sidebands.create('curve', [[0],[0]], {strokeWidth: 4});
+
+  bands.updateDataArray = function() {
+    this.dataX = [];
+    this.dataY = [];
+
+    var i, y;
+
+    for (i = 1; i < 16; i++) {
+
+      if (feedback()==0) {
+        y = (i==1 ? 1 : 0);
+      } else {
+        y = abs(2 * (besselJ(i,i*feedback())/(i*feedback())));
+      }
+      this.dataX.push(i, i, NaN);
+      this.dataY.push(0, y, NaN);
+    }
+
+  };
+
+  setInterval(
+    function() {
+      var fb = sfb.Value();
+      fb = fb + 0.01*animationDirection;
+      if (fb<0 || fb>2) {
+        animationDirection = -animationDirection;
+        fb = fb + 0.01*animationDirection;
+      }
+      sfb.setValue(fb);
+      waveform.update();
+    }
+    ,20
+  );
+
+</script>

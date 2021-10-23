@@ -63,9 +63,9 @@ Unlike "plain" FM, with feedback, the higher sidebands do really add up: you nee
 
 ![](/assets/images/dxfm2/Feedback-wave.png)
 
-The burst of noise is actually the oscillator going very rapidly going between two extreme values, that's why two separate lines are visible. Using Octave, we can plot the graph above that depicts what is going on (see [feedback.m](/assets/dxfm2/octave/feedback.m) for the script).
+The burst of noise is actually the oscillator going very rapidly going between two extreme values, that's why two separate lines are visible. Using Octave, we can plot the graph above that depicts what is going on (see [feedback.m](/assets/octave/feedback.m) for the script).
 
-The noise burst is the result of the sampling rate of digital synthesizers. It is the reason that Yamaha originally used an averaging filter for the feedback, using not only the previous value, but actually the average between the previous two values, which will make the noise burst disappear. The explanation is mentioned in [this patent](https://patents.google.com/patent/US4249447A/en), as is visible in the graph below, using the same parameters, but with the average filter (see [feedback-filter.m](/assets/dxfm2/octave/feedback-filter.m) for the script).
+The noise burst is the result of the sampling rate of digital synthesizers. It is the reason that Yamaha originally used an averaging filter for the feedback, using not only the previous value, but actually the average between the previous two values, which will make the noise burst disappear. The explanation is mentioned in [this patent](https://patents.google.com/patent/US4249447A/en), as is visible in the graph below, using the same parameters, but with the average filter (see [feedback-filter.m](/assets/octave/feedback-filter.m) for the script).
 
 ![](/assets/images/dxfm2/Feedback-wave-filter.png)
 
