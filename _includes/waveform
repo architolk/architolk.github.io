@@ -1,0 +1,15 @@
+<script type="text/javascript" charset="UTF-8" src="/assets/js/jsxgraphcore.js"></script>
+
+<div id="waveform" class="jxgbox" style="width:100%; height:200px;"></div>
+<p />
+
+<script language="JavaScript">
+  var waveform = JXG.JSXGraph.initBoard('waveform', {boundingbox:[0,1.2,2/{{include.frequency}},-1.2], axis:true, showCopyright:false});
+
+  function wave(x) {
+    return Math.sin(x*6.28*{{include.frequency}});
+  }
+
+  graph = waveform.create('functiongraph', [wave], {strokewidth:2});
+
+</script>

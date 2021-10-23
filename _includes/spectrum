@@ -1,0 +1,26 @@
+<script type="text/javascript" charset="UTF-8" src="/assets/js/jsxgraphcore.js"></script>
+
+<div id="spectrum" class="jxgbox" style="width:100%; height:200px;"></div>
+<p/>
+
+<script language="JavaScript">
+  var spectrum = JXG.JSXGraph.initBoard('spectrum', {boundingbox: [{{include.min}}, 1, {{include.max}}, -0.1], axis:true, showCopyright:false});
+
+  var frequencies = [{{include.spectrum}}];
+
+  var harmonics = spectrum.create('curve', [[0],[0]], {strokeWidth: 4});
+
+  harmonics.updateDataArray = function() {
+    this.dataX = [];
+    this.dataY = [];
+
+    var i, x;
+
+    for (i = 0; i < frequencies.length; i++) {
+      x = frequencies[i];
+      this.dataX.push(x, x, NaN);
+      this.dataY.push(0, 1, NaN);
+    }
+  };
+
+</script>
