@@ -67,10 +67,10 @@ dxfm2:
         url: /dxfm2/fm-theory
       - title: "Frequency spectrum"
         url: /dxfm2/spectrum
+      - title: "Carriers and Modulators"
+        url: /dxfm2/operators
       - title: "Feedback"
         url: /dxfm2/feedback
-      - title: "Carriers and Modulators"
-        url: /dxfm2/carriers-modulators
       - title: "FM Math"
         url: /dxfm2/fm-math
   - title: FM Waveform simulator
