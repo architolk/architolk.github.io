@@ -151,6 +151,8 @@ booster:
     children:
       - title: "Introduction"
         url: /booster/build
+      - title: "Design"
+        url: /booster/design
   - title: "Treble booster theory"
     children:
     - title: "Introduction"
