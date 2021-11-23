@@ -161,5 +161,7 @@ booster:
       url: /booster/bjt
     - title: "BC549C"
       url: /booster/BC549C
+    - title: "CE Amplifier"
+      url: /booster/ce-amplifier
     - title: "Resources"
       url: /booster/resources
