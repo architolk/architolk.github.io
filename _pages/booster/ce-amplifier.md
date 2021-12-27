@@ -33,6 +33,8 @@ Resistor \\(R_e\\) is used for stability of the circuit and as a general rule of
 
 To get the values of the resistors, we look at the DC equivalent of the circuit. As DC current cannot pass a capacitor, we can simply ommit anything behind the capacitors. Also, we assume that \\(I_b ≈ 0\\). We will find out that this approximation holds when \\(I_b\\) is quite small with respect to \\(I_c\\) and \\(I_e)\\). With this approximation, we can also conclude that \\(I_c ≈ I_e\\).
 
+![](/assets/images/booster/BC549C-amp-dc.svg)
+
 ### Finding Rc
 
 The voltage part of the circuit with \\(R_c\\), the transistor and \\(R_e\\) should correspond to the following formula:
