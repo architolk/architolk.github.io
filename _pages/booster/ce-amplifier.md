@@ -59,9 +59,7 @@ We can now draw the load line. One point of the load line is at \\(V_{ce} = V_{c
 
 ![](/assets/images/booster/BC549C-loadline.svg)
 
-So Ic = (10.8-Vce)/270, at Vcc = 5.4V, Ic = 5.4/270 = 20mA. From this, we can get Ib ≈ 38.7uA. As hFE = Ic/Ib, we can calculate that for this SPICE model of the BC549C, the hFE = 517 at the Q-point of 5.4V.
-
-As the actual amplification of the circuit depends on the quotient Rc/Re, we can change the loadline angle more to the "bottom" of the curveset. As is visible: the transistor is more lineair (horizontal line) with lower base currents. So if we want to achieve a lower q-point, we need to increase the value of Rc.
+So the formula for the load-line is: \\(I_c = \dfrac{12V - V_{ce}}{303Ω}\\). Setting the Q-point at \\(V_{cc} = 6V, I_c = \dfrac{6V}{303Ω} = 22mA\\). Measuring \\(I_b\\) at this Q-point ([this](/assets/spice/booster/BC594Cm.asc) SPICE-model), we get \\(Ib ≈ 38.2uA\\). As hFE = \\(I_c/I_b\\), we can calculate that for this SPICE model of the BC549C, the hFE = 518 at the Q-point of 6.0V.
 
 ## Finding Rb2
 
