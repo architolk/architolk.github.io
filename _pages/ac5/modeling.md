@@ -30,9 +30,9 @@ The user interface of LT-Spice is not that great (understatement), and even wors
 | t | Add text comment |
 
 ## Exporting LT-Spice circuits and output results
-Circuits and output results can best be exported by "printing" them. When you print to a postscript file, the result can be read by a postscript engine, for example [inkscape](https://inkscape.org).
+Circuits and output results can best be exported by "printing" them. You should probably set the orientation to landscape before printing. When you print to a postscript file, the result can be read by a postscript engine, for example [inkscape](https://inkscape.org).
 
-In inkscape, you select "Document properties" and then apply "Scale page to content". Finally, save the document as regular SVG. The can be included in any page or document as a normal image.
+In inkscape, you select "Document properties" and then apply "Scale page to content". Finally, save the document as regular SVG. The can be included in any page or document as a normal image. Plots are pretty large, so I normally reduce the size of the SVG by setting the scale to 1.5 (in the same document property window).
 
 Sometimes, you want to have more than one SPICE analysis to run on the same circuit. Easiest way to do this, is to set all SPICE commands except one to "Comment" and the one you want to run to "SPICE directive".
 
