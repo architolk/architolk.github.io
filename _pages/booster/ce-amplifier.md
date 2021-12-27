@@ -49,7 +49,7 @@ Let's assume that we want to achieve a maximum \\(I_c = 40mA\\). From the formul
 
 ## Finding Re
 
-As \\(I_e = I_b + I_c ≈ I_c = 40mA\\) max, we can calculate the value of \\(R_e = \dfrac{40mA}{1.2V} ≈ 33Ω\\)
+As \\(I_e = I_b + I_c ≈ I_c = 40mA\\) max, we can calculate the value of \\(R_e = \dfrac{1.2V}{40mA} = 30Ω ≈ 33Ω\\)
 
 ## Drawing the load line
 
