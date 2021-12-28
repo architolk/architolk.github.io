@@ -161,6 +161,10 @@ booster:
       url: /booster/bjt
     - title: "AC128"
       url: /booster/AC128
+    - title: "AC127"
+      url: /booster/AC128
+    - title: "OC140"
+      url: /booster/AC128
     - title: "BC549C"
       url: /booster/BC549C
     - title: "CE Amplifier"
