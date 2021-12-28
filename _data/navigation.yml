@@ -167,5 +167,7 @@ booster:
       url: /booster/ce-amplifier
     - title: "Guitar model"
       url: /booster/guitar
+    - title: "Silicon booster"
+      url: /booster/silicon
     - title: "Resources"
       url: /booster/resources
