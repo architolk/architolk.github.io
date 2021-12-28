@@ -171,6 +171,10 @@ booster:
       url: /booster/ce-amplifier
     - title: "Guitar model"
       url: /booster/guitar
+    - title: "Treble booster"
+      url: /booster/booster
+    - title: "Germanium booster"
+      url: /booster/germanium
     - title: "Silicon booster"
       url: /booster/silicon
     - title: "Resources"

@@ -1,0 +1,1 @@
+.model OC140 NPN(Is=1e-10 bf=60 Vje=0.15 Vaf=10 Cje=5p Cjc=2.5p Tf=3n Eg=.67 Rb=100 Re=10 Isc=3u)
