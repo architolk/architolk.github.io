@@ -281,12 +281,12 @@
                transform="matrix(0,-1,-1,0,262.875,764.273)"
                style="font-variant:normal;font-weight:normal;font-size:13.7774px;font-family:Geneva;-inkscape-font-specification:Geneva;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
                id="text210"><tspan
-                 x="0 8.3491039 11.686048 21.447302 29.378983 35.534668 44.717339 49.312069 58.49474 67.677406 79.994408 90.011978 94.606712 103.78938 112.97199 122.15466"
+                 x="0 8.3491039 11.686048 21.447302 29.378983 35.534668 44.717339 49.312069 58.49474 67.677406 76.860077 89.177078 93.771866 102.95448 112.13715 121.31982"
                  y="0"
-                 id="tspan204">SINE(0 50mA 440)</tspan><tspan
-                 x="0 10.017576 18.99217 23.586901 32.769569 41.95224 54.269238"
+                 id="tspan204">SINE(0 100m 440)</tspan><tspan
+                 x="0 10.017576 18.98807 23.577291 32.754395 41.931557 51.108719"
                  y="18.161301"
-                 id="tspan206">AC 50mA</tspan><tspan
+                 id="tspan206">AC 100m</tspan><tspan
                  x="61.371601 71.389175"
                  y="-55.109001"
                  id="tspan208">V1</tspan></text></g><path
