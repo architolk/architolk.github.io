@@ -159,12 +159,12 @@ booster:
       url: /booster/booster-theory
     - title: "BJT Transistor"
       url: /booster/bjt
+    - title: "AC127"
+      url: /booster/AC127
     - title: "AC128"
       url: /booster/AC128
-    - title: "AC127"
-      url: /booster/AC128
     - title: "OC140"
-      url: /booster/AC128
+      url: /booster/OC140
     - title: "BC549C"
       url: /booster/BC549C
     - title: "CE Amplifier"
