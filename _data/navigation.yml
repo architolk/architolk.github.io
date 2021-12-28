@@ -163,5 +163,7 @@ booster:
       url: /booster/BC549C
     - title: "CE Amplifier"
       url: /booster/ce-amplifier
+    - title: "Guitar model"
+      url: /booster/guitar
     - title: "Resources"
       url: /booster/resources
