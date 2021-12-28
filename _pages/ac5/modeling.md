@@ -29,11 +29,20 @@ The user interface of LT-Spice is not that great (understatement), and even wors
 | s | Add spice directive |
 | t | Add text comment |
 
+## SPICE directives
+Sometimes, you want to have more than one SPICE analysis to run on the same circuit. Easiest way to do this, is to set all SPICE commands except one to "Comment" and the one you want to run to "SPICE directive".
+
 ## Exporting LT-Spice circuits and output results
 Circuits and output results can best be exported by "printing" them. You should probably set the orientation to landscape before printing. When you print to a postscript file, the result can be read by a postscript engine, for example [inkscape](https://inkscape.org).
 
-In inkscape, you select "Document properties" and then apply "Scale page to content". Finally, save the document as regular SVG. The can be included in any page or document as a normal image. Plots are pretty large, so I normally reduce the size of the SVG by setting the scale to 1.5 (in the same document property window).
+In inkscape, you select "Document properties" and then apply "Scale page to content". Finally, save the document as regular SVG. The can be included in any page or document as a normal image. Plots are pretty large, so I normally reduce the size of the SVG by setting the scale to 1.5 (in the same document property window) for graphs and to 1.2 for networks.
 
-Sometimes, you want to have more than one SPICE analysis to run on the same circuit. Easiest way to do this, is to set all SPICE commands except one to "Comment" and the one you want to run to "SPICE directive".
+The colors in the network diagrams should be reversed for a black background. This can be done by replacing values in the source document:
+
+|Search|Replace|Description|
+|------|-------|-----------|
+|stroke:#0000ff|stroke:#ffffff|Network lines|
+|fill:#0000ff|fill:#ffffff|Network intersections|
+|fill:#000000|fill:#999999|Text (except comments)|
 
 ## Adding models to LT-Spice

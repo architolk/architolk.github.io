@@ -36,5 +36,6 @@ classes: wide
 - [The common emitter amplifier](https://www.electronics-tutorials.ws/amplifier/amp_2.html)
 - [CE Amp calculator](http://www.guitarscience.net/calcs/ce.htm)
 - [CE Transitior amplifier design](https://resources.system-analysis.cadence.com/blog/msa2021-common-emitter-transistor-amplifier-design)
+- [Transistor CE amplifier design](https://www.electronics-notes.com/articles/analogue_circuits/transistor/transistor-common-emitter-amplifier-circuit-design.php)
 - [Youtube: BJT Voltage Divider Bias Configuration](https://youtu.be/MNp-WxkF5h4)
 - [Youtube: Designing a BJT Common emitter amplifier](https://youtu.be/mRla_j3Hf-A)
