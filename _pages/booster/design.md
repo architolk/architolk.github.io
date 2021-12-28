@@ -13,7 +13,7 @@ classes: wide
 
 ---
 ## Stages
-The design of the treble booster is based on three seperate treble boosters, each using a different amplifier type: sillicon transistor, germanium transistor and a tube.
+The design of the treble booster is based on three seperate treble boosters, each using a different amplifier type: sillicon transistor, germanium transistor and a tube. (We may include a Darlington-pair booster as well - the poor man's Germanium-replacement).
 
 ![](/assets/images/booster/design.svg)
 
