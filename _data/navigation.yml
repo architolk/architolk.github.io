@@ -159,6 +159,8 @@ booster:
       url: /booster/booster-theory
     - title: "BJT Transistor"
       url: /booster/bjt
+    - title: "12AU7"
+      url: /booster/12AU7
     - title: "AC127"
       url: /booster/AC127
     - title: "AC128"
@@ -177,5 +179,7 @@ booster:
       url: /booster/germanium
     - title: "Silicon booster"
       url: /booster/silicon
+    - title: "Tube booster"
+      url: /booster/tube
     - title: "Resources"
       url: /booster/resources

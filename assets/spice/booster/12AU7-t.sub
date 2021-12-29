@@ -1,0 +1,61 @@
+.SUBCKT 12AU7-t  1 2 3 ; P G C (Triode)
+* Sylvania Technical Manual AKA ECC82 ECC802 5814 6067 6189
+* library format: LTSpice 01-Jun-2008
+X1 1 2 3 TRIODE MU=20.21 EX=1.230 KG1=1108.7 KP=84.96 KVB=551.3 VCT=0.00 RGI=2000 CCG=2.3p CGP=2.2p CCP=1.0p ;
+.ENDS
+
+.SUBCKT 12AU7-2 1 2 3 ; A G C	(Triode)
+* Original Koren Model
+X1 1 2 3 TRIODE MU=21.5 EX=1.3 KG1=1180 KP=84 KVB=300 VCT=0.00 RGI=2000 CCG=2.3P  CGP=2.2P CCP=1.0P  ; ADD .7PF TO ADJACENT PINS; .5 TO OTHERS.
+.ENDS
+
+.SUBCKT 12AU7-3  1 2 3 ; P G C (Triode)
+* MAZDA BELVU Data sheet AKA ECC82 ECC802 5814 6067 6189
+* library format: LTSpice 01-Jun-2008
+X1 1 2 3 TRIODE MU=19.41 EX=1.226 KG1=1233.8 KP=104.87 KVB=300.0 VCT=0.00 RGI=2000 CCG=2.3p CGP=2.2p CCP=1.0p ;
+.ENDS    12AU7A
+
+.SUBCKT TRIODE 1 2 3 ; A G C
+E1  7 0 VALUE={V(1,3)/KP*LOG(1+EXP(KP*(1/MU+(V(2,3)+VCT)/SQRT(KVB+V(1,3)*V(1,3)))))}
+RE1 7 0 1G
+G1  1 3 VALUE={(PWR(V(7,0),EX)+PWRS(V(7,0),EX))/KG1}
+RCP 1 3 1G    ; TO AVOID FLOATING NODES IN MU-FOLLOWER
+C1  2 3 {CCG}  ; CATHODE-GRID
+C2  2 1 {CGP}  ; GRID=PLATE
+C3  1 3 {CCP}  ; CATHODE-PLATE
+D3  5 3 DX     ; FOR GRID CURRENT
+R1  2 5 {RGI}  ; FOR GRID CURRENT
+.MODEL DX D(IS=1N RS=1 CJO=10PF TT=1N) ;
+.ENDS	TRIODE
+
+.subckt 12AU7-4 1 2 3 ; p g c; new model
++ params: mu=21.5 ex=1.3 kg1=1180 kp=84 kvb=300 rgi=2000
++ ccg=2.3p cgp=2.2p ccp=1.0p ; add .7pf to adjacent pins; .5 to others.
+e1 7 0 value=
++{v(1,3)/kp*log(1+exp(kp*(1/mu+v(2,3)/sqrt(kvb+v(1,3)*v(1,3)))))}
+re1 7 0 1g
+g1 1 3 value={(pwr(v(7),ex)+pwrs(v(7),ex))/kg1}
+rcp 1 3 1g ; to avoid floating nodes in mu-follower
+c1 2 3 {ccg} ; cathode-grid; was 1.6p
+c2 2 1 {cgp} ; grid-plate; was 1.5p
+c3 1 3 {ccp} ; cathode-plate; was 0.5p
+d3 5 3 dx ; for grid current
+r1 2 5 {rgi} ; for grid current
+.model dx d(is=1n rs=1 cjo=0 tt=1n)
+.ends
+
+.subckt 12AU7-5 P G K
+Bp P K I=(0.01701593477m)*uramp(V(P,K)*ln(1.0+(-0.1251806139)+exp((1.234948774)+(1.234948774)*((34.50197863)+(-26.60747394m)*V(G,K))*V(G,K)/sqrt((22.53603268)**2+(V(P,K)-(-4.400778147))**2)))/(1.234948774))**(1.369425091)
+Cgp G P 1.5pF
+Cgk G K 1.6pF
+Cpk P K 0.4pF
+.ends 12AU7
+
+.SUBCKT 12AU7-6 A G K
+XV1 A G K TRIODENH
++PARAMS: LIP= 1 LIF= 0.0037 RAF= 0.000001 RAS= 2.065382774 CDO= 0
++ RAP= 0.18 ERP= 1.4
++ MU0= 17.08958652 MUR= 0.010938375 EMC= 0.0000183
++ GCO= 0 GCF= 0.00012
++ CGA=1.60E-12 CGK=1.80E-12 CAK=4.50E-13
+.ENDS
