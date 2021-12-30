@@ -155,6 +155,10 @@ booster:
         url: /booster/design
       - title: "Case"
         url: /booster/case
+      - title: "PCB Silicon"
+        url: /booster/pcb-silicon
+      - title: "BOM"
+        url: /booster/bom
   - title: "Treble booster theory"
     children:
     - title: "Introduction"
