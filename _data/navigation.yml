@@ -153,6 +153,8 @@ booster:
         url: /booster/build
       - title: "Design"
         url: /booster/design
+      - title: "Case"
+        url: /booster/case
   - title: "Treble booster theory"
     children:
     - title: "Introduction"
