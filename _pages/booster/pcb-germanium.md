@@ -21,3 +21,7 @@ A 9x12 grid is needed for this PCB (22.86mm x 30.48mm)
 Resistor R7 will be replaced by a pot, the resistor is replaced with a header pin, at this place the wires to the resistor will be soldered.
 
 Resistor R5 is a trim pot to set the correct Q-point for the transistor.
+
+The PCB is for the circuit below, which is the same as described in the theory section.
+
+![](/assets/images/booster/germanium_schema.svg)

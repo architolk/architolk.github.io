@@ -159,6 +159,8 @@ booster:
         url: /booster/pcb-silicon
       - title: "PCB Germanium"
         url: /booster/pcb-germanium
+      - title: "PCB Tube"
+        url: /booster/pcb-tube
       - title: "BOM"
         url: /booster/bom
   - title: "Treble booster theory"
