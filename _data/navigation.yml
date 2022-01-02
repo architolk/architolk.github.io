@@ -157,6 +157,8 @@ booster:
         url: /booster/case
       - title: "PCB Silicon"
         url: /booster/pcb-silicon
+      - title: "PCB Germanium"
+        url: /booster/pcb-germanium
       - title: "BOM"
         url: /booster/bom
   - title: "Treble booster theory"

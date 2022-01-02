@@ -10,14 +10,14 @@
    version="1.2"
    x="0in"
    y="0in"
-   width="5.008028in"
-   height="2.9782302in"
-   viewBox="0 0 120.19267 71.477522"
-   id="svg1081"
+   width="4.781354in"
+   height="2.6207292in"
+   viewBox="0 0 137.70299 75.476999"
+   id="svg2635"
    sodipodi:docname="silicon_pcb.svg"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
   <metadata
-     id="metadata1087">
+     id="metadata2641">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -29,7 +29,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs1085" />
+     id="defs2639" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -41,30 +41,30 @@
      inkscape:pageshadow="2"
      inkscape:window-width="772"
      inkscape:window-height="480"
-     id="namedview1083"
+     id="namedview2637"
      showgrid="false"
-     inkscape:zoom="1.6341524"
-     inkscape:cx="57.505272"
-     inkscape:cy="6.222017"
+     scale-x="0.5"
+     inkscape:zoom="6.1692926"
+     inkscape:cx="-0.59117149"
+     inkscape:cy="50.943092"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg1081"
-     scale-x="0.25"
+     inkscape:current-layer="svg2635"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <g
-     partID="57700"
-     id="g27"
-     transform="translate(-3.0044501,-2.3050725)">
+     partID="111190"
+     id="g1337"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(109.42,31.1226)"
-       id="g25">
+       transform="translate(123.425,72.936)"
+       id="g1335">
       <g
-         transform="rotate(90)"
-         id="g23">
+         transform="scale(-1)"
+         id="g1333">
         <g
            id="copper0">
           <g
@@ -72,20 +72,132 @@
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
+               stroke="#ffbf00"
                id="connector0pin"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
+               stroke="#ffbf00"
                id="connector1pin"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="111250"
+     id="g1345"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(79.6848,64.8)"
+       id="g1343">
+      <g
+         id="g1341">
+        <circle
+           stroke-width="1.44"
+           cy="5.04"
+           r="2.0880001"
+           id="circle1339"
+           stroke="#ffbf00"
+           fill="none"
+           cx="5.04" />
+      </g>
+    </g>
+  </g>
+  <g
+     partID="112490"
+     id="g1353"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(108.485,21.6)"
+       id="g1351">
+      <g
+         id="g1349">
+        <circle
+           stroke-width="1.44"
+           cy="5.04"
+           r="2.0880001"
+           id="circle1347"
+           stroke="#ffbf00"
+           fill="none"
+           cx="5.04" />
+      </g>
+    </g>
+  </g>
+  <g
+     partID="99640"
+     id="g1367"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(109.421,31.14)"
+       id="g1365">
+      <g
+         transform="rotate(90)"
+         id="g1363">
+        <g
+           id="g1361">
+          <g
+             id="g1359">
+            <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
+            <circle
+               stroke-width="1.44"
+               cy="3.096"
+               r="1.98"
+               stroke="#ffbf00"
+               id="circle1355"
+               fill="none"
+               cx="2.7" />
+            <circle
+               stroke-width="1.44"
+               cy="3.096"
+               r="1.98"
+               stroke="#ffbf00"
+               id="circle1357"
+               fill="none"
+               cx="31.5" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="57700"
+     id="g1381"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(116.621,31.14)"
+       id="g1379">
+      <g
+         transform="rotate(90)"
+         id="g1377">
+        <g
+           id="g1375">
+          <g
+             id="g1373">
+            <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
+            <circle
+               stroke-width="1.44"
+               cy="3.096"
+               r="1.98"
+               stroke="#ffbf00"
+               id="circle1369"
+               fill="none"
+               cx="2.7" />
+            <circle
+               stroke-width="1.44"
+               cy="3.096"
+               r="1.98"
+               stroke="#ffbf00"
+               id="circle1371"
+               fill="none"
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -93,75 +205,75 @@
   </g>
   <g
      partID="57730"
-     id="g40"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1394"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(28.1324,1.42264)"
-       id="g38">
+       transform="translate(28.1328,1.44)"
+       id="g1392">
       <g
          transform="rotate(90)"
-         id="g36">
+         id="g1390">
         <g
-           id="g34">
+           id="g1388">
           <circle
              stroke-width="1.44"
-             r="1.98"
-             stroke="#ffbf00"
-             cx="3.5999999"
-             id="circle29"
              cy="8.2080002"
-             fill="none" />
+             r="1.98"
+             id="circle1383"
+             stroke="#ffbf00"
+             fill="none"
+             cx="3.5999999" />
           <circle
              stroke-width="1.44"
-             r="1.98"
-             stroke="#ffbf00"
-             cx="10.8"
-             id="circle31"
              cy="8.2080002"
-             fill="none" />
+             r="1.98"
+             id="circle1385"
+             stroke="#ffbf00"
+             fill="none"
+             cx="10.8" />
           <circle
              stroke-width="1.44"
+             cy="8.2080002"
              r="1.98"
-             stroke="#ffbf00"
-             cx="18"
              id="connector2pin"
-             cy="8.2080002"
-             fill="none" />
+             stroke="#ffbf00"
+             fill="none"
+             cx="18" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57760"
-     id="g54"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1408"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(51.8204,38.3226)"
-       id="g52">
+       transform="translate(51.8208,38.34)"
+       id="g1406">
       <g
          transform="rotate(90)"
-         id="g50">
+         id="g1404">
         <g
-           id="g48">
+           id="g1402">
           <g
-             id="g46">
+             id="g1400">
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
-               id="circle42"
+               stroke="#ffbf00"
+               id="circle1396"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
-               id="circle44"
+               stroke="#ffbf00"
+               id="circle1398"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -169,35 +281,35 @@
   </g>
   <g
      partID="57790"
-     id="g68"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1422"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(73.4204,31.1226)"
-       id="g66">
+       transform="translate(73.4208,31.14)"
+       id="g1420">
       <g
          transform="rotate(90)"
-         id="g64">
+         id="g1418">
         <g
-           id="g62">
+           id="g1416">
           <g
-             id="g60">
+             id="g1414">
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
-               id="circle56"
+               stroke="#ffbf00"
+               id="circle1410"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
-               id="circle58"
+               stroke="#ffbf00"
+               id="circle1412"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -205,35 +317,35 @@
   </g>
   <g
      partID="57820"
-     id="g82"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1436"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(52.8284,65.3226)"
-       id="g80">
+       transform="translate(52.8288,65.34)"
+       id="g1434">
       <g
          transform="rotate(-90)"
-         id="g78">
+         id="g1432">
         <g
-           id="g76">
+           id="g1430">
           <g
-             id="g74">
+             id="g1428">
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
-               id="circle70"
+               stroke="#ffbf00"
+               id="circle1424"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
-               id="circle72"
+               stroke="#ffbf00"
+               id="circle1426"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -241,35 +353,35 @@
   </g>
   <g
      partID="57850"
-     id="g96"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1450"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(38.4284,43.7226)"
-       id="g94">
+       transform="translate(38.4288,43.74)"
+       id="g1448">
       <g
          transform="rotate(-90)"
-         id="g92">
+         id="g1446">
         <g
-           id="g90">
+           id="g1444">
           <g
-             id="g88">
+             id="g1442">
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
-               id="circle84"
+               stroke="#ffbf00"
+               id="circle1438"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
-               id="circle86"
+               stroke="#ffbf00"
+               id="circle1440"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -277,35 +389,35 @@
   </g>
   <g
      partID="57880"
-     id="g110"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1464"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(31.2284,50.9226)"
-       id="g108">
+       transform="translate(24.0288,50.94)"
+       id="g1462">
       <g
          transform="rotate(-90)"
-         id="g106">
+         id="g1460">
         <g
-           id="g104">
+           id="g1458">
           <g
-             id="g102">
+             id="g1456">
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
-               id="circle98"
+               stroke="#ffbf00"
+               id="circle1452"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
-               id="circle100"
+               stroke="#ffbf00"
+               id="circle1454"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -313,35 +425,35 @@
   </g>
   <g
      partID="57910"
-     id="g124"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1478"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(66.2204,2.32264)"
-       id="g122">
+       transform="translate(66.2208,2.34)"
+       id="g1476">
       <g
          transform="rotate(90)"
-         id="g120">
+         id="g1474">
         <g
-           id="g118">
+           id="g1472">
           <g
-             id="g116">
+             id="g1470">
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
-               id="circle112"
+               stroke="#ffbf00"
+               id="circle1466"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
-               id="circle114"
+               stroke="#ffbf00"
+               id="circle1468"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -349,75 +461,75 @@
   </g>
   <g
      partID="57940"
-     id="g137"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1491"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(84.3644,44.9826)"
-       id="g135">
+       transform="translate(84.3648,45)"
+       id="g1489">
       <g
          transform="rotate(-90)"
-         id="g133">
+         id="g1487">
         <g
-           id="g131">
+           id="g1485">
           <rect
              stroke-width="1.44"
              height="3.96"
-             stroke="#ffbf00"
-             y="5.5799999"
-             id="rect11"
              x="1.98"
              width="3.96"
+             y="5.5799999"
+             id="rect11"
+             stroke="#ffbf00"
              fill="none" />
           <circle
              stroke-width="1.44"
-             r="1.98"
-             stroke="#ffbf00"
-             cx="3.96"
-             id="circle127"
              cy="7.5599999"
-             fill="none" />
+             r="1.98"
+             id="circle1481"
+             stroke="#ffbf00"
+             fill="none"
+             cx="3.96" />
           <circle
              stroke-width="1.44"
-             r="1.98"
-             stroke="#ffbf00"
-             cx="11.16"
-             id="circle129"
              cy="7.5599999"
-             fill="none" />
+             r="1.98"
+             id="circle1483"
+             stroke="#ffbf00"
+             fill="none"
+             cx="11.16" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57970"
-     id="g151"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1505"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(2.64445,22.316)"
-       id="g149">
+       transform="translate(2.6448,22.3336)"
+       id="g1503">
       <g
          transform="rotate(-90)"
-         id="g147">
+         id="g1501">
         <g
-           id="g145">
+           id="g1499">
           <g
-             id="g143">
+             id="g1497">
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="2.8800001"
-               id="circle139"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1493"
+               stroke="#f7bd13"
+               fill="none"
+               cx="2.8800001" />
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="10.0933"
-               id="circle141"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1495"
+               stroke="#f7bd13"
+               fill="none"
+               cx="10.0933" />
           </g>
         </g>
       </g>
@@ -425,34 +537,34 @@
   </g>
   <g
      partID="58000"
-     id="g165"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1519"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(66.0044,59.7293)"
-       id="g163">
+       transform="translate(66.0048,59.7464)"
+       id="g1517">
       <g
          transform="rotate(90)"
-         id="g161">
+         id="g1515">
         <g
-           id="g159">
+           id="g1513">
           <g
-             id="g157">
+             id="g1511">
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="2.8800001"
-               id="circle153"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1507"
+               stroke="#f7bd13"
+               fill="none"
+               cx="2.8800001" />
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="10.0933"
-               id="circle155"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1509"
+               stroke="#f7bd13"
+               fill="none"
+               cx="10.0933" />
           </g>
         </g>
       </g>
@@ -460,75 +572,75 @@
   </g>
   <g
      partID="58030"
-     id="g179"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1533"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(12.3644,52.1826)"
-       id="g177">
+       transform="translate(5.1648,52.2)"
+       id="g1531">
       <g
          transform="rotate(-90)"
-         id="g175">
+         id="g1529">
         <g
-           id="g173">
+           id="g1527">
           <rect
              stroke-width="1.44"
              height="3.96"
-             stroke="#ffbf00"
-             y="5.5799999"
-             id="rect167"
              x="1.98"
              width="3.96"
+             y="5.5799999"
+             id="rect1521"
+             stroke="#ffbf00"
              fill="none" />
           <circle
              stroke-width="1.44"
-             r="1.98"
-             stroke="#ffbf00"
-             cx="3.96"
-             id="circle169"
              cy="7.5599999"
-             fill="none" />
+             r="1.98"
+             id="circle1523"
+             stroke="#ffbf00"
+             fill="none"
+             cx="3.96" />
           <circle
              stroke-width="1.44"
-             r="1.98"
-             stroke="#ffbf00"
-             cx="11.16"
-             id="circle171"
              cy="7.5599999"
-             fill="none" />
+             r="1.98"
+             id="circle1525"
+             stroke="#ffbf00"
+             fill="none"
+             cx="11.16" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="58060"
-     id="g193"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1547"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(96.2444,22.316)"
-       id="g191">
+       transform="translate(96.2448,15.12)"
+       id="g1545">
       <g
          transform="rotate(-90)"
-         id="g189">
+         id="g1543">
         <g
-           id="g187">
+           id="g1541">
           <g
-             id="g185">
+             id="g1539">
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="2.8800001"
-               id="circle181"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1535"
+               stroke="#f7bd13"
+               fill="none"
+               cx="2.8800001" />
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="10.0933"
-               id="circle183"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1537"
+               stroke="#f7bd13"
+               fill="none"
+               cx="10.0933" />
           </g>
         </g>
       </g>
@@ -536,34 +648,34 @@
   </g>
   <g
      partID="58090"
-     id="g207"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1561"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(80.4178,7.90264)"
-       id="g205">
+       transform="translate(80.4184,7.92)"
+       id="g1559">
       <g
          transform="scale(-1)"
-         id="g203">
+         id="g1557">
         <g
-           id="g201">
+           id="g1555">
           <g
-             id="g199">
+             id="g1553">
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="2.8800001"
-               id="circle195"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1549"
+               stroke="#f7bd13"
+               fill="none"
+               cx="2.8800001" />
             <circle
                stroke-width="1.44"
-               r="1.8"
-               stroke="#f7bd13"
-               cx="10.0933"
-               id="circle197"
                cy="2.8800001"
-               fill="none" />
+               r="1.8"
+               id="circle1551"
+               stroke="#f7bd13"
+               fill="none"
+               cx="10.0933" />
           </g>
         </g>
       </g>
@@ -571,95 +683,95 @@
   </g>
   <g
      partID="58120"
-     id="g219"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1573"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(118.564,53.2626)"
-       id="g217">
+       transform="translate(125.765,53.28)"
+       id="g1571">
       <g
          transform="scale(-1)"
-         id="g215">
+         id="g1569">
         <g
-           id="g213">
+           id="g1567">
           <circle
              stroke-width="1.44"
-             r="2.0880001"
-             stroke="#ffbf00"
-             cx="5.04"
-             id="circle209"
              cy="5.04"
-             fill="none" />
+             r="2.0880001"
+             id="circle1563"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
           <circle
              stroke-width="1.44"
-             r="2.0880001"
-             stroke="#ffbf00"
-             cx="5.04"
-             id="circle211"
              cy="12.24"
-             fill="none" />
+             r="2.0880001"
+             id="circle1565"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="59050"
-     id="g229"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1583"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(14.8844,57.5826)"
-       id="g227">
+       transform="translate(7.6848,57.6)"
+       id="g1581">
       <g
-         id="g225">
+         id="g1579">
         <circle
            stroke-width="1.44"
-           r="2.0880001"
-           stroke="#ffbf00"
-           cx="5.04"
-           id="circle221"
            cy="5.04"
-           fill="none" />
+           r="2.0880001"
+           id="circle1575"
+           stroke="#ffbf00"
+           fill="none"
+           cx="5.04" />
         <circle
            stroke-width="1.44"
-           r="2.0880001"
-           stroke="#ffbf00"
-           cx="5.04"
-           id="circle223"
            cy="12.24"
-           fill="none" />
+           r="2.0880001"
+           id="circle1577"
+           stroke="#ffbf00"
+           fill="none"
+           cx="5.04" />
       </g>
     </g>
   </g>
   <g
      partID="61280"
-     id="g243"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1597"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(74.4284,43.7226)"
-       id="g241">
+       transform="translate(74.4288,50.94)"
+       id="g1595">
       <g
          transform="rotate(-90)"
-         id="g239">
+         id="g1593">
         <g
-           id="g237">
+           id="g1591">
           <g
-             id="g235">
+             id="g1589">
             <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="2.7"
-               id="circle231"
+               stroke="#ffbf00"
+               id="circle1585"
                fill="none"
-               cy="3.096" />
+               cx="2.7" />
             <circle
                stroke-width="1.44"
-               stroke="#ffbf00"
+               cy="3.096"
                r="1.98"
-               cx="31.5"
-               id="circle233"
+               stroke="#ffbf00"
+               id="circle1587"
                fill="none"
-               cy="3.096" />
+               cx="31.5" />
           </g>
         </g>
       </g>
@@ -667,537 +779,817 @@
   </g>
   <g
      partID="62670"
-     id="g253"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1607"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(108.484,7.18264)"
-       id="g251">
+       transform="translate(115.685)"
+       id="g1605">
       <g
-         id="g249">
+         id="g1603">
         <circle
            stroke-width="1.44"
-           r="2.0880001"
-           stroke="#ffbf00"
-           cx="5.04"
-           id="circle245"
            cy="5.04"
-           fill="none" />
+           r="2.0880001"
+           id="circle1599"
+           stroke="#ffbf00"
+           fill="none"
+           cx="5.04" />
         <circle
            stroke-width="1.44"
-           r="2.0880001"
-           stroke="#ffbf00"
-           cx="5.04"
-           id="circle247"
            cy="12.24"
-           fill="none" />
+           r="2.0880001"
+           id="circle1601"
+           stroke="#ffbf00"
+           fill="none"
+           cx="5.04" />
       </g>
     </g>
   </g>
   <g
-     partID="94440"
-     id="g257"
-     transform="translate(-3.0044501,-2.3050725)">
+     partID="103870"
+     id="g1611"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="7.4044499"
-       y1="12.2226"
-       x2="17.864401"
-       y2="12.2226"
+       x1="91.982399"
+       y1="33.7976"
+       x2="72.384903"
+       y2="33.8358"
        stroke-width="1.728"
-       id="line255" />
+       id="line1609" />
+  </g>
+  <g
+     partID="103790"
+     id="g1615"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="93.586197"
+       y1="32.622101"
+       x2="91.9823"
+       y2="33.797798"
+       stroke-width="1.728"
+       id="line1613" />
+  </g>
+  <g
+     partID="107390"
+     id="g1619"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="93.984802"
+       y1="33.84"
+       x2="104.265"
+       y2="33.84"
+       stroke-width="1.728"
+       id="line1617" />
+  </g>
+  <g
+     partID="107510"
+     id="g1623"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="108.385"
+       y1="33.84"
+       x2="111.465"
+       y2="33.84"
+       stroke-width="1.728"
+       id="line1621" />
+  </g>
+  <g
+     partID="110830"
+     id="g1627"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="91.982399"
+       y1="62.588799"
+       x2="91.930397"
+       y2="43.1003"
+       stroke-width="1.728"
+       id="line1625" />
+  </g>
+  <g
+     partID="110600"
+     id="g1631"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="104.265"
+       y1="62.632599"
+       x2="91.9823"
+       y2="62.588501"
+       stroke-width="1.728"
+       id="line1629" />
+  </g>
+  <g
+     partID="111910"
+     id="g1635"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="120.709"
+       y1="62.6712"
+       x2="115.584"
+       y2="62.6488"
+       stroke-width="1.728"
+       id="line1633" />
+  </g>
+  <g
+     partID="111850"
+     id="g1639"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="120.72"
+       y1="67.779999"
+       x2="120.709"
+       y2="62.671398"
+       stroke-width="1.728"
+       id="line1637" />
+  </g>
+  <g
+     partID="112000"
+     id="g1643"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="86.892799"
+       y1="69.839996"
+       x2="89.864799"
+       y2="69.839996"
+       stroke-width="1.728"
+       id="line1641" />
+  </g>
+  <g
+     partID="112280"
+     id="g1647"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="97.244797"
+       y1="5.0275602"
+       x2="79.418404"
+       y2="5.0385699"
+       stroke-width="1.728"
+       id="line1645" />
+  </g>
+  <g
+     partID="112850"
+     id="g1651"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="113.525"
+       y1="28.808001"
+       x2="113.525"
+       y2="31.780001"
+       stroke-width="1.728"
+       id="line1649" />
+  </g>
+  <g
+     partID="94440"
+     id="g1655"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="7.4047999"
+       y1="12.24"
+       x2="17.864799"
+       y2="12.24"
+       stroke-width="1.728"
+       id="line1653" />
   </g>
   <g
      partID="94560"
-     id="g261"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1659"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="17.864401"
-       y1="19.4245"
-       x2="7.4044499"
-       y2="19.4342"
+       x1="17.864799"
+       y1="19.4419"
+       x2="7.4047999"
+       y2="19.451799"
        stroke-width="1.728"
-       id="line259" />
+       id="line1657" />
+  </g>
+  <g
+     partID="111080"
+     id="g1663"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="12.692"
+       y1="19.402399"
+       x2="17.864799"
+       y2="19.429199"
+       stroke-width="1.728"
+       id="line1661" />
   </g>
   <g
      partID="94680"
-     id="g265"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1667"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="19.9244"
-       y1="38.962601"
-       x2="19.9244"
-       y2="21.482599"
+       x1="12.7217"
+       y1="38.98"
+       x2="12.692"
+       y2="19.4025"
        stroke-width="1.728"
-       id="line263" />
+       id="line1665" />
   </g>
   <g
      partID="94780"
-     id="g269"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1671"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="21.9844"
-       y1="19.4226"
-       x2="32.2644"
-       y2="19.4226"
+       x1="21.9848"
+       y1="19.440001"
+       x2="25.0648"
+       y2="19.440001"
        stroke-width="1.728"
-       id="line267" />
+       id="line1669" />
   </g>
   <g
      partID="94860"
-     id="g273"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1675"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="21.9844"
-       y1="12.2226"
-       x2="39.464401"
-       y2="12.2226"
+       x1="21.9848"
+       y1="12.24"
+       x2="39.464802"
+       y2="12.24"
        stroke-width="1.728"
-       id="line271" />
+       id="line1673" />
   </g>
   <g
      partID="95040"
-     id="g277"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1679"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="55.928501"
-       y1="12.1701"
-       x2="55.924801"
-       y2="31.7626"
+       x1="55.928799"
+       y1="12.1872"
+       x2="55.925098"
+       y2="31.7798"
        stroke-width="1.728"
-       id="line275" />
+       id="line1677" />
   </g>
   <g
      partID="94960"
-     id="g281"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1683"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="43.5844"
-       y1="12.2151"
-       x2="55.928501"
-       y2="12.1701"
+       x1="43.584801"
+       y1="12.2325"
+       x2="55.928902"
+       y2="12.1874"
        stroke-width="1.728"
-       id="line279" />
+       id="line1681" />
   </g>
   <g
      partID="95130"
-     id="g285"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1687"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="61.0644"
-       y1="5.0226402"
-       x2="21.9844"
-       y2="5.0226402"
+       x1="61.0648"
+       y1="5.04"
+       x2="21.9848"
+       y2="5.04"
        stroke-width="1.728"
-       id="line283" />
+       id="line1685" />
   </g>
   <g
      partID="95210"
-     id="g289"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1691"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="68.444397"
-       y1="5.0226402"
-       x2="65.184402"
-       y2="5.0226402"
+       x1="68.444801"
+       y1="5.04"
+       x2="65.184799"
+       y2="5.04"
        stroke-width="1.728"
-       id="line287" />
-  </g>
-  <g
-     partID="95270"
-     id="g293"
-     transform="translate(-3.0044501,-2.3050725)">
-    <line
-       stroke-linecap="round"
-       stroke="#f28a00"
-       x1="97.2444"
-       y1="12.2226"
-       x2="79.584396"
-       y2="12.2226"
-       stroke-width="1.728"
-       id="line291" />
+       id="line1689" />
   </g>
   <g
      partID="95390"
-     id="g297"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1695"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="77.528297"
-       y1="10.1626"
-       x2="77.534302"
-       y2="6.9026399"
+       x1="77.526703"
+       y1="17.379999"
+       x2="77.536598"
+       y2="6.9200001"
        stroke-width="1.728"
-       id="line295" />
-  </g>
-  <g
-     partID="95490"
-     id="g301"
-     transform="translate(-3.0044501,-2.3050725)">
-    <line
-       stroke-linecap="round"
-       stroke="#f28a00"
-       x1="89.864403"
-       y1="33.822601"
-       x2="72.384399"
-       y2="33.822601"
-       stroke-width="1.728"
-       id="line299" />
-  </g>
-  <g
-     partID="95610"
-     id="g305"
-     transform="translate(-3.0044501,-2.3050725)">
-    <line
-       stroke-linecap="round"
-       stroke="#f28a00"
-       x1="93.984398"
-       y1="33.822601"
-       x2="104.264"
-       y2="33.822601"
-       stroke-width="1.728"
-       id="line303" />
+       id="line1693" />
   </g>
   <g
      partID="95710"
-     id="g309"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1699"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="113.524"
-       y1="21.590599"
-       x2="113.524"
-       y2="38.854599"
+       x1="120.725"
+       y1="14.408"
+       x2="120.725"
+       y2="38.872002"
        stroke-width="1.728"
-       id="line307" />
+       id="line1697" />
   </g>
   <g
      partID="96250"
-     id="g313"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1703"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="111.356"
-       y1="19.424601"
-       x2="101.004"
-       y2="19.4342"
+       x1="118.557"
+       y1="12.24"
+       x2="101.005"
+       y2="12.24"
        stroke-width="1.728"
-       id="line311" />
+       id="line1701" />
   </g>
   <g
      partID="96590"
-     id="g317"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1707"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="111.356"
-       y1="12.2226"
-       x2="101.004"
-       y2="12.2226"
+       x1="118.557"
+       y1="5.03866"
+       x2="101.005"
+       y2="5.0278301"
        stroke-width="1.728"
-       id="line315" />
+       id="line1705" />
   </g>
   <g
      partID="96710"
-     id="g321"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1711"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="113.575"
-       y1="62.693901"
-       x2="108.384"
-       y2="62.642899"
+       x1="120.773"
+       y1="62.588799"
+       x2="115.585"
+       y2="62.625702"
        stroke-width="1.728"
-       id="line319" />
+       id="line1709" />
   </g>
   <g
      partID="96670"
-     id="g325"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1715"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="113.532"
-       y1="50.390598"
-       x2="113.575"
-       y2="62.693901"
+       x1="120.732"
+       y1="50.408001"
+       x2="120.773"
+       y2="62.588501"
        stroke-width="1.728"
-       id="line323" />
+       id="line1713" />
   </g>
   <g
      partID="96760"
-     id="g329"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1719"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="111.356"
-       y1="41.022598"
-       x2="93.984398"
-       y2="41.022598"
+       x1="118.557"
+       y1="41.040001"
+       x2="93.984802"
+       y2="41.040001"
        stroke-width="1.728"
-       id="line327" />
+       id="line1717" />
   </g>
   <g
      partID="97080"
-     id="g333"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1723"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="32.2644"
-       y1="48.222599"
-       x2="21.9844"
-       y2="48.222599"
+       x1="25.0648"
+       y1="48.240002"
+       x2="14.7848"
+       y2="48.240002"
        stroke-width="1.728"
-       id="line331" />
+       id="line1721" />
   </g>
   <g
      partID="97380"
-     id="g337"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1727"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="19.9244"
-       y1="50.2826"
-       x2="19.9244"
-       y2="60.454601"
+       x1="12.7248"
+       y1="50.299999"
+       x2="12.7248"
+       y2="60.472"
        stroke-width="1.728"
-       id="line335" />
+       id="line1725" />
   </g>
   <g
      partID="97660"
-     id="g341"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1731"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="22.0924"
-       y1="69.822601"
-       x2="46.664398"
-       y2="69.822601"
+       x1="14.8928"
+       y1="69.839996"
+       x2="46.664799"
+       y2="69.839996"
        stroke-width="1.728"
-       id="line339" />
+       id="line1729" />
   </g>
   <g
      partID="97740"
-     id="g345"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1735"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="50.784401"
-       y1="69.822601"
-       x2="61.2444"
-       y2="69.822601"
+       x1="50.784801"
+       y1="69.839996"
+       x2="61.244801"
+       y2="69.839996"
        stroke-width="1.728"
-       id="line343" />
+       id="line1733" />
   </g>
   <g
      partID="97800"
-     id="g349"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1739"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="61.244499"
-       y1="62.612801"
-       x2="57.984402"
-       y2="62.618801"
+       x1="61.244801"
+       y1="62.629902"
+       x2="57.984798"
+       y2="62.635899"
        stroke-width="1.728"
-       id="line347" />
+       id="line1737" />
   </g>
   <g
      partID="97880"
-     id="g353"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1743"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="65.004402"
-       y1="62.612801"
-       x2="68.264503"
-       y2="62.618801"
+       x1="65.004799"
+       y1="62.629902"
+       x2="68.264801"
+       y2="62.635899"
        stroke-width="1.728"
-       id="line351" />
+       id="line1741" />
+  </g>
+  <g
+     partID="102670"
+     id="g1747"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="63.124802"
+       y1="48.240002"
+       x2="63.124802"
+       y2="41.040001"
+       stroke-width="1.728"
+       id="line1745" />
+  </g>
+  <g
+     partID="102460"
+     id="g1751"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="63.124802"
+       y1="41.040001"
+       x2="50.784801"
+       y2="41.040001"
+       stroke-width="1.728"
+       id="line1749" />
   </g>
   <g
      partID="97940"
-     id="g357"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1755"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="75.464401"
-       y1="41.022598"
-       x2="50.784401"
-       y2="41.022598"
+       x1="75.464798"
+       y1="48.240002"
+       x2="63.124802"
+       y2="48.240002"
        stroke-width="1.728"
-       id="line355" />
+       id="line1753" />
+  </g>
+  <g
+     partID="107610"
+     id="g1759"
+     transform="translate(0,-0.0176)">
+    <line
+       stroke-linecap="round"
+       stroke="#f28a00"
+       x1="91.982399"
+       y1="48.192799"
+       x2="79.5849"
+       y2="48.233002"
+       stroke-width="1.728"
+       id="line1757" />
   </g>
   <g
      partID="98200"
-     id="g361"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1763"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="89.864403"
-       y1="41.022598"
-       x2="79.584396"
-       y2="41.022598"
+       x1="91.941399"
+       y1="43.099899"
+       x2="91.9823"
+       y2="48.1931"
        stroke-width="1.728"
-       id="line359" />
+       id="line1761" />
   </g>
   <g
      partID="98440"
-     id="g365"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1767"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="46.664398"
-       y1="41.022598"
-       x2="43.5844"
-       y2="41.022598"
+       x1="46.664799"
+       y1="41.040001"
+       x2="43.584801"
+       y2="41.040001"
        stroke-width="1.728"
-       id="line363" />
+       id="line1765" />
   </g>
   <g
      partID="98860"
-     id="g369"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1771"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="41.461399"
-       y1="48.2267"
-       x2="36.384399"
-       y2="48.223801"
+       x1="41.461601"
+       y1="48.243999"
+       x2="29.1847"
+       y2="48.240501"
        stroke-width="1.728"
-       id="line367" />
+       id="line1769" />
   </g>
   <g
      partID="98660"
-     id="g373"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1775"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="41.506401"
-       y1="43.0826"
-       x2="41.461399"
-       y2="48.2267"
+       x1="41.506802"
+       y1="43.099899"
+       x2="41.4617"
+       y2="48.244099"
        stroke-width="1.728"
-       id="line371" />
+       id="line1773" />
   </g>
   <g
      partID="99070"
-     id="g377"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1779"
+     transform="translate(0,-0.0176)">
     <line
        stroke-linecap="round"
        stroke="#f28a00"
-       x1="68.264397"
-       y1="33.822601"
-       x2="65.184402"
-       y2="33.822601"
+       x1="68.264801"
+       y1="33.84"
+       x2="65.184799"
+       y2="33.84"
        stroke-width="1.728"
-       id="line375" />
+       id="line1777" />
   </g>
   <g
-     partID="57701"
-     id="g389"
-     transform="translate(-3.0044501,-2.3050725)">
+     partID="111191"
+     id="g1791"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(109.42,31.1226)"
-       id="g387">
+       transform="translate(123.425,72.936)"
+       id="g1789">
       <g
-         transform="rotate(90)"
-         id="g385">
+         transform="scale(-1)"
+         id="g1787">
         <g
-           id="g383">
+           id="g1785">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle379"
+             stroke="#ffbf00"
+             id="circle1781"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle381"
+             stroke="#ffbf00"
+             id="circle1783"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="111251"
+     id="g1801"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(79.6848,64.8)"
+       id="g1799">
+      <g
+         id="g1797">
+        <g
+           id="g1795">
+          <circle
+             stroke-width="1.44"
+             cy="5.04"
+             r="2.0880001"
+             id="circle1793"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="112491"
+     id="g1811"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(108.485,21.6)"
+       id="g1809">
+      <g
+         id="g1807">
+        <g
+           id="g1805">
+          <circle
+             stroke-width="1.44"
+             cy="5.04"
+             r="2.0880001"
+             id="circle1803"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="99641"
+     id="g1823"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(109.421,31.14)"
+       id="g1821">
+      <g
+         transform="rotate(90)"
+         id="g1819">
+        <g
+           id="g1817">
+          <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
+          <circle
+             stroke-width="1.44"
+             cy="3.096"
+             r="1.98"
+             stroke="#ffbf00"
+             id="circle1813"
+             fill="none"
+             cx="2.7" />
+          <circle
+             stroke-width="1.44"
+             cy="3.096"
+             r="1.98"
+             stroke="#ffbf00"
+             id="circle1815"
+             fill="none"
+             cx="31.5" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="57701"
+     id="g1835"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(116.621,31.14)"
+       id="g1833">
+      <g
+         transform="rotate(90)"
+         id="g1831">
+        <g
+           id="g1829">
+          <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
+          <circle
+             stroke-width="1.44"
+             cy="3.096"
+             r="1.98"
+             stroke="#ffbf00"
+             id="circle1825"
+             fill="none"
+             cx="2.7" />
+          <circle
+             stroke-width="1.44"
+             cy="3.096"
+             r="1.98"
+             stroke="#ffbf00"
+             id="circle1827"
+             fill="none"
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57731"
-     id="g405"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1851"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(28.1324,1.42264)"
-       id="g403">
+       transform="translate(28.1328,1.44)"
+       id="g1849">
       <g
          transform="rotate(90)"
-         id="g401">
+         id="g1847">
         <g
-           id="g399">
+           id="g1845">
           <g
-             id="g397">
+             id="g1843">
             <circle
                stroke-width="1.44"
-               r="1.98"
-               stroke="#ffbf00"
-               cx="3.5999999"
-               id="circle391"
                cy="8.2080002"
-               fill="none" />
+               r="1.98"
+               id="circle1837"
+               stroke="#ffbf00"
+               fill="none"
+               cx="3.5999999" />
             <circle
                stroke-width="1.44"
-               r="1.98"
-               stroke="#ffbf00"
-               cx="10.8"
-               id="circle393"
                cy="8.2080002"
-               fill="none" />
+               r="1.98"
+               id="circle1839"
+               stroke="#ffbf00"
+               fill="none"
+               cx="10.8" />
             <circle
                stroke-width="1.44"
-               r="1.98"
-               stroke="#ffbf00"
-               cx="18"
-               id="circle395"
                cy="8.2080002"
-               fill="none" />
+               r="1.98"
+               id="circle1841"
+               stroke="#ffbf00"
+               fill="none"
+               cx="18" />
           </g>
         </g>
       </g>
@@ -1205,241 +1597,241 @@
   </g>
   <g
      partID="57761"
-     id="g417"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1863"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(51.8204,38.3226)"
-       id="g415">
+       transform="translate(51.8208,38.34)"
+       id="g1861">
       <g
          transform="rotate(90)"
-         id="g413">
+         id="g1859">
         <g
-           id="g411">
+           id="g1857">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle407"
+             stroke="#ffbf00"
+             id="circle1853"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle409"
+             stroke="#ffbf00"
+             id="circle1855"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57791"
-     id="g429"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1875"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(73.4204,31.1226)"
-       id="g427">
+       transform="translate(73.4208,31.14)"
+       id="g1873">
       <g
          transform="rotate(90)"
-         id="g425">
+         id="g1871">
         <g
-           id="g423">
+           id="g1869">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle419"
+             stroke="#ffbf00"
+             id="circle1865"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle421"
+             stroke="#ffbf00"
+             id="circle1867"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57821"
-     id="g441"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1887"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(52.8284,65.3226)"
-       id="g439">
+       transform="translate(52.8288,65.34)"
+       id="g1885">
       <g
          transform="rotate(-90)"
-         id="g437">
+         id="g1883">
         <g
-           id="g435">
+           id="g1881">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle431"
+             stroke="#ffbf00"
+             id="circle1877"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle433"
+             stroke="#ffbf00"
+             id="circle1879"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57851"
-     id="g453"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1899"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(38.4284,43.7226)"
-       id="g451">
+       transform="translate(38.4288,43.74)"
+       id="g1897">
       <g
          transform="rotate(-90)"
-         id="g449">
+         id="g1895">
         <g
-           id="g447">
+           id="g1893">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle443"
+             stroke="#ffbf00"
+             id="circle1889"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle445"
+             stroke="#ffbf00"
+             id="circle1891"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57881"
-     id="g465"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1911"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(31.2284,50.9226)"
-       id="g463">
+       transform="translate(24.0288,50.94)"
+       id="g1909">
       <g
          transform="rotate(-90)"
-         id="g461">
+         id="g1907">
         <g
-           id="g459">
+           id="g1905">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle455"
+             stroke="#ffbf00"
+             id="circle1901"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle457"
+             stroke="#ffbf00"
+             id="circle1903"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57911"
-     id="g477"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1923"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(66.2204,2.32264)"
-       id="g475">
+       transform="translate(66.2208,2.34)"
+       id="g1921">
       <g
          transform="rotate(90)"
-         id="g473">
+         id="g1919">
         <g
-           id="g471">
+           id="g1917">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle467"
+             stroke="#ffbf00"
+             id="circle1913"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle469"
+             stroke="#ffbf00"
+             id="circle1915"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57941"
-     id="g493"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1939"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(84.3644,44.9826)"
-       id="g491">
+       transform="translate(84.3648,45)"
+       id="g1937">
       <g
          transform="rotate(-90)"
-         id="g489">
+         id="g1935">
         <g
-           id="g487">
+           id="g1933">
           <g
-             id="g485">
+             id="g1931">
             <rect
                stroke-width="1.44"
                height="3.96"
-               stroke="#ffbf00"
-               y="5.5799999"
-               id="rect479"
                x="1.98"
                width="3.96"
+               y="5.5799999"
+               id="rect1925"
+               stroke="#ffbf00"
                fill="none" />
             <circle
                stroke-width="1.44"
-               r="1.98"
-               stroke="#ffbf00"
-               cx="3.96"
-               id="circle481"
                cy="7.5599999"
-               fill="none" />
+               r="1.98"
+               id="circle1927"
+               stroke="#ffbf00"
+               fill="none"
+               cx="3.96" />
             <circle
                stroke-width="1.44"
-               r="1.98"
-               stroke="#ffbf00"
-               cx="11.16"
-               id="circle483"
                cy="7.5599999"
-               fill="none" />
+               r="1.98"
+               id="circle1929"
+               stroke="#ffbf00"
+               fill="none"
+               cx="11.16" />
           </g>
         </g>
       </g>
@@ -1447,107 +1839,107 @@
   </g>
   <g
      partID="57971"
-     id="g505"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1951"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(2.64445,22.316)"
-       id="g503">
+       transform="translate(2.6448,22.3336)"
+       id="g1949">
       <g
          transform="rotate(-90)"
-         id="g501">
+         id="g1947">
         <g
-           id="g499">
+           id="g1945">
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="2.8800001"
-             id="circle495"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1941"
+             stroke="#f7bd13"
+             fill="none"
+             cx="2.8800001" />
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="10.0933"
-             id="circle497"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1943"
+             stroke="#f7bd13"
+             fill="none"
+             cx="10.0933" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="58001"
-     id="g517"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1963"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(66.0044,59.7293)"
-       id="g515">
+       transform="translate(66.0048,59.7464)"
+       id="g1961">
       <g
          transform="rotate(90)"
-         id="g513">
+         id="g1959">
         <g
-           id="g511">
+           id="g1957">
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="2.8800001"
-             id="circle507"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1953"
+             stroke="#f7bd13"
+             fill="none"
+             cx="2.8800001" />
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="10.0933"
-             id="circle509"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1955"
+             stroke="#f7bd13"
+             fill="none"
+             cx="10.0933" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="58031"
-     id="g533"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1979"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(12.3644,52.1826)"
-       id="g531">
+       transform="translate(5.1648,52.2)"
+       id="g1977">
       <g
          transform="rotate(-90)"
-         id="g529">
+         id="g1975">
         <g
-           id="g527">
+           id="g1973">
           <g
-             id="g525">
+             id="g1971">
             <rect
                stroke-width="1.44"
                height="3.96"
-               stroke="#ffbf00"
-               y="5.5799999"
-               id="rect519"
                x="1.98"
                width="3.96"
+               y="5.5799999"
+               id="rect1965"
+               stroke="#ffbf00"
                fill="none" />
             <circle
                stroke-width="1.44"
-               r="1.98"
-               stroke="#ffbf00"
-               cx="3.96"
-               id="circle521"
                cy="7.5599999"
-               fill="none" />
+               r="1.98"
+               id="circle1967"
+               stroke="#ffbf00"
+               fill="none"
+               cx="3.96" />
             <circle
                stroke-width="1.44"
-               r="1.98"
-               stroke="#ffbf00"
-               cx="11.16"
-               id="circle523"
                cy="7.5599999"
-               fill="none" />
+               r="1.98"
+               id="circle1969"
+               stroke="#ffbf00"
+               fill="none"
+               cx="11.16" />
           </g>
         </g>
       </g>
@@ -1555,98 +1947,98 @@
   </g>
   <g
      partID="58061"
-     id="g545"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g1991"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(96.2444,22.316)"
-       id="g543">
+       transform="translate(96.2448,15.12)"
+       id="g1989">
       <g
          transform="rotate(-90)"
-         id="g541">
+         id="g1987">
         <g
-           id="g539">
+           id="g1985">
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="2.8800001"
-             id="circle535"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1981"
+             stroke="#f7bd13"
+             fill="none"
+             cx="2.8800001" />
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="10.0933"
-             id="circle537"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1983"
+             stroke="#f7bd13"
+             fill="none"
+             cx="10.0933" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="58091"
-     id="g557"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2003"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(80.4178,7.90264)"
-       id="g555">
+       transform="translate(80.4184,7.92)"
+       id="g2001">
       <g
          transform="scale(-1)"
-         id="g553">
+         id="g1999">
         <g
-           id="g551">
+           id="g1997">
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="2.8800001"
-             id="circle547"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1993"
+             stroke="#f7bd13"
+             fill="none"
+             cx="2.8800001" />
           <circle
              stroke-width="1.44"
-             r="1.8"
-             stroke="#f7bd13"
-             cx="10.0933"
-             id="circle549"
              cy="2.8800001"
-             fill="none" />
+             r="1.8"
+             id="circle1995"
+             stroke="#f7bd13"
+             fill="none"
+             cx="10.0933" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="58121"
-     id="g571"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2017"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(118.564,53.2626)"
-       id="g569">
+       transform="translate(125.765,53.28)"
+       id="g2015">
       <g
          transform="scale(-1)"
-         id="g567">
+         id="g2013">
         <g
-           id="g565">
+           id="g2011">
           <g
-             id="g563">
+             id="g2009">
             <circle
                stroke-width="1.44"
-               r="2.0880001"
-               stroke="#ffbf00"
-               cx="5.04"
-               id="circle559"
                cy="5.04"
-               fill="none" />
+               r="2.0880001"
+               id="circle2005"
+               stroke="#ffbf00"
+               fill="none"
+               cx="5.04" />
             <circle
                stroke-width="1.44"
-               r="2.0880001"
-               stroke="#ffbf00"
-               cx="5.04"
-               id="circle561"
                cy="12.24"
-               fill="none" />
+               r="2.0880001"
+               id="circle2007"
+               stroke="#ffbf00"
+               fill="none"
+               cx="5.04" />
           </g>
         </g>
       </g>
@@ -1654,653 +2046,887 @@
   </g>
   <g
      partID="59051"
-     id="g583"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2029"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(14.8844,57.5826)"
-       id="g581">
+       transform="translate(7.6848,57.6)"
+       id="g2027">
       <g
-         id="g579">
+         id="g2025">
         <g
-           id="g577">
+           id="g2023">
           <circle
              stroke-width="1.44"
-             r="2.0880001"
-             stroke="#ffbf00"
-             cx="5.04"
-             id="circle573"
              cy="5.04"
-             fill="none" />
+             r="2.0880001"
+             id="circle2019"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
           <circle
              stroke-width="1.44"
-             r="2.0880001"
-             stroke="#ffbf00"
-             cx="5.04"
-             id="circle575"
              cy="12.24"
-             fill="none" />
+             r="2.0880001"
+             id="circle2021"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="61281"
-     id="g595"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2041"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(74.4284,43.7226)"
-       id="g593">
+       transform="translate(74.4288,50.94)"
+       id="g2039">
       <g
          transform="rotate(-90)"
-         id="g591">
+         id="g2037">
         <g
-           id="g589">
+           id="g2035">
           <!-- <rect width="55" x="10" y="15.5" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" />  -->
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="2.7"
-             id="circle585"
+             stroke="#ffbf00"
+             id="circle2031"
              fill="none"
-             cy="3.096" />
+             cx="2.7" />
           <circle
              stroke-width="1.44"
-             stroke="#ffbf00"
+             cy="3.096"
              r="1.98"
-             cx="31.5"
-             id="circle587"
+             stroke="#ffbf00"
+             id="circle2033"
              fill="none"
-             cy="3.096" />
+             cx="31.5" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="62671"
-     id="g607"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2053"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(108.484,7.18264)"
-       id="g605">
+       transform="translate(115.685)"
+       id="g2051">
       <g
-         id="g603">
+         id="g2049">
         <g
-           id="g601">
+           id="g2047">
           <circle
              stroke-width="1.44"
-             r="2.0880001"
-             stroke="#ffbf00"
-             cx="5.04"
-             id="circle597"
              cy="5.04"
-             fill="none" />
+             r="2.0880001"
+             id="circle2043"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
           <circle
              stroke-width="1.44"
-             r="2.0880001"
-             stroke="#ffbf00"
-             cx="5.04"
-             id="circle599"
              cy="12.24"
-             fill="none" />
+             r="2.0880001"
+             id="circle2045"
+             stroke="#ffbf00"
+             fill="none"
+             cx="5.04" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="111192"
+     id="g2072"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(123.425,72.936)"
+       id="g2070">
+      <g
+         transform="scale(-1)"
+         id="g2068">
+        <g
+           id="silkscreen">
+          <line
+             stroke-width="0.72"
+             x1="5.4000001"
+             y1="3.096"
+             x2="10.584"
+             stroke="#ffffff"
+             y2="3.096"
+             id="line2055" />
+          <line
+             stroke-width="0.72"
+             x1="24.983999"
+             y1="3.096"
+             x2="28.799999"
+             stroke="#ffffff"
+             y2="3.096"
+             id="line2057" />
+          <line
+             stroke-width="0.72"
+             x1="10.584"
+             y1="0.72000003"
+             x2="24.983999"
+             stroke="#ffffff"
+             y2="0.72000003"
+             id="line2059" />
+          <line
+             stroke-width="0.72"
+             x1="24.983999"
+             y1="0.72000003"
+             x2="24.983999"
+             stroke="#ffffff"
+             y2="5.4720001"
+             id="line2061" />
+          <line
+             stroke-width="0.72"
+             x1="24.983999"
+             y1="5.4720001"
+             x2="10.584"
+             stroke="#ffffff"
+             y2="5.4720001"
+             id="line2063" />
+          <line
+             stroke-width="0.72"
+             x1="10.584"
+             y1="5.4720001"
+             x2="10.584"
+             stroke="#ffffff"
+             y2="0.72000003"
+             id="line2065" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="111252"
+     id="g2088"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(79.6848,64.8)"
+       id="g2086">
+      <g
+         id="g2084">
+        <line
+           stroke-width="0.72"
+           x1="1.4400001"
+           x2="1.4400001"
+           y1="1.4400001"
+           stroke="#ffffff"
+           y2="8.6400003"
+           id="line2074" />
+        <line
+           stroke-width="0.72"
+           x1="1.4400001"
+           x2="8.6400003"
+           y1="8.6400003"
+           stroke="#ffffff"
+           y2="8.6400003"
+           id="line2076" />
+        <line
+           stroke-width="0.72"
+           x1="8.6400003"
+           x2="8.6400003"
+           y1="8.6400003"
+           stroke="#ffffff"
+           y2="1.4400001"
+           id="line2078" />
+        <line
+           stroke-width="0.72"
+           x1="8.6400003"
+           x2="1.4400001"
+           y1="1.4400001"
+           stroke="#ffffff"
+           y2="1.4400001"
+           id="line2080" />
+        <line
+           stroke-width="0.36"
+           x1="1.4400001"
+           x2="3.96"
+           y1="3.96"
+           stroke="#ffffff"
+           y2="1.4400001"
+           id="line2082" />
+        <!-- 120 -->
+      </g>
+    </g>
+  </g>
+  <g
+     partID="112492"
+     id="g2104"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(108.485,21.6)"
+       id="g2102">
+      <g
+         id="g2100">
+        <line
+           stroke-width="0.72"
+           x1="1.4400001"
+           x2="1.4400001"
+           y1="1.4400001"
+           stroke="#ffffff"
+           y2="8.6400003"
+           id="line2090" />
+        <line
+           stroke-width="0.72"
+           x1="1.4400001"
+           x2="8.6400003"
+           y1="8.6400003"
+           stroke="#ffffff"
+           y2="8.6400003"
+           id="line2092" />
+        <line
+           stroke-width="0.72"
+           x1="8.6400003"
+           x2="8.6400003"
+           y1="8.6400003"
+           stroke="#ffffff"
+           y2="1.4400001"
+           id="line2094" />
+        <line
+           stroke-width="0.72"
+           x1="8.6400003"
+           x2="1.4400001"
+           y1="1.4400001"
+           stroke="#ffffff"
+           y2="1.4400001"
+           id="line2096" />
+        <line
+           stroke-width="0.36"
+           x1="1.4400001"
+           x2="3.96"
+           y1="3.96"
+           stroke="#ffffff"
+           y2="1.4400001"
+           id="line2098" />
+        <!-- 120 -->
+      </g>
+    </g>
+  </g>
+  <g
+     partID="99642"
+     id="g2124"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(109.421,31.14)"
+       id="g2122">
+      <g
+         transform="rotate(90)"
+         id="g2120">
+        <g
+           id="g2118">
+          <line
+             stroke-width="0.72"
+             x1="5.4000001"
+             y1="3.096"
+             x2="10.584"
+             stroke="#ffffff"
+             y2="3.096"
+             id="line2106" />
+          <line
+             stroke-width="0.72"
+             x1="24.983999"
+             y1="3.096"
+             x2="28.799999"
+             stroke="#ffffff"
+             y2="3.096"
+             id="line2108" />
+          <line
+             stroke-width="0.72"
+             x1="10.584"
+             y1="0.72000003"
+             x2="24.983999"
+             stroke="#ffffff"
+             y2="0.72000003"
+             id="line2110" />
+          <line
+             stroke-width="0.72"
+             x1="24.983999"
+             y1="0.72000003"
+             x2="24.983999"
+             stroke="#ffffff"
+             y2="5.4720001"
+             id="line2112" />
+          <line
+             stroke-width="0.72"
+             x1="24.983999"
+             y1="5.4720001"
+             x2="10.584"
+             stroke="#ffffff"
+             y2="5.4720001"
+             id="line2114" />
+          <line
+             stroke-width="0.72"
+             x1="10.584"
+             y1="5.4720001"
+             x2="10.584"
+             stroke="#ffffff"
+             y2="0.72000003"
+             id="line2116" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57702"
-     id="g632"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2144"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(109.42,31.1226)"
-       id="g630">
+       transform="translate(116.621,31.14)"
+       id="g2142">
       <g
          transform="rotate(90)"
-         id="g628">
+         id="g2140">
         <g
-           id="g626">
+           id="g2138">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line614" />
+             id="line2126" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line616" />
+             id="line2128" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line618" />
+             id="line2130" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line620" />
+             id="line2132" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line622" />
+             id="line2134" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line624" />
+             id="line2136" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57732"
-     id="g642"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2162"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(28.1324,1.42264)"
-       id="g640">
+       transform="translate(28.1328,1.44)"
+       id="g2160">
       <g
          transform="rotate(90)"
-         id="g638">
+         id="g2158">
         <g
-           id="g636">
+           id="g2156">
           <line
-             y1="3.5999999"
              stroke-width="0.72"
              x1="5.7600002"
              x2="15.84"
-             stroke="#ffffff"
+             y1="3.5999999"
              id="line7"
+             stroke="#ffffff"
              y2="3.5999999" />
           <path
-             style="opacity:1;fill-rule:nonzero;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
              stroke-width="0.72"
+             style="opacity:1;fill-rule:nonzero;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
              d="M 16.7479,11.2431 A 6.11074,3.79092 0 0 1 4.52687,11.2864"
-             stroke="#ffffff"
              id="path2413"
+             stroke="#ffffff"
              fill-opacity="1"
-             stroke-opacity="1"
-             fill="none" />
+             fill="none"
+             stroke-opacity="1" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57762"
-     id="g662"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2182"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(51.8204,38.3226)"
-       id="g660">
+       transform="translate(51.8208,38.34)"
+       id="g2180">
       <g
          transform="rotate(90)"
-         id="g658">
+         id="g2178">
         <g
-           id="g656">
+           id="g2176">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line644" />
+             id="line2164" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line646" />
+             id="line2166" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line648" />
+             id="line2168" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line650" />
+             id="line2170" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line652" />
+             id="line2172" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line654" />
+             id="line2174" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57792"
-     id="g682"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2202"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(73.4204,31.1226)"
-       id="g680">
+       transform="translate(73.4208,31.14)"
+       id="g2200">
       <g
          transform="rotate(90)"
-         id="g678">
+         id="g2198">
         <g
-           id="g676">
+           id="g2196">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line664" />
+             id="line2184" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line666" />
+             id="line2186" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line668" />
+             id="line2188" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line670" />
+             id="line2190" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line672" />
+             id="line2192" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line674" />
+             id="line2194" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57822"
-     id="g702"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2222"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(52.8284,65.3226)"
-       id="g700">
+       transform="translate(52.8288,65.34)"
+       id="g2220">
       <g
          transform="rotate(-90)"
-         id="g698">
+         id="g2218">
         <g
-           id="g696">
+           id="g2216">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line684" />
+             id="line2204" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line686" />
+             id="line2206" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line688" />
+             id="line2208" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line690" />
+             id="line2210" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line692" />
+             id="line2212" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line694" />
+             id="line2214" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57852"
-     id="g722"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2242"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(38.4284,43.7226)"
-       id="g720">
+       transform="translate(38.4288,43.74)"
+       id="g2240">
       <g
          transform="rotate(-90)"
-         id="g718">
+         id="g2238">
         <g
-           id="g716">
+           id="g2236">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line704" />
+             id="line2224" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line706" />
+             id="line2226" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line708" />
+             id="line2228" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line710" />
+             id="line2230" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line712" />
+             id="line2232" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line714" />
+             id="line2234" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57882"
-     id="g742"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2262"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(31.2284,50.9226)"
-       id="g740">
+       transform="translate(24.0288,50.94)"
+       id="g2260">
       <g
          transform="rotate(-90)"
-         id="g738">
+         id="g2258">
         <g
-           id="g736">
+           id="g2256">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line724" />
+             id="line2244" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line726" />
+             id="line2246" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line728" />
+             id="line2248" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line730" />
+             id="line2250" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line732" />
+             id="line2252" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line734" />
+             id="line2254" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57912"
-     id="g762"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2282"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(66.2204,2.32264)"
-       id="g760">
+       transform="translate(66.2208,2.34)"
+       id="g2280">
       <g
          transform="rotate(90)"
-         id="g758">
+         id="g2278">
         <g
-           id="g756">
+           id="g2276">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line744" />
+             id="line2264" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line746" />
+             id="line2266" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line748" />
+             id="line2268" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line750" />
+             id="line2270" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line752" />
+             id="line2272" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line754" />
+             id="line2274" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57942"
-     id="g775"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2295"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(84.3644,44.9826)"
-       id="g773">
+       transform="translate(84.3648,45)"
+       id="g2293">
       <g
          transform="rotate(-90)"
-         id="g771">
+         id="g2291">
         <g
-           id="g769">
+           id="g2289">
           <circle
              stroke-width="0.72"
-             r="7.1999998"
-             stroke="#ffffff"
-             cx="7.5599999"
-             id="circle7"
              cy="7.5599999"
-             fill="none" />
+             r="7.1999998"
+             id="circle7"
+             stroke="#ffffff"
+             fill="none"
+             cx="7.5599999" />
           <path
              stroke-width="0.792"
              d="M 2.88,3.6 H 5.04"
-             stroke="#ffffff"
              stroke-linecap="round"
+             stroke="#ffffff"
              fill="none"
-             id="path765" />
+             id="path2285" />
           <path
              stroke-width="0.792"
              d="M 2.88,11.52 H 5.04"
-             stroke="#ffffff"
              stroke-linecap="round"
+             stroke="#ffffff"
              fill="none"
-             id="path767" />
+             id="path2287" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57972"
-     id="g789"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2309"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(2.64445,22.316)"
-       id="g787">
+       transform="translate(2.6448,22.3336)"
+       id="g2307">
       <g
          transform="rotate(-90)"
-         id="g785">
+         id="g2305">
         <g
-           id="g783">
+           id="g2303">
           <g
              transform="translate(-1.43333,-1.16)"
-             id="g778">
+             id="g2298">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
-               stroke="#ffffff"
                id="path2830"
-               stroke-opacity="1"
-               fill="none" />
+               stroke="#ffffff"
+               fill="none"
+               stroke-opacity="1" />
           </g>
           <g
              transform="rotate(180,7.1976,3.46)"
-             id="g781">
+             id="g2301">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
-               stroke="#ffffff"
                id="path2830-1"
-               stroke-opacity="1"
-               fill="none" />
+               stroke="#ffffff"
+               fill="none"
+               stroke-opacity="1" />
           </g>
         </g>
       </g>
@@ -2308,39 +2934,39 @@
   </g>
   <g
      partID="58002"
-     id="g805"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2325"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(66.0044,59.7293)"
-       id="g803">
+       transform="translate(66.0048,59.7464)"
+       id="g2323">
       <g
          transform="rotate(90)"
-         id="g801">
+         id="g2321">
         <g
-           id="g799">
+           id="g2319">
           <g
              transform="translate(-1.43333,-1.16)"
-             id="g793">
+             id="g2313">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
+               id="path2311"
                stroke="#ffffff"
-               id="path791"
-               stroke-opacity="1"
-               fill="none" />
+               fill="none"
+               stroke-opacity="1" />
           </g>
           <g
              transform="rotate(180,7.1976,3.46)"
-             id="g797">
+             id="g2317">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
+               id="path2315"
                stroke="#ffffff"
-               id="path795"
-               stroke-opacity="1"
-               fill="none" />
+               fill="none"
+               stroke-opacity="1" />
           </g>
         </g>
       </g>
@@ -2348,77 +2974,77 @@
   </g>
   <g
      partID="58032"
-     id="g819"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2339"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(12.3644,52.1826)"
-       id="g817">
+       transform="translate(5.1648,52.2)"
+       id="g2337">
       <g
          transform="rotate(-90)"
-         id="g815">
+         id="g2335">
         <g
-           id="g813">
+           id="g2333">
           <circle
              stroke-width="0.72"
-             r="7.1999998"
-             stroke="#ffffff"
-             cx="7.5599999"
-             id="circle807"
              cy="7.5599999"
-             fill="none" />
+             r="7.1999998"
+             id="circle2327"
+             stroke="#ffffff"
+             fill="none"
+             cx="7.5599999" />
           <path
              stroke-width="0.792"
              d="M 2.88,3.6 H 5.04"
-             stroke="#ffffff"
              stroke-linecap="round"
+             stroke="#ffffff"
              fill="none"
-             id="path809" />
+             id="path2329" />
           <path
              stroke-width="0.792"
              d="M 2.88,11.52 H 5.04"
-             stroke="#ffffff"
              stroke-linecap="round"
+             stroke="#ffffff"
              fill="none"
-             id="path811" />
+             id="path2331" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="58062"
-     id="g835"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2355"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(96.2444,22.316)"
-       id="g833">
+       transform="translate(96.2448,15.12)"
+       id="g2353">
       <g
          transform="rotate(-90)"
-         id="g831">
+         id="g2351">
         <g
-           id="g829">
+           id="g2349">
           <g
              transform="translate(-1.43333,-1.16)"
-             id="g823">
+             id="g2343">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
+               id="path2341"
                stroke="#ffffff"
-               id="path821"
-               stroke-opacity="1"
-               fill="none" />
+               fill="none"
+               stroke-opacity="1" />
           </g>
           <g
              transform="rotate(180,7.1976,3.46)"
-             id="g827">
+             id="g2347">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
+               id="path2345"
                stroke="#ffffff"
-               id="path825"
-               stroke-opacity="1"
-               fill="none" />
+               fill="none"
+               stroke-opacity="1" />
           </g>
         </g>
       </g>
@@ -2426,39 +3052,39 @@
   </g>
   <g
      partID="58092"
-     id="g851"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2371"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(80.4178,7.90264)"
-       id="g849">
+       transform="translate(80.4184,7.92)"
+       id="g2369">
       <g
          transform="scale(-1)"
-         id="g847">
+         id="g2367">
         <g
-           id="g845">
+           id="g2365">
           <g
              transform="translate(-1.43333,-1.16)"
-             id="g839">
+             id="g2359">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
+               id="path2357"
                stroke="#ffffff"
-               id="path837"
-               stroke-opacity="1"
-               fill="none" />
+               fill="none"
+               stroke-opacity="1" />
           </g>
           <g
              transform="rotate(180,7.1976,3.46)"
-             id="g843">
+             id="g2363">
             <path
-               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                stroke-width="0.576"
+               style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
                d="M 6.65907,2.30036 A 1.84667,1.58 0 0 1 9.16944,2.30182"
+               id="path2361"
                stroke="#ffffff"
-               id="path841"
-               stroke-opacity="1"
-               fill="none" />
+               fill="none"
+               stroke-opacity="1" />
           </g>
         </g>
       </g>
@@ -2466,56 +3092,56 @@
   </g>
   <g
      partID="58122"
-     id="g869"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2389"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(118.564,53.2626)"
-       id="g867">
+       transform="translate(125.765,53.28)"
+       id="g2387">
       <g
          transform="scale(-1)"
-         id="g865">
+         id="g2385">
         <g
-           id="g863">
+           id="g2383">
           <line
-             y1="1.4400001"
              stroke-width="0.72"
              x1="1.4400001"
              x2="1.4400001"
+             y1="1.4400001"
              stroke="#ffffff"
              y2="15.84"
-             id="line853" />
+             id="line2373" />
           <line
-             y1="15.84"
              stroke-width="0.72"
              x1="1.4400001"
              x2="8.6400003"
+             y1="15.84"
              stroke="#ffffff"
              y2="15.84"
-             id="line855" />
+             id="line2375" />
           <line
-             y1="15.84"
              stroke-width="0.72"
              x1="8.6400003"
              x2="8.6400003"
+             y1="15.84"
              stroke="#ffffff"
              y2="1.4400001"
-             id="line857" />
+             id="line2377" />
           <line
-             y1="1.4400001"
              stroke-width="0.72"
              x1="8.6400003"
              x2="1.4400001"
+             y1="1.4400001"
              stroke="#ffffff"
              y2="1.4400001"
-             id="line859" />
+             id="line2379" />
           <line
-             y1="3.96"
              stroke-width="0.36"
              x1="1.4400001"
              x2="3.96"
+             y1="3.96"
              stroke="#ffffff"
              y2="1.4400001"
-             id="line861" />
+             id="line2381" />
           <!-- 120 -->
         </g>
       </g>
@@ -2523,617 +3149,713 @@
   </g>
   <g
      partID="59052"
-     id="g885"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2405"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(14.8844,57.5826)"
-       id="g883">
+       transform="translate(7.6848,57.6)"
+       id="g2403">
       <g
-         id="g881">
+         id="g2401">
         <line
-           y1="1.4400001"
            stroke-width="0.72"
            x1="1.4400001"
            x2="1.4400001"
+           y1="1.4400001"
            stroke="#ffffff"
            y2="15.84"
-           id="line871" />
+           id="line2391" />
         <line
-           y1="15.84"
            stroke-width="0.72"
            x1="1.4400001"
            x2="8.6400003"
+           y1="15.84"
            stroke="#ffffff"
            y2="15.84"
-           id="line873" />
+           id="line2393" />
         <line
-           y1="15.84"
            stroke-width="0.72"
            x1="8.6400003"
            x2="8.6400003"
+           y1="15.84"
            stroke="#ffffff"
            y2="1.4400001"
-           id="line875" />
+           id="line2395" />
         <line
-           y1="1.4400001"
            stroke-width="0.72"
            x1="8.6400003"
            x2="1.4400001"
+           y1="1.4400001"
            stroke="#ffffff"
            y2="1.4400001"
-           id="line877" />
+           id="line2397" />
         <line
-           y1="3.96"
            stroke-width="0.36"
            x1="1.4400001"
            x2="3.96"
+           y1="3.96"
            stroke="#ffffff"
            y2="1.4400001"
-           id="line879" />
+           id="line2399" />
         <!-- 120 -->
       </g>
     </g>
   </g>
   <g
      partID="61282"
-     id="g905"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2425"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(74.4284,43.7226)"
-       id="g903">
+       transform="translate(74.4288,50.94)"
+       id="g2423">
       <g
          transform="rotate(-90)"
-         id="g901">
+         id="g2421">
         <g
-           id="g899">
+           id="g2419">
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="5.4000001"
+             y1="3.096"
              x2="10.584"
              stroke="#ffffff"
              y2="3.096"
-             id="line887" />
+             id="line2407" />
           <line
-             y1="3.096"
              stroke-width="0.72"
              x1="24.983999"
+             y1="3.096"
              x2="28.799999"
              stroke="#ffffff"
              y2="3.096"
-             id="line889" />
+             id="line2409" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="10.584"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line891" />
+             id="line2411" />
           <line
-             y1="0.72000003"
              stroke-width="0.72"
              x1="24.983999"
+             y1="0.72000003"
              x2="24.983999"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line893" />
+             id="line2413" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="24.983999"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="5.4720001"
-             id="line895" />
+             id="line2415" />
           <line
-             y1="5.4720001"
              stroke-width="0.72"
              x1="10.584"
+             y1="5.4720001"
              x2="10.584"
              stroke="#ffffff"
              y2="0.72000003"
-             id="line897" />
+             id="line2417" />
         </g>
       </g>
     </g>
   </g>
   <g
      partID="62672"
-     id="g921"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2441"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(108.484,7.18264)"
-       id="g919">
+       transform="translate(115.685)"
+       id="g2439">
       <g
-         id="g917">
+         id="g2437">
         <line
-           y1="1.4400001"
            stroke-width="0.72"
            x1="1.4400001"
            x2="1.4400001"
+           y1="1.4400001"
            stroke="#ffffff"
            y2="15.84"
-           id="line907" />
+           id="line2427" />
         <line
-           y1="15.84"
            stroke-width="0.72"
            x1="1.4400001"
            x2="8.6400003"
+           y1="15.84"
            stroke="#ffffff"
            y2="15.84"
-           id="line909" />
+           id="line2429" />
         <line
-           y1="15.84"
            stroke-width="0.72"
            x1="8.6400003"
            x2="8.6400003"
+           y1="15.84"
            stroke="#ffffff"
            y2="1.4400001"
-           id="line911" />
+           id="line2431" />
         <line
-           y1="1.4400001"
            stroke-width="0.72"
            x1="8.6400003"
            x2="1.4400001"
+           y1="1.4400001"
            stroke="#ffffff"
            y2="1.4400001"
-           id="line913" />
+           id="line2433" />
         <line
-           y1="3.96"
            stroke-width="0.36"
            x1="1.4400001"
            x2="3.96"
+           y1="3.96"
            stroke="#ffffff"
            y2="1.4400001"
-           id="line915" />
+           id="line2435" />
         <!-- 120 -->
       </g>
     </g>
   </g>
   <g
-     partID="57700"
+     partID="57790"
      id="partLabel"
-     transform="translate(-3.0044501,-2.3050725)">
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(107.898,45.2912)"
-       id="g928">
+       transform="translate(72.1208,45.976)"
+       id="g2448">
       <g
          transform="rotate(90)"
-         id="g926">
+         id="g2446">
         <g
            font-size="5px"
            font-style="normal"
            font-weight="normal"
            fill="#999999"
-           font-family="Geneva"
+           font-family="OCRA"
            id="silkscreenLabel"
            fill-opacity="1"
            stroke="none">
           <text
              x="0"
              y="3.75"
-             id="text923">R1</text>
+             id="text2443">R3</text>
         </g>
       </g>
     </g>
   </g>
   <g
-     partID="57730"
-     id="g937"
-     transform="translate(-3.0044501,-2.3050725)">
+     partID="57700"
+     id="g2459"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(7.0784,2.26601)"
-       id="g935">
-      <g
-         font-size="5px"
-         font-style="normal"
-         font-weight="normal"
-         fill="#999999"
-         font-family="Geneva"
-         id="g933"
-         fill-opacity="1"
-         stroke="none">
-        <text
-           x="0"
-           y="3.75"
-           id="text931">Q1</text>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="57760"
-     id="g947"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(50.5207,52.4912)"
-       id="g945">
+       transform="translate(115.098,45.3088)"
+       id="g2457">
       <g
          transform="rotate(90)"
-         id="g943">
+         id="g2455">
         <g
            font-size="5px"
            font-style="normal"
            font-weight="normal"
            fill="#999999"
-           font-family="Geneva"
-           id="g941"
+           font-family="OCRA"
+           id="g2453"
            fill-opacity="1"
            stroke="none">
           <text
              x="0"
              y="3.75"
-             id="text939">R2</text>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="57790"
-     id="g957"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(72.1207,45.9589)"
-       id="g955">
-      <g
-         transform="rotate(90)"
-         id="g953">
-        <g
-           font-size="5px"
-           font-style="normal"
-           font-weight="normal"
-           fill="#999999"
-           font-family="Geneva"
-           id="g951"
-           fill-opacity="1"
-           stroke="none">
-          <text
-             x="0"
-             y="3.75"
-             id="text949">R3</text>
+             id="text2451">R1</text>
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57820"
-     id="g967"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2469"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(57.725,44.3993)"
-       id="g965">
+       transform="translate(57.7256,44.4168)"
+       id="g2467">
       <g
          transform="rotate(90)"
-         id="g963">
+         id="g2465">
         <g
            font-size="5px"
            font-style="normal"
            font-weight="normal"
            fill="#999999"
-           font-family="Geneva"
-           id="g961"
+           font-family="OCRA"
+           id="g2463"
            fill-opacity="1"
            stroke="none">
           <text
              x="0"
              y="3.75"
-             id="text959">R4</text>
+             id="text2461">R4</text>
         </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="57730"
+     id="g2477"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(7.0784,2.2832)"
+       id="g2475">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2473"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2471">Q1</text>
       </g>
     </g>
   </g>
   <g
      partID="57850"
-     id="g977"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2487"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(43.325,22.7993)"
-       id="g975">
+       transform="translate(43.192,22.8168)"
+       id="g2485">
       <g
          transform="rotate(90)"
-         id="g973">
+         id="g2483">
         <g
            font-size="5px"
            font-style="normal"
            font-weight="normal"
            fill="#999999"
-           font-family="Geneva"
-           id="g971"
+           font-family="OCRA"
+           id="g2481"
            fill-opacity="1"
            stroke="none">
           <text
              x="0"
              y="3.75"
-             id="text969">R5</text>
+             id="text2479">R5</text>
         </g>
       </g>
     </g>
   </g>
   <g
-     partID="57880"
-     id="g987"
-     transform="translate(-3.0044501,-2.3050725)">
+     partID="57760"
+     id="g2497"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(36.125,29.5541)"
-       id="g985">
+       transform="translate(50.5208,52.5088)"
+       id="g2495">
       <g
          transform="rotate(90)"
-         id="g983">
+         id="g2493">
         <g
            font-size="5px"
            font-style="normal"
            font-weight="normal"
            fill="#999999"
-           font-family="Geneva"
-           id="g981"
+           font-family="OCRA"
+           id="g2491"
            fill-opacity="1"
            stroke="none">
           <text
              x="0"
              y="3.75"
-             id="text979">R6</text>
+             id="text2489">R2</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="59050"
+     id="g2505"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(0.5784,68.8224)"
+       id="g2503">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2501"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2499">in</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="58000"
+     id="g2513"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(65.8208,66.6496)"
+       id="g2511">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2509"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2507">C3</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="58030"
+     id="g2521"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(1.8808,33.3512)"
+       id="g2519">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2517"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2515">C6</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="58090"
+     id="g2529"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(68.2456,8.58)"
+       id="g2527">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2525"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2523">C7</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="58060"
+     id="g2537"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(88.7832,7.736)"
+       id="g2535">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2533"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2531">C8</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="58120"
+     id="g2545"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(125.004,37.7936)"
+       id="g2543">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2541"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2539">12V</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="57880"
+     id="g2555"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(28.9256,29.5712)"
+       id="g2553">
+      <g
+         transform="rotate(90)"
+         id="g2551">
+        <g
+           font-size="5px"
+           font-style="normal"
+           font-weight="normal"
+           fill="#999999"
+           font-family="OCRA"
+           id="g2549"
+           fill-opacity="1"
+           stroke="none">
+          <text
+             x="0"
+             y="3.75"
+             id="text2547">R6</text>
         </g>
       </g>
     </g>
   </g>
   <g
      partID="57910"
-     id="g997"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2565"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(65.1433,17.1589)"
-       id="g995">
+       transform="translate(64.744,17.0424)"
+       id="g2563">
       <g
          transform="rotate(90)"
-         id="g993">
+         id="g2561">
         <g
            font-size="5px"
            font-style="normal"
            font-weight="normal"
            fill="#999999"
-           font-family="Geneva"
-           id="g991"
+           font-family="OCRA"
+           id="g2559"
            fill-opacity="1"
            stroke="none">
           <text
              x="0"
              y="3.75"
-             id="text989">R7</text>
+             id="text2557">R7</text>
         </g>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="57940"
-     id="g1005"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(84.1965,45.9424)"
-       id="g1003">
-      <g
-         font-size="5px"
-         font-style="normal"
-         font-weight="normal"
-         fill="#999999"
-         font-family="Geneva"
-         id="g1001"
-         fill-opacity="1"
-         stroke="none">
-        <text
-           x="0"
-           y="3.75"
-           id="text999">C1</text>
       </g>
     </g>
   </g>
   <g
      partID="57970"
-     id="g1013"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2573"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(7.42449,21.3868)"
-       id="g1011">
+       transform="translate(3.0248,22.8704)"
+       id="g2571">
       <g
          font-size="5px"
          font-style="normal"
          font-weight="normal"
          fill="#999999"
-         font-family="Geneva"
-         id="g1009"
+         font-family="OCRA"
+         id="g2569"
          fill-opacity="1"
          stroke="none">
         <text
            x="0"
            y="3.75"
-           id="text1007">C5</text>
+           id="text2567">C5</text>
       </g>
     </g>
   </g>
   <g
-     partID="58000"
-     id="g1021"
-     transform="translate(-3.0044501,-2.3050725)">
+     partID="57940"
+     id="g2581"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(65.8207,66.6322)"
-       id="g1019">
+       transform="translate(84.1968,45.96)"
+       id="g2579">
       <g
          font-size="5px"
          font-style="normal"
          font-weight="normal"
          fill="#999999"
-         font-family="Geneva"
-         id="g1017"
+         font-family="OCRA"
+         id="g2577"
          fill-opacity="1"
          stroke="none">
         <text
            x="0"
            y="3.75"
-           id="text1015">C3</text>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="58030"
-     id="g1029"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(9.08046,33.3335)"
-       id="g1027">
-      <g
-         font-size="5px"
-         font-style="normal"
-         font-weight="normal"
-         fill="#999999"
-         font-family="Geneva"
-         id="g1025"
-         fill-opacity="1"
-         stroke="none">
-        <text
-           x="0"
-           y="3.75"
-           id="text1023">C6</text>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="58060"
-     id="g1037"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(88.783,14.9322)"
-       id="g1035">
-      <g
-         font-size="5px"
-         font-style="normal"
-         font-weight="normal"
-         fill="#999999"
-         font-family="Geneva"
-         id="g1033"
-         fill-opacity="1"
-         stroke="none">
-        <text
-           x="0"
-           y="3.75"
-           id="text1031">C8</text>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="58090"
-     id="g1045"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(80.5118,3.89634)"
-       id="g1043">
-      <g
-         font-size="5px"
-         font-style="normal"
-         font-weight="normal"
-         fill="#999999"
-         font-family="Geneva"
-         id="g1041"
-         fill-opacity="1"
-         stroke="none">
-        <text
-           x="0"
-           y="3.75"
-           id="text1039">C7</text>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="58120"
-     id="g1053"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(117.803,37.776)"
-       id="g1051">
-      <g
-         font-size="5px"
-         font-style="normal"
-         font-weight="normal"
-         fill="#999999"
-         font-family="Geneva"
-         id="g1049"
-         fill-opacity="1"
-         stroke="none">
-        <text
-           x="0"
-           y="3.75"
-           id="text1047">J1</text>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="59050"
-     id="g1061"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(7.77788,68.8047)"
-       id="g1059">
-      <g
-         font-size="5px"
-         font-style="normal"
-         font-weight="normal"
-         fill="#999999"
-         font-family="Geneva"
-         id="g1057"
-         fill-opacity="1"
-         stroke="none">
-        <text
-           x="0"
-           y="3.75"
-           id="text1055">J2</text>
-      </g>
-    </g>
-  </g>
-  <g
-     partID="61280"
-     id="g1071"
-     transform="translate(-3.0044501,-2.3050725)">
-    <g
-       transform="translate(79.1025,22.5767)"
-       id="g1069">
-      <g
-         transform="rotate(90)"
-         id="g1067">
-        <g
-           font-size="5px"
-           font-style="normal"
-           font-weight="normal"
-           fill="#999999"
-           font-family="Geneva"
-           id="g1065"
-           fill-opacity="1"
-           stroke="none">
-          <text
-             x="0"
-             y="3.75"
-             id="text1063">R9</text>
-        </g>
+           id="text2575">C1</text>
       </g>
     </g>
   </g>
   <g
      partID="62670"
-     id="g1079"
-     transform="translate(-3.0044501,-2.3050725)">
+     id="g2589"
+     transform="translate(0,-0.0176)">
     <g
-       transform="translate(118.119,13.8241)"
-       id="g1077">
+       transform="translate(125.32,6.6416)"
+       id="g2587">
       <g
          font-size="5px"
          font-style="normal"
          font-weight="normal"
          fill="#999999"
-         font-family="Geneva"
-         id="g1075"
+         font-family="OCRA"
+         id="g2585"
          fill-opacity="1"
          stroke="none">
         <text
            x="0"
            y="3.75"
-           id="text1073">J3</text>
+           id="text2583">out</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="61280"
+     id="g2599"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(79.1024,29.7944)"
+       id="g2597">
+      <g
+         transform="rotate(90)"
+         id="g2595">
+        <g
+           font-size="5px"
+           font-style="normal"
+           font-weight="normal"
+           fill="#999999"
+           font-family="OCRA"
+           id="g2593"
+           fill-opacity="1"
+           stroke="none">
+          <text
+             x="0"
+             y="3.75"
+             id="text2591">R9</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="99640"
+     id="g2609"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(108.06,43.54)"
+       id="g2607">
+      <g
+         transform="rotate(90)"
+         id="g2605">
+        <g
+           font-size="5px"
+           font-style="normal"
+           font-weight="normal"
+           fill="#999999"
+           font-family="OCRA"
+           id="g2603"
+           fill-opacity="1"
+           stroke="none">
+          <text
+             x="0"
+             y="3.75"
+             id="text2601">R10</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="111190"
+     id="g2617"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(99.9072,68.152)"
+       id="g2615">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2613"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2611">R11</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="111250"
+     id="g2625"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(77.3488,61.8824)"
+       id="g2623">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2621"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2619">LED</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="112490"
+     id="g2633"
+     transform="translate(0,-0.0176)">
+    <g
+       transform="translate(104.031,18.1336)"
+       id="g2631">
+      <g
+         font-size="5px"
+         font-style="normal"
+         font-weight="normal"
+         fill="#999999"
+         font-family="OCRA"
+         id="g2629"
+         fill-opacity="1"
+         stroke="none">
+        <text
+           x="0"
+           y="3.75"
+           id="text2627">9V</text>
       </g>
     </g>
   </g>
