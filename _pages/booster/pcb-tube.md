@@ -22,3 +22,7 @@ There are some problems with this PCB:
 - Only one "filter"-capacitor: we want two, with a selector switch.
 
 We will create our own PCB, and use a separate socket for the tube. The fritzing [sketch](/assets/fritzing/booster/banana.fzz) below depicts the original PCB, as expected, the circuit is exactly like the circuit in the theory section.
+
+![](/assets/images/booster/banana_pcb.svg)
+
+![](/assets/images/booster/banana_schema.svg)
