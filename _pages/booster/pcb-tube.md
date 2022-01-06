@@ -26,3 +26,15 @@ We will create our own PCB, and use a separate socket for the tube. The fritzing
 ![](/assets/images/booster/banana_pcb.svg)
 
 ![](/assets/images/booster/banana_schema.svg)
+
+With the new PCB, we will remove the input and output sockets from the PCB, as well as the tube itself. This will clean up the PCB a lot, so it has a much smaller footprint. But we will need a lot more connections.
+
+The fritzing [sketch](/assets/fritzing/booster/tube.fzz) is the resulting PCB, and this [sketch](/assets/fritzing/booster/tube-routing.fzz) contains the connection routing.
+
+![](/assets/images/booster/tube_pcb.svg)
+
+A 16x12 grid is needed for this PCB (40.64mm x 30.48mm), almost half the size of the original.
+
+![](/assets/images/booster/tube_schema.svg)
+
+![](/assets/images/booster/tube-routing_pcb.svg)
