@@ -27,6 +27,12 @@ The output peaks at a frequency of 2744Hz, or note E7, clearly making this a tre
 
 ![](/assets/images/booster/silicon-2744.svg)
 
+## Input capacitor
+
+Some people prefer the original 4.7nF input capacitor as in the Dallas Rangemaster, others want the use a bit higher value. This will impact the sound: the higher the input capacitor, the more the treble booster will boost also lower frequencies. This is depicted in the frequency response below, using different values for the input capacitor.
+
+![](/assets/images/booster/silicon-caps.svg)
+
 ## 12V Version
 As we are using the 12V DC power from the tube booster, we need to lower the power voltage, or change all the values for the components. The easiest is a voltage divider. We can make resistor \\(R_1\\) as part of a voltage divider. This only needs another resistor to ground between \\(R_1\\) and \\(C_1\\). As we want to achieve a voltage of 9V out of 12V, the same quotient is needed between this new resistor \\(R_{10}\\) and \\(R_1\\), so \\(R_{10} = R_1*\dfrac{9}{12-9} = 300Ω\\).
 
