@@ -40,7 +40,7 @@ I decided not to mirror the internals of the Molly, so I needed to mirror the in
 
 ![](/assets/images/ac5/front-modified.png)
 
-Chickenhead knobs are to be ordered... The original pathfinder used self-tapping knobs, the Molly kit had set-screw pots, so I need to order some new knobs :-(.
+Chickenhead knobs are to be ordered... The original pathfinder used self-tapping knobs, the Molly kit had set-screw pots, so I need to order some new knobs :-(. [These knobs](https://www.banzaimusic.com/Chickenhead-black-standard.html) should fit and are of the same dimensions as the originals.
 
 So the dials are:
 
