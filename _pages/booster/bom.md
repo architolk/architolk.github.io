@@ -77,6 +77,7 @@ The BOM above is from the original Tube booster. We will reuse the TRS sockets, 
 |1|Tube socket|Chasis|
 |1|Tube cage||
 |1|PCB|31x19 holes|
+|3|Knobs|13x17|
 
 (Idea is to solder all components on one large PCB board)
 
