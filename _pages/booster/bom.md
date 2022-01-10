@@ -35,7 +35,7 @@ The table below gives the total BOM of materials
 |1|Resistor 0.5W/1%|120k|
 |1|LED fitting|3mm|
 |1|LED|red, 3mm|
-|1|Alpha pot|47 kOhm log / 16mm|
+|1|Alpha pot|50 kOhm log / 16mm|
 |1|Foot switch|3PDT|
 
 ## Tube booster
@@ -72,7 +72,7 @@ The BOM above is from the original Tube booster. We will reuse the TRS sockets, 
 |No | Item |Size|
 |---|------|----|
 |1|Case Hammond 1590TRPC|151x95x39 mm|
-|1|Selector switch|2PDT|
+|1|Selector switch|DPDT|
 |1|Mica Cap|220pF|
 |1|Tube socket|Chasis|
 |1|Tube cage||
@@ -97,7 +97,7 @@ The BOM above is from the original Tube booster. We will reuse the TRS sockets, 
 |1|Trimpot|100k|
 |1|LED fitting|3mm|
 |1|LED|red, 3mm|
-|1|Alpha pot|68 kOhm log / 16mm|
+|1|Alpha pot|10 kOhm log / 16mm|
 |1|Foot switch|3PDT|
 
 ## Extra's
