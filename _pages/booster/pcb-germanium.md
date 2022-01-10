@@ -6,7 +6,7 @@ permalink: /booster/pcb-germanium
 sidebar:
   nav: "booster"
 
-title: "Silicon PCB"
+title: "Germanium PCB"
 excerpt: "PCB for the germanium booster"
 action: false
 classes: wide

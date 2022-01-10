@@ -20,23 +20,24 @@ The table below gives the total BOM of materials
 |---|------|----|
 |2|Elco|47uF|
 |1|MKT Cap|1nF|
+|2|MKT Cap|4n7F|
 |1|MKT Cap|10nF|
 |1|MKT Cap|47nF|
-|1|MKT Cap|4n7F|
-|3|Connectors|2 pins|
 |1|NPN Tranny|BC549C|
-|1|Resistor 1W/1%|100|
-|1|Resistor 0.5W/1%|220|
+|1|Resistor 0.5W/1%|100|
+|1|Resistor 0.5W/1%|560|
+|1|Resistor 0.5W/1%|620|
+|2|Resistor 0.5W/1%|1k|
 |1|Resistor 0.5W/1%|2.4k|
 |1|Resistor 0.5W/1%|6.8k|
 |1|Resistor 0.5W/1%|22k|
-|1|Resistor 0.5W/1%|47k|
 |1|Resistor 0.5W/1%|100k|
 |1|Resistor 0.5W/1%|120k|
 |1|LED fitting|3mm|
 |1|LED|red, 3mm|
 |1|Alpha pot|50 kOhm log / 16mm|
-|1|Foot switch|3PDT|
+|1|Foot switch|3PDT ON-OFF-ON|
+|1|Selector switch|DPDT ON-OFF-ON|
 
 ## Tube booster
 
@@ -44,7 +45,7 @@ The table below gives the total BOM of materials
 |---|------|----|
 |1 |Tube|12AU7/ECC82|
 |1|Alpha pot|100 kOhm log / 16mm|
-|1|Foot switch|3PDT|
+|1|Foot switch|3PDT ON-OFF-ON|
 |1|Toggle switch|SPST ON-ON|
 |1|Power connector|2.1mm|
 |1|Power travo|12V / 2A|
@@ -72,7 +73,7 @@ The BOM above is from the original Tube booster. We will reuse the TRS sockets, 
 |No | Item |Size|
 |---|------|----|
 |1|Case Hammond 1590TRPC|151x95x39 mm|
-|1|Selector switch|DPDT|
+|1|Selector switch|DPDT ON-OFF-ON|
 |1|Mica Cap|220pF|
 |1|Tube socket|Chasis|
 |1|Tube cage||
@@ -86,13 +87,12 @@ The BOM above is from the original Tube booster. We will reuse the TRS sockets, 
 |No | Item |Size|
 |---|------|----|
 |1|Elco|47uF|
-|1|MKT Cap|5nF|
+|1|MKT Cap|4n7F|
 |1|MKT Cap|10nF|
-|3|Connectors|2 pins|
 |1|NPN Germanium hFE~90|OC140|
-|1|Resistor 0.5W/1%|470|
-|1|Resistor 0.5W/1%|750|
-|1|Resistor 0.5W/1%|2.4k|
+|1|Resistor 0.5W/1%|1k|
+|1|Resistor 0.5W/1%|3.9k|
+|1|Resistor 0.5W/1%|470k|
 |1|Resistor 0.5W/1%|1M|
 |1|Trimpot|100k|
 |1|LED fitting|3mm|
