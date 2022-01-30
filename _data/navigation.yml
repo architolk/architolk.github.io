@@ -161,6 +161,8 @@ booster:
         url: /booster/pcb-germanium
       - title: "PCB Tube"
         url: /booster/pcb-tube
+      - title: "Full board PCB"
+        url: /booster/pcb-board
       - title: "BOM"
         url: /booster/bom
   - title: "Treble booster theory"
