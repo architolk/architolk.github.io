@@ -163,6 +163,8 @@ booster:
         url: /booster/pcb-tube
       - title: "Full board PCB"
         url: /booster/pcb-board
+      - title: "Wiring"
+        url: /booster/wiring
       - title: "BOM"
         url: /booster/bom
   - title: "Treble booster theory"
