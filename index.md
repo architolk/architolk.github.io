@@ -32,6 +32,11 @@ feature_row:
     excerpt: "The onging project to create a treble booster"
     url: "/booster/"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/springreverb.png"
+    title: "Spring reverb"
+    excerpt: "Creating a spring reverb in a box"
+    url: "/springreverb"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}
