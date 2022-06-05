@@ -19,7 +19,7 @@ classes: wide
 - [Fryer Guitars - History of the Brain May Treble boosters](https://fryerguitars.com/history-of-brian-mays-treble-boosters-and-pedalboard-used-with-queen-from-1970-to-around-1986/)
 - [Fryer Guitars - Grand Poohbah Treble Booster](https://fryerguitars.com/pedals-tech/)
 - [Small bear electronics - Breadboarding a Rangemaster](http://diy.smallbearelec.com/HowTos/BreadboardRMs/BreadboardRMs.htm)
-- [Blackstufflabs - Information about the Brian May treble boosters and PCB](https://www.blackstufflabs.com/pcbstore/). The [pdf](https://www.blackstufflabs.com/wp-content/uploads/2020/06/tboostfactory146.pdf) gives a lot of information!
+- [Blackstufflabs - Information about the Brian May treble boosters and PCB](https://www.blackstufflabs.com/tboostfactory/). The [pdf](https://www.blackstufflabs.com/wp-content/uploads/2022/02/TBOOST.pdf) gives a lot of information!
 - [Mark Hennessy - Vintage transistors](https://www.markhennessy.co.uk/articles/vintage_transistors.htm)
 - [Pete Cornish - the Queen years](http://www.petecornish.co.uk/queen.html)
 - [Range master plus](http://pedalparts.co.uk/docs/RangeMasterPlus.pdf), good example and circuit of both a Ge en a Si treble booster in one package
