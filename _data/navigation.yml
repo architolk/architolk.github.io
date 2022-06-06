@@ -195,9 +195,19 @@ booster:
       url: /booster/silicon
     - title: "Tube booster"
       url: /booster/tube
-    - title: "Resources"
-      url: /booster/resources
+  - title: "Resources"
+    url: /booster/resources
 
 springreverb:
   - title: Introduction
     url: /springreverb
+
+mikrophonie:
+  - title: Introduction
+    url: /mikrophonie
+  - title: Theory
+    children:
+    - title: OpAmps
+      url: /mikrophonie/opamps
+  - title: Resources
+    url: /mikrophonie/resources
