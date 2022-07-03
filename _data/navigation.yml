@@ -183,6 +183,8 @@ booster:
       url: /booster/OC140
     - title: "BC549C"
       url: /booster/BC549C
+    - title: "Measuring gain"
+      url: "/booster/hfe"
     - title: "CE Amplifier"
       url: /booster/ce-amplifier
     - title: "Guitar model"
