@@ -65,3 +65,25 @@ This breadboard uses a CBE style NPN transistor, like the BC337. Please note tha
 Measurement is taken with a volt meter over resistor R1, on the breadboard: this is the rightmost resistor. Keep in mind that in this case we probe against \\(V_{cc}\\) and not \\(V_{gnd}\\)!
 
 The procedure to measure the leakage and gain is exactly the same as the procedure for the PNP transistor. But keep in mind to measure against \\(V_{cc}\\), leakage should be close to 0V, not 9V!
+
+## Measurements
+
+Good Germanium transistors are rare. According to the [electrosmash article](https://www.electrosmash.com/dallas-rangemaster), the perfect gain for a rangemaster was between 75 and 100. And as all Germanium transistors inhibit leakage, a reasonable amount of leakage is exceptable, but not to much. According to [this article](http://www.geofex.com/Article_Folders/fuzzface/fftech.htm#Picking%20transistors) "100µA is common, 200µA happens pretty often. More than 300µA means the device is suspicious, and more than 500µA I would say is bad."
+
+This [spreadsheet](/assets/tables/booster/measurements.xlsx) contains some of the measurements I made for the Germanium transistors I currently have available:
+
+|Transistor|Leakage|Gain|Verdict|
+|----------|-------|----|-------|
+|[BC337](https://www.radiomuseum.org/tubes/tube_bc337.html)|0.05µA|147|Silicon, for reference|
+|[AC187](https://www.radiomuseum.org/tubes/tube_ac187.html)|787µA|73|To much leakage|
+|[OC140](https://www.radiomuseum.org/tubes/tube_oc140.html)|278µA|46|Not that much gain, leakage barely ok|
+|[AC127](https://www.radiomuseum.org/tubes/tube_ac127.html)|361µA|160|To much leakage|
+|[D352](https://www.web-bcs.com/transistor/tc/d0/D352.php)|278µA|59|Gain on the low end, leakage barely ok|
+
+The D352 was salvaged from an old Philips radio and should be Ok. What was noticeable with all transistors that they are very temperature sensitive! Higher temperatures als meant more leakage (as demonstrated in this [youtube video](https://www.youtube.com/watch?v=SwnIzUgcOTA)), so it seems important to have them as cool as possible.
+
+## Pinout on germanium transistors
+
+Most TO-1 Germanium transistors follow a pinout pattern in which the pins form a small triangle with the Base pin in the middle, the Emitter to the left and the Collector to the right (as you are looking at the bottom of the transistor). Some (like the OC140) have a red dot close to the Collector pin. [This page](http://beavisaudio.com/techpages/transistorpinouts/) has a nice overview.
+
+![](/assets/images/booster/pinout.svg)

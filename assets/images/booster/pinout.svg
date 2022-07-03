@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="41.251614mm"
+   height="40.5mm"
+   viewBox="0 0 41.251614 40.5"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-19.75,-19.75)">
+    <circle
+       style="fill:#000000;stroke:#ffffff;stroke-width:0.5"
+       id="path239"
+       cx="40"
+       cy="40"
+       r="20" />
+  </g>
+  <circle
+     style="fill:#ffffff;stroke-width:0"
+     id="path164"
+     cx="20"
+     cy="12"
+     r="3" />
+  <circle
+     style="fill:#ffffff;stroke-width:0"
+     id="circle167"
+     cx="30"
+     cy="24"
+     r="3" />
+  <circle
+     style="fill:#ffffff;stroke-width:0"
+     id="circle169"
+     cx="10"
+     cy="24"
+     r="3" />
+  <text
+     xml:space="preserve"
+     style="font-size:4px;font-family:Menlo;fill:#ffffff;stroke-width:0"
+     x="19"
+     y="19"
+     id="text169"><tspan
+       style="stroke-width:0.264583"
+       x="19"
+       y="19"
+       id="tspan221">B</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4px;font-family:Menlo;fill:#ffffff;stroke-width:0"
+     x="9"
+     y="31"
+     id="text372"><tspan
+       style="stroke-width:0.264583"
+       x="9"
+       y="31"
+       id="tspan370">E</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:4px;font-family:Menlo;fill:#ffffff;stroke-width:0"
+     x="29"
+     y="31"
+     id="text376"><tspan
+       style="stroke-width:0.264583"
+       x="29"
+       y="31"
+       id="tspan374">C</tspan></text>
+  <rect
+     style="fill:#ff0000;stroke-width:0.21865"
+     id="rect433"
+     width="5.1126976"
+     height="1.616202"
+     x="-13.284772"
+     y="46.666756"
+     ry="0"
+     transform="rotate(-67)" />
+</svg>
