@@ -60,6 +60,8 @@ On a breadboard, the circuit looks like:
 
 ![](/assets/images/booster/hfe-NPN_bb.svg)
 
+This breadboard uses a CBE style NPN transistor, like the BC337. Please note that other configurations also exist!
+
 Measurement is taken with a volt meter over resistor R1, on the breadboard: this is the rightmost resistor. Keep in mind that in this case we probe against \\(V_{cc}\\) and not \\(V_{gnd}\\)!
 
 The procedure to measure the leakage and gain is exactly the same as the procedure for the PNP transistor. But keep in mind to measure against \\(V_{cc}\\), leakage should be close to 0V, not 9V!
