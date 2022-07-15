@@ -18,6 +18,8 @@ The depicted wiring is between elements in the top of the case, the following co
 
 The GREEN wires are all GND should be connected to the GND of the PCB. The YELLOW wires conduct the signal path from IN to OUT. The RED wires are switch connections and LED connections.
 
+> To be decided: the original Rangemaster en Treble booster had a shunt diode as reverse polarity protection. This is not yet included, but can be easily added between the legs of the power socket.
+
 Every LED will have a 1kΩ resistor between the LED cathode and the footswitch. The LED anode will be connected directly to 12V.
 
 | Nr | Name | Connection |
