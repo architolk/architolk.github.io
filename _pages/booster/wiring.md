@@ -84,3 +84,28 @@ Ground and power connections:
 - Dupon connector [13] to GND power socket;
 - Dupon connector [14] to the 9V output from the PCB;
 - Dupon connector [15] to 12V power socket.
+
+## Dupon connectors
+
+The picture below shows the final routing, with the dupon connectors (two 8-pin connectors, female). The table below gives the pinout:
+
+|Pin|Connection|
+|---|----------|
+|1| 9V (red wire)|
+|2| in Tube|
+|3| kick|
+|4| in Silicon|
+|5| out Tube|
+|6| pin 1 tube socket|
+|7| pin 7 tube socket|
+|8| pin 8 tube socket|
+
+|Pin|Connection|
+|---|----------|
+|1| 12V (red wire)
+|2| in Germanium|
+|3| pin 2 tube socket|
+|4| ground|
+|5| out Germanium|
+|6| out Silicon|
+|7| pin 6 tube socket|
