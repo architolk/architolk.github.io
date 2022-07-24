@@ -109,3 +109,15 @@ The picture below shows the final routing, with the dupon connectors (two 8-pin 
 |5| out Germanium|
 |6| out Silicon|
 |7| pin 6 tube socket|
+
+## High pitch noise problem
+
+The boosters seem to experience a problem: a high pitch noise is emitted from the circuit, which I can't explain.
+
+- The situation doesn't occur with the full bypass (all LED's off);
+- The situation doesn't occur with the Tube booster with the kick enabled;
+- The situation does occur with the Tube booster and the kick disabled;
+- The situation does occur with the Silicon and Germanium transistors
+- The volume of the pots will increase or decrease the amount of noise.
+
+It seems some kind of oscillation within the circuit, probably the PCB. Maybe the input power isn't as clean as one would like!

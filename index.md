@@ -29,7 +29,7 @@ feature_row:
     btn_class: "btn--info"
   - image_path: "assets/thumbs/treblebooster.png"
     title: "Treble booster"
-    excerpt: "The onging project to create a treble booster"
+    excerpt: "The all-in-one treble booster: tube, germanium and silicon all in one box"
     url: "/booster/"
     btn_class: "btn--info"
   - image_path: "assets/thumbs/springreverb.png"

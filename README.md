@@ -21,6 +21,10 @@ This site runs on Jekyll, an opensource static site generating platform.
   ```
   For more information about installing Jekyll, refer to the [Jekyll quickstart guide](https://jekyllrb.com/docs/quickstart/)
 
+- Some problems may occur if the bundler gem file is updated, but the Gemfile.lock still contains a reference to the old version. This can be solved by:
+  ```
+  bundle update --bundler
+  ```
 
 - Install Gem dependencies for the project by running:
   ```
