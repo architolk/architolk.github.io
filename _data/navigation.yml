@@ -139,8 +139,18 @@ ac5:
 vocoder:
   - title: Introduction
     url: /vocoder
+  - title: Build
+    children:
+      - title: "Introduction"
+        url: /vocoder/build
+      - title: "BOM"
+        url: /booster/bom
   - title: Vocoder theory
     children:
+    - title: "Frequency bands"
+      url: /vocoder/frequency-bands
+    - title: "Filter topology"
+      url: /vocoder/filter-topology
     - title: "Resources"
       url: /vocoder/resources
 
