@@ -147,6 +147,8 @@ vocoder:
         url: /booster/bom
   - title: Vocoder theory
     children:
+    - title: "Introduction"
+      url: /vocoder/theory
     - title: "Frequency bands"
       url: /vocoder/frequency-bands
     - title: "Filter topology"
