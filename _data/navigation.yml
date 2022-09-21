@@ -144,7 +144,7 @@ vocoder:
       - title: "Introduction"
         url: /vocoder/build
       - title: "BOM"
-        url: /booster/bom
+        url: /vocoder/bom
   - title: Vocoder theory
     children:
     - title: "Introduction"

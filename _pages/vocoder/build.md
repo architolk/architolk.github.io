@@ -23,3 +23,14 @@ Goal of the project:
 - 1 V/o with a AS3340 or CEM3340 chip?
 - Creating kinda a super saw using a phase-shift
 - XLR microphone and line level input possibility for the program
+
+## components
+
+1. Power supply: already got a AC transformer, use this to rectify to dual +/- 12V power
+2. Buffered input & pre-amp for the program and the carrier (microphone and line input)
+3. Oscillators (white noise, saw tooth 1 V/o)
+4. Main board (to plugin the filters)
+5. Filter banks (14 band pass, 1 high pass, 1 low pass) - twice per bank, including envelope follower and VCA)
+6. Mixer & output control
+7. Patch board
+8. LED display
