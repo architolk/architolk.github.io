@@ -6,8 +6,8 @@ permalink: /vocoder/bom
 sidebar:
   nav: "vocoder"
 
-  title: "Bill of materials"
-  excerpt: "BOM for the vocoder"
+title: "Bill of materials"
+excerpt: "BOM for the vocoder"
 action: false
 classes: wide
 
