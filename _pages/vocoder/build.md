@@ -34,3 +34,16 @@ Goal of the project:
 6. Mixer & output control
 7. Patch board
 8. LED display
+
+## Design
+
+Design is mainly based on the MFOS vocoder:
+- We will use MFB filters, using TL074 OpAmps
+- The VCA will be based on a LM13700, using the Darlington Pair for buffering and a OpAmp / PNP circuit for the voltage-to-current conversion
+- Envelope follower is a typical rectifier with a filter.
+
+As the LM13700 is a dual OTA, we can use one LM13700 for two channels, so all channels are "paired" (two channels per board).
+
+The bus-board will make it possible to add more filters to the bus.
+
+As we are creating a semi-modular, it seems reasonable to look at the Spectravox: why not have the filters behave as a filter bank and not only as part of the Vocoder?
