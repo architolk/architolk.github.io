@@ -31,17 +31,22 @@ The gain of the OTA is controlled by the current that is put into the bias pin. 
 
 ![](/assets/images/vocoder/ota.svg)
 
-The circuit above shows the operation of the OTA as a current controlled amplifier. The differential input for the OTA is made up of the 440Hz 20mV input signal and referenced to ground. The bias signal is a current that goes from 0uA to 200uA at 10Hz to the actual signal is a 440Hz signal modulated over a 10Hz signal, as is visible in the figure below. R1 is the load resistor, converting the output current into an output voltage. Because the input is feed into the inverted input, the output of the OTA is the inversion of the input, as is visible in the figure below (the red sinoid is the input, the green sinoid is the output).
+The circuit above shows the operation of the OTA as a current controlled amplifier. The differential input for the OTA is made up of the 440Hz 20mV input signal and referenced to ground. The bias signal is a current that goes from 0uA to 200uA at 10Hz to the actual signal is a 440Hz signal modulated over a 10Hz signal, as is visible in the figure below. R1 is the load resistor, converting the output current into an output voltage. Because the input is feed into the inverted input, the output of the OTA is the inversion of the input, as is visible in the figure below (the red sinoid is the input, the green sinoid is the output). The output current formula looks like this:
+
+\\[I_{out} = g_m(v_+ - v_-) = \dfrac{I_{abc}}{2V_T}(v_+ - v_-) = (19.2/V)I_{abc}(v_+ - v_-))\\]
+
+\\(V_T = 26mV\\) is the thermal voltage and can also be calculated and will change a bit with the ambient temperature, as is explained in [this video](https://youtu.be/LKqUOvfStU0)). \\(I_{abc}\\) is the amplifier bias current, the current that controls the amplification of the OTA. We need to divide the 19.2 number by 1V, to make the math works, but we can leave that out the make the formula more clean.
 
 ![](/assets/images/vocoder/ota-freq.svg)
 
-## Buffering the output
+## Voltage controlled
 
 The LM13700 includes a Darlington pair we can use to buffer the output. And we don't actually want a current controlled amplifier, but a voltage controlled amplifier. So we need to change the current source into a voltage source and make some circuit that can convert voltage into current. The following circuit is typically used for such a task (see: [LM13700 VCA Design](https://electricdruid.net/design-a-eurorack-vintage-vca-with-the-lm13700/)).
 
 ![](/assets/images/vocoder/v2i.svg)
 
-The current at the collector of the transistor can be aproximated to the current at the emitter when the transistor is in high current gain (Ib<<Ic). This is the case when it is connected to the OTA. But you can't just hook a LED to it: it won't draw enough current, so all current will go the base and not to the collector. When the circuit above is connected to the OTA, we can measure the current at the output with regard to the voltage at the input. As is clearly visible, its a perfectly lineair response.
+The current at the collector of the transistor can be aproximated to the current at the emitter when the transistor is in high current gain (\\(I_b<<I_c\\)). This is the case when it is connected to the OTA. But you can't just hook a LED to it: it won't draw enough current, so all current will go the base and not to the collector. When the circuit above is connected to the OTA, we can measure the current at the output with regard to the voltage at the input. As is clearly visible, its a perfectly lineair response.
+From \\(I_b<<I_c\\), we can assume (\\(I_{out} = I_e ≈ I_c\\), with \\(I_c = \dfrac{V_{in}}{R_1}\\). With \\(V_{in}\\) going from 0V to 5V, this means that \\(I_{out}\\) goes from 0A to 500µA.
 
 ![](/assets/images/vocoder/v2i-freq.svg)
 
