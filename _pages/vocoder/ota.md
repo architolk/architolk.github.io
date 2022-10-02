@@ -44,3 +44,13 @@ The LM13700 includes a Darlington pair we can use to buffer the output. And we d
 The current at the collector of the transistor can be aproximated to the current at the emitter when the transistor is in high current gain (Ib<<Ic). This is the case when it is connected to the OTA. But you can't just hook a LED to it: it won't draw enough current, so all current will go the base and not to the collector. When the circuit above is connected to the OTA, we can measure the current at the output with regard to the voltage at the input. As is clearly visible, its a perfectly lineair response.
 
 ![](/assets/images/vocoder/v2i-freq.svg)
+
+A slightly different approach is taken in the circuit below, which is used in the MFOS vocoder. Instead of altering the inverted input, in this case the non-inverted input is altered. The result is an inverted current output with respect to the voltage input. In this case, the input voltage is always negative.
+
+![](/assets/images/vocoder/v2i-b.svg)
+
+As with the previous version, its not possible to simple hook a LED to the output of this circuit. To do this, we need to raise the voltage at R1. By setting this voltage to 12V, we achieve a working circuit (we won't use this circuit, but just to make it clear that the circuit can be used with LEDs instead of the OTA):
+
+![](/assets/images/vocoder/v2i-c.svg)
+
+The voltage at the emitter will be between 1.5V and 6.5V. We can't go to zero (as the circuit won't work), so some current will always flow into the LED.
