@@ -41,7 +41,7 @@ The circuit above shows the operation of the OTA as a current controlled amplifi
 
 ## Voltage controlled
 
-The LM13700 includes a Darlington pair we can use to buffer the output. And we don't actually want a current controlled amplifier, but a voltage controlled amplifier. So we need to change the current source into a voltage source and make some circuit that can convert voltage into current. The following circuit is typically used for such a task (see: [LM13700 VCA Design](https://electricdruid.net/design-a-eurorack-vintage-vca-with-the-lm13700/)).
+We don't actually want a current controlled amplifier, but a voltage controlled amplifier. So we need to change the current source into a voltage source and make some circuit that can convert voltage into current. The following circuit is typically used for such a task (see: [LM13700 VCA Design](https://electricdruid.net/design-a-eurorack-vintage-vca-with-the-lm13700/)).
 
 ![](/assets/images/vocoder/v2i.svg)
 
@@ -59,3 +59,8 @@ As with the previous version, its not possible to simple hook a LED to the outpu
 ![](/assets/images/vocoder/v2i-c.svg)
 
 The voltage at the emitter will be between 1.5V and 6.5V. We can't go to zero (as the circuit won't work), so some current will always flow into the LED.
+
+## Darlington pair buffer
+The LM13700 includes a Darlington pair we can use to buffer the output. We use this in an emitter follower configuration. In this way, the Darlington pair buffers the output from the OTA from the rest of the circuit. This is important, because the voltage of the output of the OTA fully depends on the impedance at the output, in this case: the 1K resistor. The input of the Darlington has a very high impedence, so we don't have to worry about that. The voltage at the output of the Darlington pair will be two diode drops below the original input voltage, we use a 10nF capacitor to filter out this DC offset.
+
+![](/assets/images/vocoder/ota-opa-dp.svg)
