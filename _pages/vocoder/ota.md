@@ -38,3 +38,9 @@ The circuit above shows the operation of the OTA as a current controlled amplifi
 ## Buffering the output
 
 The LM13700 includes a Darlington pair we can use to buffer the output. And we don't actually want a current controlled amplifier, but a voltage controlled amplifier. So we need to change the current source into a voltage source and make some circuit that can convert voltage into current. The following circuit is typically used for such a task (see: [LM13700 VCA Design](https://electricdruid.net/design-a-eurorack-vintage-vca-with-the-lm13700/)).
+
+![](/assets/images/vocoder/v2i.svg)
+
+The current at the collector of the transistor can be aproximated to the current at the emitter when the transistor is in high current gain (Ib<<Ic). This is the case when it is connected to the OTA. But you can't just hook a LED to it: it won't draw enough current, so all current will go the base and not to the collector. When the circuit above is connected to the OTA, we can measure the current at the output with regard to the voltage at the input. As is clearly visible, its a perfectly lineair response.
+
+![](/assets/images/vocoder/v2i-freq.svg)

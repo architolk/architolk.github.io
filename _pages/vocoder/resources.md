@@ -34,3 +34,4 @@ OTA:
 - [Youtube: Operational Transconductance Amplifier - OTA LM13700 - Simply Put](https://youtu.be/1OmxZ0Qv_FM)
 - [Youtube: Configure Your OTA The Easy Way - Operational Transconductance Amplifier Setup - Simply Put](https://youtu.be/y5QbGqeM7S0)
 - [LM13700 VCA design](https://electricdruid.net/design-a-eurorack-vintage-vca-with-the-lm13700/)
+= [Voltage Controlled Amplifiers: Operational Transconductance Amps](https://youtu.be/96j2tNKFCPI), great lecture part of the [Analog Circuits for Music Synthesis](https://youtu.be/mYk8r3QlNi8) course.
