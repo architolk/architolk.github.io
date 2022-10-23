@@ -29,6 +29,8 @@ classes: wide
 - [Frequency ranges](https://en.wikipedia.org/wiki/Range_(music)): a nice page about the range of human voice and musical instruments
 - [Note vs frequency calculations](https://www.translatorscafe.com/unit-converter/en-US/calculator/note-frequency/): calculates the note vs frequency
 - [Active low-pass filter design](https://www.ti.com/lit/an/sloa049b/sloa049b.pdf): elaborate explanation of active low-pass filter design
+- [MFOS Envelope follower](http://musicfromouterspace.com/analogsynth_new/ULTIMATE_EXPANDER/ultexpanderpg2.html#SCHEMPAGE8)
+- [Envelope followers](https://modwiggler.com/forum/viewtopic.php?t=96772): a lot of envelope follower circuits at the Modwiggler forum
 
 OTA:
 - [Youtube: Operational Transconductance Amplifier - OTA LM13700 - Simply Put](https://youtu.be/1OmxZ0Qv_FM)
