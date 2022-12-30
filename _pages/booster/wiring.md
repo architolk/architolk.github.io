@@ -121,3 +121,12 @@ The boosters seem to experience a problem: a high pitch noise is emitted from th
 - The volume of the pots will increase or decrease the amount of noise.
 
 It seems some kind of oscillation within the circuit, probably the PCB. Maybe the input power isn't as clean as one would like!
+
+*The story continues...*
+
+- Removed the three resistors that form the resistor divider to deliver 9V
+- Tested a 7809 circuit on the breadboard, using the 9V output as input => Problem fixed
+- Put the 7809 circuit onto the PCB => Problem reoccurs...
+
+It seems that the layout of the PCB creates the oscillation. So the solution is not easy...
+Or maybe the 12V part of the circuit messes up the 9V part (in the breadboard situation, this part was turned of...)
