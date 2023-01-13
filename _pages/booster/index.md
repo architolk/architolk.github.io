@@ -32,5 +32,7 @@ Three switches can be used to tweak the sound:
 - The rightmost switch toggles between the setting the Tube booster to and actual Treble booster or an Overdrive pedal.
 
 The switches at the side of the booster can be used to turn of the Tube and Germanium boosters:
-- The Tube switch turns of the heater (so no power will be lost to the heater);
-- The Germanium switch turns of the power to the transistor (essentially the same as turning down the volume to zero).
+- The Tube switch turns of the tube circuit (both the heater and the circuit itself, so no power will be lost to the heater);
+- The other switch turns of the power to the transistor circuits (both Germanium and Silicon).
+
+Currently, if both switches are in the on, the booster will unfortunately produce a high pitch noise. This noise is not present when only one of the switches is on. When both switches are off, no power will go to the circuits.
