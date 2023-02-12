@@ -143,6 +143,10 @@ vocoder:
     children:
       - title: "Introduction"
         url: /vocoder/build
+      - title: "Design"
+        url: /vocoder/design
+      - title: "Case"
+        url: /vocoder/case
       - title: "BOM"
         url: /vocoder/bom
       - title: "PSU"
