@@ -29,9 +29,11 @@ The following control elements are needed for the operation of the vocoder:
 2. Hiss selection switch *(SS-NOISE)*;
 3. 16 sliders for the VCA level (per channel) *(FC)*;
 4. VCO output jack *(SS-VCO)*;
-5. Carrier external input jack *(SS-NOISE)*;
+5. Carrier external input jack *(SSI)*;
 6. 16 VCA level input jacks *(FC)*;
-7. Final output jack *(FC)*.
+7. Odd channels output sum jack *(FC)*.
+8. Even channels output sum jack *(FC)*.
+9. Final output jack *(FC)*.
 
 ### VCO Section
 
@@ -46,17 +48,16 @@ The LFO signal is send to a LED to have a visual indication of the actual LFO fr
 The following control elements are needed for the operation of the VCO:
 1. LFO Rate jack *(SS-LFO)*;
 2. LFO Rate knob *(SS-LFO)*;
-3. LFO Modulation amount jack *(SS-LFO)*;
-4. LFO Modulation amound knob *(SS-LFO)*;
-5. LFO Waveform selector *(SS-LFO)*;
-6. LFO Output jack *(SS-LFO)*;
-7. VCO 1v/o input jack *(SS-VCO)*;
-8. VCO frequency knob *(SS-VCO)*;
-9. VCO PWM input jack *(SS-VCO)*;
-10. VCO Waveform selector *(SS-VCO)*;
-11. VCO FM input jack *(SS-VCO)*;
-12. Supersaw WET/DRY mix *(SS-VCO)*;
-13. Supersaw input jack *(SS-VCO)*.
+3. LFO Modulation amound knob *(SS-LFO)*;
+4. LFO Waveform selector *(SS-LFO)*;
+5. LFO Output jack *(SS-LFO)*;
+6. VCO 1v/o input jack *(SS-VCO)*;
+7. VCO frequency knob *(SS-VCO)*;
+8. VCO PWM input jack *(SS-VCO)*;
+9. VCO Waveform selector *(SS-VCO)*;
+10. VCO FM input jack *(SS-VCO)*;
+11. Supersaw WET/DRY mix *(SS-VCO)*;
+12. Supersaw input jack *(SS-VCO)*.
 
 (VCO output jack is already mentioned above)
 

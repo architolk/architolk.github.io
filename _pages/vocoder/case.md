@@ -50,19 +50,18 @@ The sound source input is a single input jack:
 
 ### SS-LFO Sound source, LFO
 
-The LFO section consists of two input jacks, two knobs, one output jack and one selector dial:
+The LFO section consists of one input jacks, two knobs, one output jack and one selector dial:
 
 - LFO RATE: LFO Frequency knob and jack;
-- LFO AMT: LFO Modulation amount knob and jack;
+- LFO AMT: LFO Modulation amount knob;
 - LFO SHAPE: LFO Waveform selector;
 - LFO: The LFO Signal output jack.
 
 ### SS-NOISE Sound source, noice
 
-The NOISE section consists of a input jack, a knob and a switch:
+The NOISE section consists of a knob and a switch:
 
-- MIX: Mix knob between VCO and the NOISE or External input;
-- CARRIER: External source input jack used instead of the NOISE source;
+- MIX: Mix knob between VCO and the NOISE or Carrier input;
 - HISS: switch to turn on the routing of noise to channels 15 and 16 of the carrier filter bank.
 
 ### SS-VCO Sound source, oscillator
@@ -93,6 +92,6 @@ The filter bank control section consists of 32 output jacks, 16 input jacks and 
 - PROG: 16 envelope follower output jacks;
 - LEVEL: 16 sliders to control the VCA output level per channel;
 - VCA: 16 input jacks to the VCA CV;
+- ODD: The mix of all odd VCA output levels;
+- EVEN: The mix of all even VCA output levels;
 - OUTPUT: The final output, mix of all VCA output levels.
-
-(Maybe an option: ODD en EVEN outputs, and a final output?)
