@@ -31,6 +31,7 @@ the supersaw effect
 - [MFOS Envelope follower](http://musicfromouterspace.com/analogsynth_new/ULTIMATE_EXPANDER/ultexpanderpg2.html#SCHEMPAGE8)
 - [Envelope followers](https://modwiggler.com/forum/viewtopic.php?t=96772): a lot of envelope follower circuits at the Modwiggler forum
 - [Voltage control modifications (from knob to CV)](https://northcoastsynthesis.com/news/voltage-control-modifications/)
+- [Simple AD/AR using a TLC555](https://www.eddybergman.com/2020/02/synthesizer-extras-no-01-adar-using-7555.html)
 
 Supersaw:
 - [Saw tooth animator](https://learningmodular.com/second-oscillator-or-waveform-animator/), voor het verkrijgen van een "super-saw" effect. Dit kan weer handig zijn als een soort van interne oscillator in de vocoder.
