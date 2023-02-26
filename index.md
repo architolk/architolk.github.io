@@ -37,6 +37,11 @@ feature_row:
     excerpt: "Creating a spring reverb in a box"
     url: "/springreverb"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/mikrophonie.png"
+    title: "Mikrophonie"
+    excerpt: "The ongoing project to create a noise box"
+    url: "/mikrophonie"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}
