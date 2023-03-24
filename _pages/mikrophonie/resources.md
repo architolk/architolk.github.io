@@ -32,3 +32,4 @@ classes: wide
 - [High Quality Audio Preamp](https://sound-au.com/project88.htm)
 - [OpAmp shootout](https://www.cycfi.com/projects/six-pack/op-amp-shootout/)
 - [OpAmp info](https://www.eetimes.com/op-amps-in-small-signal-audio-design-part-1-op-amp-history-properties/)
+- [Notes on audio OpAmps](https://tangentsoft.com/audio/opamps.html)

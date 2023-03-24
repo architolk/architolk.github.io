@@ -37,3 +37,5 @@ De OPA134 is op voorraad bij Banzai, de OPA2134 weer niet...
 AC omvormer is hier te krijgen:
 https://www.allekabels.nl/adapteromvormer/528/1064808/universele-ac-ac-adapter-15-volt.html?gclid=EAIaIQobChMI1dvp4NiY-AIVh4bVCh2mhwuLEAMYASAAEgI7yvD_BwE
 ... maar vreemd genoeg kan ik dergelijke dingen nergens anders vinden?
+
+Kijken naar de LM4562 en hoe zit t met de OPA1612?

@@ -47,3 +47,25 @@ Not mentioned:
 - Octave selection => Also 100k lin -> Strange???
 
 Interessant is om voor de Osc gebruik te maken van een dual concentric pot -> Dan kun je beiden bedienen vanuit 1 plek!
+
+# IC's
+
+|Count|Function|Type|Remark|
+|-----|--------|----|------|
+|4|VCA|AS3364|Quad VCA, so we need 4|
+|16|VCF|AS3350|Dual VCF, so we need 16 - each IC for one channel|
+|1|VCO|AS3340||
+|1|CMOS Timer|NE7555, TLC555CP|CMOS version of the 555|
+
+# Knobs
+
+|Count|Function|Colour|
+|-----|--------|------|
+|2|Dual knob|Gray|
+|3|Single knob|Blue|
+|8|Single knob|Red|
+
+Knob colours correspond to function:
+- Gray = frequency;
+- Blue = (direct) sound level;
+- Red = CV.
