@@ -25,6 +25,7 @@ This site runs on Jekyll, an opensource static site generating platform.
   ```
   bundle update --bundler
   ```
+  Sometimes other gem packages also need to be updated: see the Gemfile for possible updates (like: `bundle update github-pages`).
 
 - Install Gem dependencies for the project by running:
   ```
