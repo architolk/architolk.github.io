@@ -42,6 +42,11 @@ feature_row:
     excerpt: "The ongoing project to create a noise box"
     url: "/mikrophonie"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/the-internet.png"
+    title: "The Internet"
+    excerpt: "The onging project tot create THE INTERNET"
+    url: "/the-internet"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}

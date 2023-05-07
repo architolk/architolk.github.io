@@ -233,3 +233,13 @@ mikrophonie:
       url: /mikrophonie/opamps
   - title: Resources
     url: /mikrophonie/resources
+
+the-internet:
+  - title: Introduction
+    url: /the-internet
+  - title: "Theory"
+    children:
+    - title: "MOSFET Transistor"
+      url: /the-internet/mosfet
+    - title: "High & low side switching"
+      url: /the-internet/switching
