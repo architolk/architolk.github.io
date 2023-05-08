@@ -23,6 +23,6 @@ Two different type of MOSFET transistors exist: P-Channel transistors and N-Chan
 
 While BJT transistors are current-operating devices, MOSFETS are (like tubes) voltage-operating devices. Mosfets can be used as amplifiers in quite the same way as tubes. They are also excellent switches, as they have an extremely high OFF resistance and a low OFF resistance (so only a small amount of power is lost while in the ON position, so these transistors can be used to switch a large load).
 
-When the voltage at the gate of a P-Channel mosfet is lower than a certain threshold, the mosfet will conduct current from source to drain. So \\(V_{gs}<V_t\\). A typical value for \\(V_t = -4V\\). Mark that the values are negative, as the voltage is references gate-to-source.
+When the voltage at the gate of a P-Channel mosfet is lower than a certain threshold with respect to the source, the mosfet will conduct current from source to drain. So \\(V_{gs}<V_t\\). A typical value for \\(V_t = -4V\\). Mark that the values are negative, as the voltage is references gate-to-source.
 
-When the voltage at the gate of a N-Channel mosfets is highter than a certain threshold, the mosfet will conduct current from drain to source. So \\(V_{gs}>V_t\\). A typical value for \\(V_t = 4V\\). Logical-level N-Channel mosfets exists that have \\(V_t = 2V\\), making them particularly useful for using with 5V and 3.3V logic.
+When the voltage at the gate of a N-Channel mosfets is highter than a certain threshold with respect to the source, the mosfet will conduct current from drain to source. So \\(V_{gs}>V_t\\). A typical value for \\(V_t = 4V\\). Logical-level N-Channel mosfets exists that have \\(V_t = 2V\\), making them particularly useful for using with 5V and 3.3V logic.
