@@ -25,10 +25,17 @@ PNP and P-Channel transistors are used for high-side switching, NPN and N-Channe
 The advantage of high-side switching is that ground is really ground. Using low side switching, the transistor is between the load and the actual ground. As there is always some voltage drop over the transistor, the actual ground perceived by the load is not the same as the actual ground.
 
 # Low side switching
-As the transistor will turn on when the control voltage is at 5V, a logic TRUE is equivalent to 5V and a logic FALSE is equivalent to 0V. Using a IRF510 mosfet, the gate voltage should be above 4V. We can't use a 3.3V controller. For such a situation, we need for example a IRLZ34.
+As the transistor will turn on when the control voltage is at 5V, a logic TRUE is equivalent to 5V and a logic FALSE is equivalent to 0V. Using a IRF510 mosfet, the gate voltage should be above 4V. We can't use a 3.3V controller. For such a situation, we need for example a IRLZ34. Mark that the IRF510 is not turned on fully in this situation, the treshold of 4V only means that the transistor is not OFF any more, but also not completely ON. Looking at the datasheet, it can deliver around 1A at 5V, but the full amount of 11A is only reached when the gate voltage is at 10V.
 
 {% include svgfix file="/assets/images/the-internet/switch-npn.svg" width="500px" %}
+
+The \\(h_{FE}\\) of a BC547 is at least 100 (probably much more). The current over \\(R_{load}\\) equals \\(I_c = \dfrac{5V}{220Ω} = 23mA\\). As \\(I_c >> I_b\\) we can approximate \\(I_e ≈ I_c\\) This means that the current between base and emitter should be at least: \\(I_b = \dfrac{23mA}{100} = 0.23mA\\), which makes \\(R_b < \dfrac{5V}{0.23mA}=21.7kΩ\\).
+
+The maximum amount an Arduino or ESP32 pin can handle is 20mA, so we're far below that amount. But we should not get close to that figure, as we would wast a lot of energy and the BC547 cannot amplify that much current. A BC547 can handle is 500mA collector-emitter, so we always need to have \\(I_b<5mA\\), which gives \\(R_b > 1kΩ\\) at 5V.
+
 {% include svgfix file="/assets/images/the-internet/switch-nmos.svg" width="500px" %}
+
+We need a pull-down resistor at the gate of the transistor, to make sure that the voltage of the gate is not floating, but actually at ground when no control signal is applied (if an internal pull-down resistor is available in the controller, we could use that one, but such pull-down resistors are not always set at start-up, which might lead to strange start-up situations). The gate-resistor is needed to control the inrush current to the gate. When a voltage is applied to the gate, the gate acts as a capacitor for a brief amount of time, creating a large inrush current. This can be a problem if the gate is turned on and off fast. The gate resistor corrects this behaviour, but will result in a (slightly) longer time between the transistor switching.
 
 # High side switching (common power rail)
 As the transistor will turn on when the control voltage is at 0V, a logic TRUE is equivalent to 0V and a logic FALSE is equivalent to 5V. Using a IRFP9240 mosfet, the gate voltage should be above 4V. We can't use a 3.3V controller. Not many P-channel logic-level mosfets exist (at least not through hole). For such a situation, we need to use an extra NPN transistor.
