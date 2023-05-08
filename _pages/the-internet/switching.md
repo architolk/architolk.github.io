@@ -54,3 +54,5 @@ In this case we need a pull-up resistor (\\(R_{pu}\\)) at the gate of the transi
 When the power rail of the load has a higher voltage than the power rail of the controller, we need to use a combination of a NPN/N-channel transistor and a PNP/P-channel transistor. The PNP/P-channel transistor will do the high side switching, the NPN/N-channel transistor will actually switch the switch.
 
 {% include svgfix file="/assets/images/the-internet/switch-npn-pmos.svg" width="700px" %}
+
+This circuit is the combination of the two circuits above. The calculations are pretty much the same. We could have a larger \\(R_g\\), as the current at the gate is now depends on the maximum current for the BJT transistor (around 100 mA) and not the controller itself.
