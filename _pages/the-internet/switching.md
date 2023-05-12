@@ -25,7 +25,7 @@ PNP and P-Channel transistors are used for high-side switching, NPN and N-Channe
 The advantage of high-side switching is that ground is really ground. Using low side switching, the transistor is between the load and the actual ground. As there is always some voltage drop over the transistor, the actual ground perceived by the load is not the same as the actual ground.
 
 # Low side switching
-As the transistor will turn on when the control voltage is at 5V, a logic TRUE is equivalent to 5V and a logic FALSE is equivalent to 0V. Using a IRF510 mosfet, the gate voltage should be above 4V. We can't use a 3.3V controller. For such a situation, we need for example a IRLZ34. Mark that the IRF510 is not turned on fully in this situation, the treshold of 4V only means that the transistor is not OFF any more, but also not completely ON. Looking at the [datasheet](https://www.irf.com/product-info/datasheets/data/irf510.pdf), it can deliver around 600mA at 5V, but the transistor is only fully "on" when the gate voltage is at 10V.
+As the transistor will turn on when the control voltage is at 5V, a logic TRUE is equivalent to 5V and a logic FALSE is equivalent to 0V. Using a IRF510 mosfet, the gate voltage should be above 4V. We can't use a 3.3V controller. For such a situation, we need for example a IRLZ34. Mark that the IRF510 is not turned on fully in this situation, the treshold of 4V only means that the transistor is not OFF any more, but also not completely ON. Looking at the [datasheet](https://www.irf.com/product-info/datasheets/data/irf510.pdf), it can deliver around 1A at 5V, but the transistor is only fully "on" when the gate voltage is at 10V.
 
 {% include svgfix file="/assets/images/the-internet/switch-npn.svg" width="500px" %}
 

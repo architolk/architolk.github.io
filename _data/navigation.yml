@@ -243,3 +243,5 @@ the-internet:
       url: /the-internet/mosfet
     - title: "High & low side switching"
       url: /the-internet/switching
+    - title: "Latching switch"
+      url: /the-internet/latching
