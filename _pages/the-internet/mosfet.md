@@ -39,14 +39,14 @@ The circuit below can be used to analyse the behaviour of the IRF510.
 
 {% include svgtrim file="/assets/images/the-internet/nmos-imax.svg" width="500px" %}
 
-According to these results at 5V, the maximum current is \\(I_d=903mA\\), the resistance of the transistor is \\(R_{ds(on)}=5.5Ω\\) and the power dissipation is \\(P_{ds}=4W\\). Not good! Looking at the datasheet, it states that the resistance can be as low as \\(R_{ds(on)}=0.54Ω\\).
+According to these results at 5V, the maximum current is \\(I_d=903mA\\), the resistance of the transistor is \\(R_{ds(on)}=5.5Ω\\) and the power dissipation is \\(P_{ds}=4.5W\\). Not good! Looking at the datasheet, it states that the resistance can be as low as \\(R_{ds(on)}=0.54Ω\\).
 
-If we use the same current at \\(V_g=10V\\), the transistor performs a lot better, with \\(R{ds(on)}=0.38Ω\\) and a power dissipation of \\(P_{ds}=0.28W\\) (this is actually lower than the datasheet, which is probably due to the spice model of the IRF510).
+If we use the same current at \\(V_g=10V\\), the transistor performs a lot better, with \\(R{ds(on)}=0.38Ω\\) and a power dissipation of \\(P_{ds}=0.31W\\) (this is actually lower than the datasheet, which is probably due to the spice model of the IRF510).
 
 Let's see what happens if we would use this mosfet at 500mA. The figure below gives the results.
 
 {% include svgtrim file="/assets/images/the-internet/nmos-500mA.svg" width="500px" %}
 
-As is visible, 500mA is about the maximum the mosfet can switch at 5V. The resistance of the mosfet is 1.06Ω, creating a voltage drop of \\(V_{ds}=0.59V\\). The power dissipation is \\(P_{ds}=0.18W\\). With this voltage drop, the actual voltage that the load perceives is not 5V, but actually 4.41V, which could be a problem.
+As is visible, 500mA is about the maximum the mosfet can switch at 5V. The resistance of the mosfet is 1.04Ω, creating a voltage drop of \\(V_{ds}=0.52V\\). The power dissipation is \\(P_{ds}=0.26W\\). With this voltage drop, the actual voltage that the load perceives is not 5V, but actually 4.48V, which could be a problem.
 
 Probably a much bigger problem, is that if the load is a some IC that is connected to something that is the actual ground, the "real" ground has a negative voltage with respect to the voltage at the drain of the transistor (the "perceived" ground). This is the reason that in such cases, a P-Channel mosfet is preferred, see [high & low side switching](switching.md)
