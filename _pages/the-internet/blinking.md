@@ -29,7 +29,7 @@ Resistors R2 and R3 in combination with capacitors C1 and C2 dictate the frequen
 
 From this formula we find that the capacitor is discharged halve the supply voltage when:
 
-\\[\dfrac{1}{2} = e^{ln(0.5)} = e^{(\dfrac{ln(0.5)RC}{RC})} = e^{(-\dfrac{-0.69RC}{RC})} = e^{(-\dfrac{t}{RC})}\\]
+\\[\dfrac{1}{2} = e^{ln(0.5)} = e^{-ln(2)} = e^{(-\dfrac{ln(2)RC}{RC})} = e^{(-\dfrac{0.69RC}{RC})} = e^{(-\dfrac{t}{RC})}\\]
 
 So we now know how we can calculate t! As the total period is the sum of the ON-period and the OFF-periode, we get:
 
@@ -45,9 +45,9 @@ To make the transistor to turn OFF, the voltage at output1 should at least reach
 
 \\[V_{output1} = V_{cc} * (1 - e^{(-\dfrac{t}{R_1C_1})})\\]
 
-The maximum that \\(V_{output1}}\\) can be, is just before the transistor is switched off. This is the value of t. We know this value as \\(T_1 = -ln(0.5)R_2C_1)\\), so we can substitute this in the equation above:
+The maximum that \\(V_{output1}\\) can be, is just before the transistor is switched off. This is the value of t. We know this value as \\(T_1 = ln(2)R_2C_1)\\), so we can substitute this in the equation above:
 
-\\[V_{output1} = V_{cc} * (1 - e^{(-\dfrac{-ln(0.5)R_2C_1}{R_1C_1})}) = V_{cc} * (1 - e^{(-\dfrac{-ln(0.5)R_2}{R_1})}) = V_{cc} * (1 - 0.5^{\dfrac{R_2}{R_1}})\\]
+\\[V_{output1} = V_{cc} * (1 - e^{(-\dfrac{ln(2)R_2C_1}{R_1C_1})}) = V_{cc} * (1 - e^{(-\dfrac{ln(2)R_2}{R_1})}) = V_{cc} * (1 - 2^{(-\dfrac{R_2}{R_1})})\\]
 
 We can expect that the pulse width is the quotient between the maximum of output1 and output2. When R1 and R4 are small enough with respect to R2 and R3, this is not a problem (as the output voltages will both be close to 5V). If both are quite large, this results in a slow whoop of the LED (turning them both on and off slowly). But if one is large, and the other one is small, this will result in an uneven pulse width.
 
@@ -68,3 +68,11 @@ The circuit consumes about 5mA of current. If we would use the same values for R
 A standard AA battery has a capacity of around 2Ah. This means that "the internet" can run for 400 hours (50 days) on 4 AA batteries.
 
 (our box will include a small hole from which you can switch the box off and on again - so we only have to turn it on when necessary)
+
+The normal frequency has \\(R_5=10k\\), which makes \\(R_{2t}=R_5+R_2 = 13.9k\\) and \\(R_{3t}=R_5+R_3=14.7k\\)
+
+\\[f = \dfrac{1}{ln(2)(R_{2t}C_1+R_{3t}C_2)} = \dfrac{1}{ln(2)C(R_{2t}+R_{3t})} = \dfrac{1}{ln(2) * 47u * (13.9k+14.7k)} = \dfrac{1}{ln(2) * 47u * 28.6k} ≈ 1 Hz\\]
+
+When the system goes into "overload" we shortcut \\(R_5\\) to ground, thus we can elimate this resistor from the formula:
+
+\\[f = \dfrac{1}{ln(2)(R_2C_1+R_3C_2)} = \dfrac{1}{ln(2)C(R_2+R_3)} = \dfrac{1}{ln(2) * 47u * (3.9k+4.7k)} = \dfrac{1}{ln(2) * 47u * 8.6k} ≈ 4 Hz\\]

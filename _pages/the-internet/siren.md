@@ -32,7 +32,7 @@ Using \\(R_1 = R_2 = R\\) we get:
 
 For \\(R=8.2k\\) and \\(C=100n\\) we get \\(T=1.7ms\\) and \\(f = 1/T = 586Hz\\).
 
-The duty cycle (percentage "on") for this circuit can never by higher than 50%. By adding some diodes, we could insure that the capacitor is only charged by R1 and not by both R1 and R2. For our circuit, the current situation is fine. This gives us the following duty cycle (R1=R2=R):
+The duty cycle (percentage "on") for this circuit can never be lower than 50%. By adding some diodes, we could ensure that the capacitor is only charged by R1 and not by both R1 and R2. For our circuit, the current situation is fine. This gives us the following duty cycle (R1=R2=R):
 
 \\[duty = \dfrac{T_{on}}{T_{on}+T_{off}} = \dfrac{R_1+R_2}{R_1+2R_2} = \dfrac{2R}{3R} = 66\%\\]
 
@@ -44,7 +44,7 @@ When we make a bode plot of the output of the 555, we indeed get a fundamental f
 
 With pin 5 of the 555 we can control the frequency. In the original circuit this was internally set to 2/3 of the source voltage (3.33V). The circuit below sets the voltage at 0.1V and 4.9V (we can't set it to 0V or 5V as the 555 won't oscillate).
 
-{% include svgfix file="/assets/images/the-internet/osc555sv.svg" width="400px" %}
+{% include svgfix file="/assets/images/the-internet/osc555cv.svg" width="500px" %}
 
 The bode plots of these CV frequencies is given below. The high green frequency pattern is for 0.1V, the low blue frequency is for 4.9V.
 
@@ -52,7 +52,7 @@ The bode plots of these CV frequencies is given below. The high green frequency 
 
 To calculate the response, we need to understand that the CV doesn't change \\(T_{on}\\), but does change \\(T_{off}\\), as with the following formula:
 
-\\[Q_{th} = ln(1+\dfrac{V_ctrl}{2(V_cc-V_ctrl)}) = ln(1+\dfrac{3.33}{2(5-3.33)}) = ln(1+\dfrac{3.33}{3.33}) = ln(2)\\]
+\\[Q_{th} = ln(1+\dfrac{V_{ctrl}}{2(V_{cc}-V_{ctrl})}) = ln(1+\dfrac{3.33}{2(5-3.33)}) = ln(1+\dfrac{3.33}{3.33}) = ln(2)\\]
 
 And the frequency:
 
@@ -67,3 +67,5 @@ We can now substitute \\(Q_{th}\\) for the different values of \\(V_{ctrl}\\):
 |4.90V|3.24|170Hz|
 
 The lowest frequency possible is 0Hz (as we can approach 5V), but we can never get higher than a frequency in which we leave out \\(T_1\\) altogether. In the current state, this is 1760Hz. To achieve a higher frequency, we need to change the resistor and/or capacitor.
+
+We could make C2 a lot larger than 10n, thus creating a swooping sound instead of a two note sound.
