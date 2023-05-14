@@ -48,13 +48,13 @@ At these currents, the power dissipation is not that high, but it is clearly vis
 # Toggle switch
 The circuits above use two buttons to switch between on and off. To change this behaviour so we can get a real on/off toggle switch, we need to add a capacitor as the "memory" of the circuit and we need to change the on-switch.
 
-In the circuits above, we turned the circuit on by connecting the base of the PNP (or gate of the PMOS) transistor to ground. But we can also do this, by connecting the base of the NPN transistor to the supply voltage.
+In the circuits above, we turned the circuit on by connecting the base of the PNP (or gate of the PMOS) transistor to ground. But we can also do this, by connecting the base of the NPN transistor to the supply voltage (taken from [eevblog](https://youtu.be/Foc9R0dC2iI)).
 
 {% include svgfix file="/assets/images/the-internet/latch-toggle-npn-pmos-pnp.svg" width="800px" %}
 
 A problem of this circuit is that the third NPN transistor is always on when the circuit is on. So we loose our advantage of the low current consumption. We might use a nmos here, to circumvent this problem.
 
-A better circuit is more closely to our original, still switching the circuit on by connecting the gate of the PMOS to ground. We can do this with one switch by adding a capacitor. The capacitor will initially be uncharged, thus connecting the gate of the PMOS to ground. When the circuit is in the on status, the capacitor will get charged, and when we push the switch again, the capacitor pulls the gate high and thus stops the circuit.
+A better circuit (taken from [edn.com](https://www.edn.com/latching-power-switch-uses-momentary-pushbutton/) is more closely to our original, still switching the circuit on by connecting the gate of the PMOS to ground. We can do this with one switch by adding a capacitor. The capacitor will initially be uncharged, thus connecting the gate of the PMOS to ground. When the circuit is in the on status, the capacitor will get charged, and when we push the switch again, the capacitor pulls the gate high and thus stops the circuit.
 
 This circuit is almost the same as the original latch circuit with an P-Channel MOSFET instead of the PNP BJT transistor. Just one small capacitor and a resistor to charge this capacitor.
 
