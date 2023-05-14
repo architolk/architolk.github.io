@@ -70,7 +70,7 @@ The charging and discharging of the capacitor is straightforward and as expected
 
 The capacitor \\(C_{sw}\\) should be large enough to have enough energy stored to pull the gate of the transistor to the power rail. But not to large, as this will be problematic for the charging. A value of 470n seems to do the trick. The capacitor is charged and discharge via \\(R_{sw}\\). We need to have a pretty high value for this resistor. If the value is too low, the capacitor will get discharged too fast if we press the button to turn the circuit of. This will turn the circuit back on again. And it will stay on. It won't oscillate, as the capacitor won't get charged while the switch is pressed in the "on" state.
 
-We can simulate this incorrect behaviour with a button press of 0.5s and \\(R_{sw}=200k\\). The capacitor is discharged to fast, and this will latch the circuit back into the on-state.
+We can simulate this incorrect behaviour with a button press of 0.5s and \\(R_{sw}=200k\\). The capacitor is discharged to fast, and this will latch the circuit back into the on-state. We can hold the button to turn the circuit on, but to switch the circuit off, we have to press the button for a short amount of time.
 
 {% include svgtrim file="/assets/images/the-internet/latch-toggle-npn-pmos-r200.svg" width="500px" %}
 

@@ -247,3 +247,5 @@ the-internet:
       url: /the-internet/latching
     - title: "LED blinking"
       url: /the-internet/blinking
+    - title: "Police siren"
+      url: /the-internet/siren
