@@ -245,3 +245,5 @@ the-internet:
       url: /the-internet/switching
     - title: "Latching switch"
       url: /the-internet/latching
+    - title: "LED blinking"
+      url: /the-internet/blinking

@@ -20,6 +20,23 @@
       svg.setAttribute("viewBox", viewBox);
       svg.setAttribute("height",bbox.height);
       svg.setAttribute("width",bbox.width);
+
+      for (const surface of svg.children) {
+        if (surface.id="surface1") {
+          for (const child of surface.children) {
+            if (child.tagName=="path") {
+              child.style.strokeWidth="2";
+            }
+            if (child.tagName=="g") {
+              for (const subchild of child.children) {
+                if (subchild.tagName=="path") {
+                  subchild.style.strokeWidth="2";
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 </script>
