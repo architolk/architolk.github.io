@@ -63,7 +63,7 @@ This circuit includes an extra R5. This resistor is in series with R1 and R2, an
 
 As we want this circuit to be as optimal as possible, we don't want a small value for R1 and R4. Idealy, we only use power in the "on" state (R1) and not in the "off" state (R4). So we want R4 to be large. But it can't be to large with respect with R3, or else the duty cycle will not be close to 50%. By creating a small difference between R2 and R3, we can create the optimal situation.
 
-The circuit consumes about 5mA of current. If we would use the same values for R3=R1 and R4=R2, this would increase the consumption to 9mA. We don't want that :-).
+The circuit consumes about 5mA of current. This is a pretty optimum situation, as the LED current in it's on-state is close to 10mA, so the circuit itself doesn't consume much energy! If we would use the same values for R3=R1 and R4=R2, this would increase the consumption to 9mA. We don't want that :-).
 
 A standard AA battery has a capacity of around 2Ah. This means that "the internet" can run for 400 hours (50 days) on 4 AA batteries.
 
@@ -76,3 +76,21 @@ The normal frequency has \\(R_5=10k\\), which makes \\(R_{2t}=R_5+R_2 = 13.9k\\)
 When the system goes into "overload" we shortcut \\(R_5\\) to ground, thus we can elimate this resistor from the formula:
 
 \\[f = \dfrac{1}{ln(2)(R_2C_1+R_3C_2)} = \dfrac{1}{ln(2)C(R_2+R_3)} = \dfrac{1}{ln(2) * 47u * (3.9k+4.7k)} = \dfrac{1}{ln(2) * 47u * 8.6k} ≈ 4 Hz\\]
+
+# Some considerations with regard to the blinking
+
+When R1 and R4 are large, the current consumption of the blinking circuit is small, but the pulse will not be a sharp square wave, but rather the usual capacitor load curve, as is displayed in the figure below with R1 = R4 = 4k.
+
+{% include svgtrim file="/assets/images/the-internet/blinking-basic-low-output.svg" width="500px" %}
+
+From our formula, we can calculate the \\(V_{output} = V_{cc} * (1 - 2^{(15k/4k)}) = 4.63V\\), so not optimal if we want a sharp square wave with an amplitude of 5V.
+
+We can improve this circuit by adding two diodes, isolating the transistors from the loading of the capacitors (as explained [here](https://www.learnabout-electronics.org/Oscillators/osc41.php) and [here](https://electrosome.com/astable-multivibrator-transistors/)). Two extra resistors are also need, R5 and R6.
+
+{% include svgfix file="/assets/images/the-internet/blinking-basic-low-diodes.svg" width="450px" %}
+
+The extra resistors R5 and R6 will effect the frequency. Also, R1 and R4 have less an effect on the circuit. As is visible in the figure below, the result is indeed a more square wave with an amplitude of 5V.
+
+{% include svgtrim file="/assets/images/the-internet/blinking-basic-low-diodes-output.svg" width="500px" %}
+
+We won't use this circuit, as the power consumption is higher than our original final circuit, and we don't have the square wave problem, as the side the LED is on has a good square wave (due to the low value of R1).
