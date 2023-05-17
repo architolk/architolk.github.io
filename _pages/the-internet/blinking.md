@@ -53,30 +53,6 @@ We can expect that the pulse width is the quotient between the maximum of output
 
 If R1 and R4 are both too large, the circuit will not oscillate. This will occur when both R1 = R4 = R2 = R3. At such a case, the maximum output is halve the power voltage, and this is exactly the voltage at which the switching occurs!
 
-# Final circuit
-
-The final circuit we will use is depicted below.
-
-{% include svgfix file="/assets/images/the-internet/blinking-final.svg" width="450px" %}
-
-This circuit includes an extra R5. This resistor is in series with R1 and R2, and thus makes it possible to have different frequencies. We will use this resistor to switch between a low and high frequency pulsing.
-
-As we want this circuit to be as optimal as possible, we don't want a small value for R1 and R4. Idealy, we only use power in the "on" state (R1) and not in the "off" state (R4). So we want R4 to be large. But it can't be to large with respect with R3, or else the duty cycle will not be close to 50%. By creating a small difference between R2 and R3, we can create the optimal situation.
-
-The circuit consumes about 5mA of current. This is a pretty optimum situation, as the LED current in it's on-state is close to 10mA, so the circuit itself doesn't consume much energy! If we would use the same values for R3=R1 and R4=R2, this would increase the consumption to 9mA. We don't want that :-).
-
-A standard AA battery has a capacity of around 2Ah. This means that "the internet" can run for 400 hours (50 days) on 4 AA batteries.
-
-(our box will include a small hole from which you can switch the box off and on again - so we only have to turn it on when necessary)
-
-The normal frequency has \\(R_5=10k\\), which makes \\(R_{2t}=R_5+R_2 = 13.9k\\) and \\(R_{3t}=R_5+R_3=14.7k\\)
-
-\\[f = \dfrac{1}{ln(2)(R_{2t}C_1+R_{3t}C_2)} = \dfrac{1}{ln(2)C(R_{2t}+R_{3t})} = \dfrac{1}{ln(2) * 47u * (13.9k+14.7k)} = \dfrac{1}{ln(2) * 47u * 28.6k} ≈ 1 Hz\\]
-
-When the system goes into "overload" we shortcut \\(R_5\\) to ground, thus we can elimate this resistor from the formula:
-
-\\[f = \dfrac{1}{ln(2)(R_2C_1+R_3C_2)} = \dfrac{1}{ln(2)C(R_2+R_3)} = \dfrac{1}{ln(2) * 47u * (3.9k+4.7k)} = \dfrac{1}{ln(2) * 47u * 8.6k} ≈ 4 Hz\\]
-
 # Some considerations with regard to the blinking
 
 When R1 and R4 are large, the current consumption of the blinking circuit is small, but the pulse will not be a sharp square wave, but rather the usual capacitor load curve, as is displayed in the figure below with R1 = R4 = 4k.
@@ -94,3 +70,31 @@ The extra resistors R5 and R6 will effect the frequency. Also, R1 and R4 have le
 {% include svgtrim file="/assets/images/the-internet/blinking-basic-low-diodes-output.svg" width="500px" %}
 
 We won't use this circuit, as the power consumption is higher than our original final circuit, and we don't have the square wave problem, as the side the LED is on has a good square wave (due to the low value of R1).
+
+# Final circuit
+
+The final circuit we will use is depicted below.
+
+{% include svgfix file="/assets/images/the-internet/blinking-final.svg" width="600px" %}
+
+This circuit includes an extra R5. This resistor is in series with R1 and R2, and thus makes it possible to have different frequencies. We will use this resistor to switch between a low and high frequency pulsing.
+
+The normal frequency has \\(R_5=100k\\), which makes \\(R = R_{3t} = R_{2t}=R_5+R_2 = 147k\\) and C = C1 = C2 = 4.7uF
+
+\\[f = \dfrac{1}{2ln(2)RC} = \dfrac{1}{2ln(2) * 147k * 4.7uF} ≈ 1 Hz\\]
+
+When the system goes into "overload" we shortcut \\(R_5\\) to ground, thus we can elimate this resistor from the formula:
+
+\\[f = \dfrac{1}{2ln(2)RC} = \dfrac{1}{2ln(2) * 47k * 4.7uF} ≈ 3.3 Hz\\]
+
+We can't drive an LED with the output of this circuit, as the maximum current is dictated by R1 for output1 and R4 for output2. But we can use an extra NPN transistor as the driver for the LED, as depicted in the circuit below.
+
+{% include svgfix file="/assets/images/the-internet/blinking-final-led.svg" width="600px" %}
+
+The output1 signal is send to the base of the driver transistor Q3. The base resistor \\(R_b\\) is probably not necessary, as the current is already limited by R1. Collector resistor \\(R_{load}\\) limits the current through the LED. We can make this as small or large as we want.
+
+The circuit consumes about 5mA of current. This is a pretty optimum situation, as the LED current in it's on-state is close to 9mA, so the circuit itself doesn't consume much energy!
+
+A standard AA battery has a capacity of around 2Ah. This means that "the internet" can run for 400 hours (50 days) on 4 AA batteries.
+
+(our box will include a small hole from which you can switch the box off and on again - so we only have to turn it on when necessary)
