@@ -17,12 +17,11 @@ The latching circuit is actually quite similar to the NPN - PNP circuit. The onl
 
 {% include svgfix file="/assets/images/the-internet/latch-npn-pnp.svg" width="600px" %}
 
-This first circuit doesn't have a "reset" button: it will always stay in the "on" position, till the power is cut from the circuit.
+This first circuit doesn't have a "reset" button: it will always stay in the "on" position, till the power is cut from the circuit. \\(R_{pd}\\) is necessary to pull the base of Q2 full to ground. This might be possible via the load, but this won't work with a diode. Also, this resistor can't be too large, as this will raise the voltage at the base of Q2 to a level that it will always latch, even without pressing the button.
 
 The spice model has some pecular things:
 - We need to provide a model for the switch;
 - We need to set the initial condition of the NPN base to 0V.
-- Adding a LED (or a diode for that matter) as part of the load won't work.
 
 This initial condition of the NPN base is actually the way of creating a reset button. By adding a reset-button, we can turn the circuit off and on.
 
