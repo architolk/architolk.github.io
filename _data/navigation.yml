@@ -237,6 +237,14 @@ mikrophonie:
 the-internet:
   - title: Introduction
     url: /the-internet
+  - title: Build
+    children:
+    - title: "Introduction"
+      url: /the-internet/design
+    - title: "Circuit"
+      url: /the-internet/circuit
+    - title: "BOM"
+      url: /the-internet/bom
   - title: "Theory"
     children:
     - title: "MOSFET Transistor"
@@ -249,3 +257,19 @@ the-internet:
       url: /the-internet/blinking
     - title: "Police siren"
       url: /the-internet/siren
+
+oktava-mk12:
+  - title: Introduction
+    url: /oktava-mk12
+  - title: Build
+    children:
+    - title: "Original"
+      url: /oktava-mk12/original
+    - title: "Circuit"
+      url: /oktava-mk12/circuit
+    - title: "Replacements"
+      url: /oktava-mk12/replacements
+  - title: Theory
+    url: /oktava-mk12/theory
+  - title: Resources
+    url: /oktava-mk12/resources

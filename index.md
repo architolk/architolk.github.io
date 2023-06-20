@@ -47,6 +47,11 @@ feature_row:
     excerpt: "The onging project tot create THE INTERNET"
     url: "/the-internet"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/oktava-mk12.png"
+    title: "Oktava MK-12"
+    excerpt: "Repairing an Oktava MK-12"
+    url: "/oktava-mk12"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}
