@@ -76,3 +76,11 @@ We can simulate this incorrect behaviour with a button press of 0.5s and \\(R_{c
 The circuit works pretty good and doesn't use any current in its off-state. But it consumes current in the on-state: \\(R_{discharge}\\) is only 1k. The capacitor is charged via \\(R_{cap}\\) and the signal path, but discharge via \\(R_{cap}\\) and \\(R_{discharge}\\). It might get discharged by the load, but in this case, this won't happen as the load LED won't conduct any more below it's voltage drop. This is all fine, but \\(R_{discharge}\\) is also in the signal path when the circuit is in it's on-state. To cure this, we need to make this resistor larger. That won't effect the circuit that much, although negative voltage spikes will occur, as is visible in the circuit below (same situation as the circuit above: 0.5s button press, \\(R_{cap}=500k\\) and \\(R_{discharge}=50k\\)).
 
 {% include svgtrim file="/assets/images/the-internet/latch-toggle-npn-pmos-r50.svg" width="500px" %}
+
+# Normally closed latch
+
+Some motion detector switches are normally closed. So how can we use such switches in a latched circuit? The figure below gives the circuit.
+
+{% include svgfix file="/assets/images/the-internet/latch-npn-pnp-nc.svg" width="700px" %}
+
+In the stable condition, the voltage at the base is dictated by the resistor divider of Rpu and Rsw. As Rsw<<Rpu, the voltage is negiable, so the NPN transistor is turned off. When the switch is open, Rpu will pull the voltage of the transistor high, switching it on and thus switching the PNP transistor on. This will latch the NPN transistor in its on state, via Rlatch. Rlatch and Rsw should be matched such that the voltage at the base of the NPN transistor is at least 0.7V.

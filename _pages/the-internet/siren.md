@@ -69,3 +69,13 @@ We can now substitute \\(Q_{th}\\) for the different values of \\(V_{ctrl}\\):
 The lowest frequency possible is 0Hz (as we can approach 5V), but we can never get higher than a frequency in which we leave out \\(T_1\\) altogether. In the current state, this is 1760Hz. To achieve a higher frequency, we need to change the resistor and/or capacitor.
 
 We could make C2 a lot larger than 10n, thus creating a swooping sound instead of a two note sound.
+
+# CV control using the external resistors
+
+In the circuit we want to use, we can't use pin 5. The reason is the internal structure of the 555. This is depicted in the simplified schematic below, taken from [555 datasheet](https://www.ti.com/lit/ds/symlink/ne555.pdf).
+
+![](/assets/images/the-internet/555.svg){:width="600px"}
+
+The control level is set internally to a 2/3 Vcc treshold. But if we use an external control voltage, a part of this voltage also appears at Vcc! In our application, we switch the 555 timer by turning off Vcc. But that won't work, if a voltage still appears at pin 5 (our blinking circuit will send this voltage). We can fix this in two ways: we can add an PNP transistor that will be powered by the timer Vcc. Thus, this transistor will be off, regardless of the voltage at its gate.
+
+The other option is not to use pin 5, but change the value of R1 the same way we change the blinking circuit frequency: adding a PNP transistor that adds a resistor in parallel with R2. 
