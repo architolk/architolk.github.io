@@ -270,6 +270,8 @@ oktava-mk12:
     - title: "Replacements"
       url: /oktava-mk12/replacements
   - title: Theory
-    url: /oktava-mk12/theory
+    children:
+    - title: "JFET"
+      url: /oktava-mk12/jfet
   - title: Resources
     url: /oktava-mk12/resources
