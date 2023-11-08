@@ -257,6 +257,8 @@ the-internet:
       url: /the-internet/blinking
     - title: "Police siren"
       url: /the-internet/siren
+  - title: "Resources"
+    url: /the-internet/resources
 
 oktava-mk12:
   - title: Introduction
