@@ -279,3 +279,21 @@ oktava-mk12:
       url: /oktava-mk12/jfet
   - title: Resources
     url: /oktava-mk12/resources
+
+calculator:
+  - title: Introduction
+    url: /calculator
+  - title: Build
+    children:
+    - title: "Calculator insides"
+      url: /calculator/insides
+    - title: "Key matrix"
+      url: /calculator/keymatrix
+  - title: Theory
+    children:
+    - title: "VFD"
+      url: /calculator/vfd
+    - title: "Zener regulator"
+      url: /calculator/zener
+  - title: Resources
+    url: /calculator/resources

@@ -52,6 +52,11 @@ feature_row:
     excerpt: "Repairing an Oktava MK-12"
     url: "/oktava-mk12"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/calculator.jpg"
+    title: "Calculator"
+    excerpt: "The ongoing project to give an old calculator a new brain"
+    url: "/calculator"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}
