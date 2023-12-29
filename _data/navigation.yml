@@ -243,6 +243,8 @@ the-internet:
       url: /the-internet/design
     - title: "Circuit"
       url: /the-internet/circuit
+    - title: "Smoke detector repurposed"
+      url: /the-internet/smoke-detector
     - title: "BOM"
       url: /the-internet/bom
   - title: "Theory"
