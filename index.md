@@ -44,7 +44,7 @@ feature_row:
     btn_class: "btn--info"
   - image_path: "assets/thumbs/the-internet.png"
     title: "The Internet"
-    excerpt: "The onging project tot create THE INTERNET"
+    excerpt: "My recreation of THE INTERNET"
     url: "/the-internet"
     btn_class: "btn--info"
   - image_path: "assets/thumbs/oktava-mk12.png"
