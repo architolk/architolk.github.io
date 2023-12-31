@@ -54,18 +54,16 @@ Another zener diode and another PNP transistor is used to give us a -11V power v
 
 The PCB traces are grouped by their function with regard to the controlling IC.
 
-{% tabs traces %}
+<div>
+  <ul id="tracestab" class="tab" data-tab="traces">
+    <li class="active"><a href="#">AC</a></li>
+    <li><a href="#">GND</a></li>
+    <li><a href="#">-34V</a></li>
+  </ul>
 
-{% tab traces AC %}
-![](/assets/images/calculator/insides-ac.png)
-{% endtab %}
-
-{% tab traces GND %}
-![](/assets/images/calculator/insides-gnd.png)
-{% endtab %}
-
-{% tab traces -34V %}
-![](/assets/images/calculator/insides-34v.png)
-{% endtab %}
-
-{% endtabs %}
+  <ul class="tab-content" id="traces">
+    <li class="active"><img src="/assets/images/calculator/insides-ac.png" alt="AC" /></li>
+    <li><img src="/assets/images/calculator/insides-gnd.png" alt="GND" /></li>
+    <li><img src="/assets/images/calculator/insides-34v.png" alt="-34V" /></li>
+  </ul>
+</div>
