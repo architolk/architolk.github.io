@@ -285,6 +285,8 @@ calculator:
     url: /calculator
   - title: Build
     children:
+    - title: "Calculator power"
+      url: /calculator/insides-power
     - title: "Calculator insides"
       url: /calculator/insides
     - title: "Key matrix"

@@ -24,20 +24,6 @@ From this, we can find out how the key matrix works. We don't have to find out h
 
 Using a scope, we can analyse how the circuit works. Interesting, the scanning of the keys uses the same circuit as the display! The display is multiplexed, and during this cycle, the keys are scanned - so briefly that this is not visible on the VFD.
 
-## PCB Power
-
-### Components
-
-![](/assets/images/calculator/insides-power-components.png)
-
-The components that make up the power distribution. The image is mirrored, so it is easier to compare this to the PCB traces at the other side.
-
-### Unregulated power
-
-![](/assets/images/calculator/insides-power-34v.png)
-
-The bridge rectifier gives us a DC voltage. The red trace is the positive ground, the yellow trace is the -34V power.
-
 ### -24V regulated power
 
 ![](/assets/images/calculator/insides-power-24v.png)
