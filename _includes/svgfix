@@ -1,3 +1,13 @@
+<!--
+Works only in combination with pdf2svg! => brew install pdf2svg
+
+Steps:
+1. Set layout to landscape in page setup of LTSpice
+2. Print to PDF in LTSpice
+3. Convert PDF to SVG
+4. Use the svgfix include in your md
+
+-->
 <object type="image/svg+xml" data="{{include.file}}" width="100%" name="svgfix" class="fitvidsignore"></object>
 <script>
   var objIndex = 0;
@@ -21,21 +31,25 @@
       svg.setAttribute("height",bbox.height);
       svg.setAttribute("width",bbox.width);
 
-      for (const surface of svg.children) {
-        if (surface.id="surface1") {
-          for (const child of surface.children) {
-            if (child.tagName=="path") {
-              child.style.stroke="#FFFFFF";
-              child.style.strokeWidth="1.5";
-              if (child.style.fill!="none") {
-                child.style.fill="#FFFFFF";
-              }
-            }
-            if (child.children.length>0) {
-              if (child.children[0].tagName="use") {
-                child.style.fill="#A0A0A0";
-              }
-            }
+      //Old version uses a <g> surface, new version doesn't have such a <g>
+      var surface = svg;
+      for (const sf of svg.children) {
+        if (sf.id=="surface1") {
+          surface = sf;
+        }
+      }
+
+      for (const child of surface.children) {
+        if (child.tagName=="path") {
+          child.style.stroke="#FFFFFF";
+          child.style.strokeWidth="1.5";
+          if ((child.style.fill!="none") && (typeof(child.attributes["fill"])!="undefined" && child.attributes["fill"].value!="none")) {
+            child.style.fill="#FFFFFF";
+          }
+        }
+        if (child.children.length>0) {
+          if (child.children[0].tagName="use") {
+            child.style.fill="#A0A0A0";
           }
         }
       }
