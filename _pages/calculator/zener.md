@@ -18,7 +18,7 @@ The basic circuit is depicted below. Rs limits the current through the system. W
 
 We don't want to make Rs to large, as the current that is available for the load should not exeed the available current minus the current needed for the operation of the zener diode itself.
 
-{% include svgfix file="/assets/images/calculator/zener-voltage-regulation.svg" width="450px" %}
+{% include svgfix file="/assets/images/calculator/zener-voltage-regulation.svg" width="600px" %}
 
 The voltage drop over Rs will be 15V-12V = 3V. The current through Rs is 3V / 560 = 5.4mA. This means we have 4.1mA available for the zener diode, which is enough, as the load draws 12V / 10k = 1.2mA. But what if we decrease Rload to 1k. In such a case, we need to draw 12mA of power, which is even more than is available! The zener diode will turn off, making the circuit essentially a resistor divider.
 
