@@ -291,6 +291,8 @@ calculator:
       url: /calculator/insides
     - title: "Key matrix"
       url: /calculator/keymatrix
+    - title: "MCU Pins"
+      url: /calculator/arduino
   - title: Theory
     children:
     - title: "VFD"
