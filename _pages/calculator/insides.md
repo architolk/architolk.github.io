@@ -24,18 +24,6 @@ From this, we can find out how the key matrix works. We don't have to find out h
 
 Using a scope, we can analyse how the circuit works. Interesting, the scanning of the keys uses the same circuit as the display! The display is multiplexed, and during this cycle, the keys are scanned - so briefly that this is not visible on the VFD.
 
-### -24V regulated power
-
-![](/assets/images/calculator/insides-power-24v.png)
-
-A zener diode and a PNP transistor is used to give us a -24V power voltage (mainly for the VFD).
-
-### -11V regulated power
-
-![](/assets/images/calculator/insides-power-11v.png)
-
-Another zener diode and another PNP transistor is used to give us a -11V power voltage (seperate part of the IC).
-
 ## PCB Traces
 
 The PCB traces are grouped by their function with regard to the controlling IC.

@@ -40,3 +40,13 @@ The -34V is send to two zener-transistor circuits to regulate the voltage to -24
 {% include svgfix file="/assets/images/calculator/calculator-power-24v.svg" width="600px" %}
 
 {% include svgfix file="/assets/images/calculator/calculator-power-11v.svg" width="600px" %}
+
+### Power Pins
+![](/assets/images/calculator/power-pins.png)
+
+The remnants of the power circuit. The pins that we need are labeled:
+
+- Black GND: The ground connection (originaly this was the -34V pin (positive ground), now we use negative ground)
+- Red 34V: The DC voltage after the rectifier and the 3300uF capacitor (we might add some more filtering capacitors!)
+- Yellow CT: The center tap for the filament AC power. We use this one to bias the filament.
+- Green F+/F-: The 1.7 AC filament voltage (referenced to the center tap). (F- is not a blue wire, but the cut-off connection)

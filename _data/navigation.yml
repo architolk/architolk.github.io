@@ -293,6 +293,10 @@ calculator:
       url: /calculator/keymatrix
     - title: "MCU Pins"
       url: /calculator/arduino
+    - title: "Breadboard"
+      url: /calculator/breadboard
+    - title: "Power"
+      url: /calculator/power
   - title: Theory
     children:
     - title: "VFD"
