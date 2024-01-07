@@ -53,11 +53,13 @@ In this case we need a pull-up resistor (\\(R_{pu}\\)) at the gate of the transi
 # High side switching (dual power rail - P-Channel mosfet)
 When the power rail of the load has a higher voltage than the power rail of the controller, we need to use a combination of a NPN/N-channel transistor and a PNP/P-channel transistor. The PNP/P-channel transistor will do the high side switching, the NPN/N-channel transistor will actually switch the switch.
 
-{% include svgfix file="/assets/images/the-internet/switch-npn-pmos.svg" width="700px" %}
+{% include svgfix file="/assets/images/the-internet/switch-npn-pmos15.svg" width="700px" %}
 
 This circuit is the combination of the two circuits above. The calculations are pretty much the same. We could have a larger \\(R_g\\), as the current at the gate is now depends on the maximum current for the BJT transistor (around 100 mA) and not the controller itself.
 
-The typical maximum for \\V_{gs}\\ is ±20V. A typical value for switching the mosfet is 10V. So we need to change our circuit a bit. We need to make the two resistors at the gate of the mosfet part of a resistor divider. The pull-up resistor will still work the same when the NPN transistor is off. But when the NPN transistor is on, the resistor divider will make sure that the gate is not pulled to ground (making \\V_{gs}\\ too large), but to a voltage set by the resistor divider.
+The typical maximum for \\(V_{gs}\\) is ±20V. A typical value for switching the mosfet is 10V. So we need to change our circuit a bit. We need to make the two resistors at the gate of the mosfet part of a resistor divider. The pull-up resistor will still work the same when the NPN transistor is off. But when the NPN transistor is on, the resistor divider will make sure that the gate is not pulled to ground (making \\(V_{gs}\\) too large), but to a voltage set by the resistor divider.
+
+{% include svgfix file="/assets/images/the-internet/switch-npn-pmos24.svg" width="700px" %}
 
 # High side switching (dual power rail - PNP transistor)
 Another option is to use a PNP transistor instead of the mosfet.
