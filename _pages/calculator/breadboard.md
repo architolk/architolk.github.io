@@ -38,13 +38,13 @@ An IRLZ34N is used as N-Channel mosfet and a BD140 is used as PNP transistor. Th
 
 ![](/assets/images/calculator/breadboard_ctbias.svg)
 
-The voltage difference over R7 is 29.3. V = I * R, I = V/R, so I = 29.3 / 22000 = 0.88 mA. Seems to be somewhat low as well. Again, in LTSpice the simulation works (at 0.6mA the voltage is 3.8V, with a zener of 4.7V). As current is very low, power handling will not be a problem.
+The voltage difference over R7 is 23.3 - 4.7 = 18.6. V = I * R, I = V/R, so I = 18.6 / 22000 = 0.85 mA. Seems to be somewhat low as well. Again, in LTSpice the simulation works (at 0.6mA the voltage is 3.8V, with a zener of 4.7V). As current is very low, power handling will not be a problem.
 
 ### 5V regulator
 
 ![](/assets/images/calculator/breadboard_5reg.svg)
 
-The 7805 is to its limits on the breadboard. Maximum input voltage is 25V and we provide 23.7V. Maximum current is 1.5A and we estimate that it will not be above 500mA. But we will generate a lot of heat!. At 100mA, this is: P = V * I = (23.7V-5V) * 100mA = 18.7 * 100mA = 1.87W. With a terminal resistance to ambient of 50°C/W, the 7805 will be 94°C above ambient temperature! So you could boil an egg on the IC! The values for C2 and C3 seem to be ok.
+The 7805 is to its limits on the breadboard. Maximum input voltage is 25V and we provide 23.3V. Maximum current is 1.5A and we estimate that it will not be above 500mA. But we will generate a lot of heat!. At 100mA, this is: P = V * I = (23.3V-5V) * 100mA = 18.3 * 100mA = 1.83W. With a terminal resistance to ambient of 50°C/W, the 7805 will be 92°C above ambient temperature! So you could boil an egg on the IC! The values for C2 and C3 seem to be ok.
 
 We've got two options:
 1. Use a zener to regulate the original 34V voltage down even more (maybe to 10V). This was done in the original calculator as well.
