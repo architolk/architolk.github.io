@@ -26,6 +26,8 @@ The voltage difference over R6 is 10V. V = I * R, I = V/R, so I = 10 / 2200 = 4.
 
 A [simulation](/assets/spice/calculator/breadboard.asc) of the circuit in LT Spice shows that the circuit actually works OK. The hFE in that case is 153 (!), according to a datasheet, it is between 60 and 160, so this is a bit on the high side... The zener works with an output current of 580 mA according to the simulation, but it gets only 0.77 mA...
 
+At 600mA the transistor disipates 600mA * 0.7V = 0,42W. The terminal resistance to ambient of the transistor is max 100°C/W, so the transistor will be 42°C above ambient temperature. This is within limits of the transistor, but the transistor will get hot. As we expect normal operation to be around 300mA, the transistor will be around 21°C above ambient temperature, which is ok.
+
 ### High-side, dual power rail switch
 
 ![](/assets/images/calculator/breadboard_switch.svg)
@@ -42,4 +44,8 @@ The voltage difference over R7 is 29.3. V = I * R, I = V/R, so I = 29.3 / 22000 
 
 ![](/assets/images/calculator/breadboard_5reg.svg)
 
-The maximum input voltage of a 7805 is 25V, so with 23.7V, this is about right. The maximum current is 1.5A, which we will not reach. But we probably need some kind of heat sink... The values for C2 and C3 seem to be ok.
+The 7805 is to its limits on the breadboard. Maximum input voltage is 25V and we provide 23.7V. Maximum current is 1.5A and we estimate that it will not be above 500mA. But we will generate a lot of heat!. At 100mA, this is: P = V * I = (23.7V-5V) * 100mA = 18.7 * 100mA = 1.87W. With a terminal resistance to ambient of 50°C/W, the 7805 will be 94°C above ambient temperature! So you could boil an egg on the IC! The values for C2 and C3 seem to be ok.
+
+We've got two options:
+1. Use a zener to regulate the original 34V voltage down even more (maybe to 10V). This was done in the original calculator as well.
+2. Use a switching regulator.
