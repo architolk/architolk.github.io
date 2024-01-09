@@ -26,7 +26,7 @@ The voltage difference over R6 is 10V. V = I * R, I = V/R, so I = 10 / 2200 = 4.
 
 A [simulation](/assets/spice/calculator/breadboard.asc) of the circuit in LT Spice shows that the circuit actually works OK. The hFE in that case is 153 (!), according to a datasheet, it is between 60 and 160, so this is a bit on the high side... The zener works with an output current of 580 mA according to the simulation, but it gets only 0.77 mA...
 
-At 600mA the transistor disipates 600mA * 0.7V = 0,42W. The terminal resistance to ambient of the transistor is max 100°C/W, so the transistor will be 42°C above ambient temperature. This is within limits of the transistor, but the transistor will get hot. As we expect normal operation to be around 300mA, the transistor will be around 21°C above ambient temperature, which is ok.
+Vce = Vin - Vout - Vbe = 34V - 24V - 0.7V = 10.3V. At 50mA P = Vce * Ic = 10.3V * 50mA = 0,52W. The terminal resistance to ambient of the transistor is max 100°C/W, so the transistor will be 52°C above ambient temperature. This is within limits of the transistor, but the transistor will get hot. And with larger numbers for the provided current, this value will increase a lot! So we definitely need a head sink if we want to use such a circuit!
 
 ### High-side, dual power rail switch
 
@@ -49,3 +49,7 @@ The 7805 is to its limits on the breadboard. Maximum input voltage is 25V and we
 We've got two options:
 1. Use a zener to regulate the original 34V voltage down even more (maybe to 10V). This was done in the original calculator as well.
 2. Use a switching regulator.
+
+Option (1) doesn't really solve anything, as the zener/npn regulator will also dissipate a lot of heat - that is the downside of a linear regulator...
+
+As we don't need much current for the 24V VFD, we could use a zener regulator for the 24V circuit, and a separate switching regulator for the 5V circuit, which would be able to supply enough current.

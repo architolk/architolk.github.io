@@ -39,7 +39,11 @@ The -34V is send to two zener-transistor circuits to regulate the voltage to -24
 
 {% include svgfix file="/assets/images/calculator/calculator-power-24v.svg" width="600px" %}
 
+The -24V circuit uses a small 2sa115 PNP Si transistor. The maximum collector current of this transistor is 20mA. The maximum power dissipation for such a small transistor is 0.05W according to the datasheet. With a voltage drop of 10.7V over the transistor, this means that the maximum current will be 4.7mA. This is not much, but the anode and grid are voltage-driven, they don't use much current.
+
 {% include svgfix file="/assets/images/calculator/calculator-power-11v.svg" width="600px" %}
+
+Then -11V circuit uses a larger 2SB560 PNP Si transistor. The maximum collector current of this transistor is 700mA. The maximum power dissipation for this transistor is 0.75W according to the datasheet. With a voltage drop of 23.7V over the transistor, this means that (only) 32mA is available. This will probably be more than enough for the MCU of the original calculator.
 
 ### Power Pins
 ![](/assets/images/calculator/power-pins.png)

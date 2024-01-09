@@ -43,12 +43,16 @@ Power needed:
   - An ESP32 with WiFi enabled can consume up to 300mA
   - We asume that the power consumption of the IC of the VFD is less than 50mA.
 
+As the [power dissipation of a linear regulator](https://practicalee.com/linear-regulators/) is the product of the voltage difference times the provided current (P = (Vout - Vin) * I), we have some real heat issues!
+
 ## Power regulation, 24V
 A VFD needs between 15V and 40V to work. According to the blog, this one works from 18V and above. We will use the same voltage as the original calculator, 24V. We will work with 200mA max.
 
 We will use a BZX55C24 zener diode (24V). With the diode drop from the transistor, this gives us an output voltage of 23.3V.
 
 Let's work with an hFE of 50 (it will probably be higher). This means that the current at the base of the transistor will be <4mA. We need 5 mA for the zener, so this means 9 mA at Rz. The voltage drop over Rz is 10V, so Rz = V / I = 10V / 9mA ≈ 1kΩ. When no load is applied, 9 mA will run over the zener, at 24V, this is: P = V * I = 24V * 9mA = 0.22W (our zener can take 0.5W, so this is fine!). The resistor will take P = V * I = 10V * 9mA = 0.09W (so a regular 0.25 is OK).
+
+For the transistor, at maximum provided current, P = 10.7 * 200mA = 2.14W, so this requires a heat sink! At the measured amount of 75mA, it is still 10.7 * 75mA = 0.8W.
 
 ## Power regulation, 8V
 If we give the 7805 24V to deal with, the power loss is to much. So we opt for a separte 8V circuit. We will use a BZX55C8V2 zener diode (8.2V). With the diode drop from the transistor, this gives us an output voltage of 7.5V.
