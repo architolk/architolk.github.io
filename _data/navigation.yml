@@ -303,5 +303,7 @@ calculator:
       url: /calculator/vfd
     - title: "Zener regulator"
       url: /calculator/zener
+    - title: "Buck step-down converter"
+      url: /calculator/buck
   - title: Resources
     url: /calculator/resources
