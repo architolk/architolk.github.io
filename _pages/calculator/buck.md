@@ -35,3 +35,5 @@ The circuit uses an LC-filter to filter the output of the circuit to a smooth le
 {% include svgtrim file="/assets/images/calculator/lm2596-output.svg" width="600px" %}
 
 Power circuits use LC-filters instead of RC-filters. This has two advantages. The first is obviously power: an RC-filter has a power loss over the resistor, an LC-filter doesn't loose power (or at least: ideal components won't). The second is beter filtering: an RC-filter is a one-pole filter, an LC-filter is a two-pole filter, so it will do a better job smoothing out the voltage and current ripply.
+
+The schottky diode is necessary to give the inductor a path to ground in the "off" part of the switching circuit. This should be a fast switching diode, that's the reason for the schottky version of the diode. In the example above an 1N5819 is used (40V, 1A). The datasheet recommends the specific version with regard to the current requirements of the load.
