@@ -9,6 +9,8 @@ This site runs on Jekyll, an opensource static site generating platform.
 - Clone or download a zip of this project to your computer and navigate to the
   project directory in your terminal
 
+> NB: Current versions of github pages works with ruby 3.2.x and Jekyll 3.9.3 ! Make sure you install THESE versions!
+
 - Make sure Ruby is installed, to check if it is, run:
   ```
   ruby -v
@@ -20,6 +22,11 @@ This site runs on Jekyll, an opensource static site generating platform.
   gem install jekyll bundler
   ```
   For more information about installing Jekyll, refer to the [Jekyll quickstart guide](https://jekyllrb.com/docs/quickstart/)
+
+  A specific version of jekyll can be installed via:
+  ```
+  gem install jekyll -v 3.9.3
+  ```
 
 - Some problems may occur if the bundler gem file is updated, but the Gemfile.lock still contains a reference to the old version. This can be solved by:
   ```
