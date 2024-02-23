@@ -307,3 +307,9 @@ calculator:
       url: /calculator/buck
   - title: Resources
     url: /calculator/resources
+
+theremin:
+  - title: Introduction
+    url: /theremin
+  - title: Resources
+    url: /theremin/resources

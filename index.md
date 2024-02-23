@@ -57,6 +57,11 @@ feature_row:
     excerpt: "The ongoing project to give an old calculator a new brain"
     url: "/calculator"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/theremin.png"
+    title: "Theremin"
+    excerpt: "The ongoing project to create a Theremin"
+    url: "/theremin"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}
