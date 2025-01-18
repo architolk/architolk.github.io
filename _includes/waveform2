@@ -1,0 +1,46 @@
+<script type="text/javascript" charset="UTF-8" src="/assets/js/jsxgraphcore.js"></script>
+
+<div name="waveform" class="jxgbox" style="width:100%; height:200px;"></div>
+<p />
+
+<script language="JavaScript">
+
+  function createWave() {
+    const wavelist = document.getElementsByName("waveform");
+    const wavediv = wavelist[wavelist.length-1]; //Should be the last added one
+    wavediv.id = wavelist.length-1;
+
+    var waveform = JXG.JSXGraph.initBoard(wavediv.id, {boundingbox:[-4*Math.PI,1.2,4*Math.PI,-1.2], axis:true, showCopyright:false,
+      defaultAxes: {
+        x: {
+          margin: -4,
+          ticks: {
+            minTicksDistance: 0,
+            minorTicks:4,
+            ticksDistance: 3,
+            scale: Math.PI,
+            scaleSymbol: 'π',
+            insertTicks: true
+          }
+        },
+        y: {}
+      }
+    });
+
+    function wave(x) {
+      return {{include.wave}};
+    }
+
+    function wave2(x) {
+      return {{include.wave2}};
+    }
+
+    graph = waveform.create('functiongraph', [wave], {strokewidth:2, strokeColor: 'blue'});
+
+    if ("{{include.wave2}}"!="") {
+      graph2 = waveform.create('functiongraph', [wave2], {strokewidth:2, strokeColor: 'red'});
+    }
+  }
+  createWave();
+
+</script>

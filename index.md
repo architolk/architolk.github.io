@@ -62,6 +62,11 @@ feature_row:
     excerpt: "The ongoing project to create a Theremin"
     url: "/theremin"
     btn_class: "btn--info"
+  - image_path: "assets/thumbs/subwave.png"
+    title: "Subwave"
+    excerpt: "The ongoing project to create a sub-octaver"
+    url: "/subwave"
+    btn_class: "btn--info"
 
 ---
 {% include feature_row %}

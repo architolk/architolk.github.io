@@ -313,3 +313,11 @@ theremin:
     url: /theremin
   - title: Resources
     url: /theremin/resources
+
+subwave:
+  - title: Introduction
+    url: /subwave
+  - title: Theory
+    children:
+    - title: "Subharmonic creation"
+      url: /subwave/subharmonic
