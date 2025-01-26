@@ -321,3 +321,9 @@ subwave:
     children:
     - title: "Subharmonic creation"
       url: /subwave/subharmonic
+    - title: "Phase shift"
+      url: /subwave/phase-shift
+    - title: "Zero cross detector"
+      url: /subwave/zcd
+    - title: "Flip-flop divider"
+      url: /subwave/flipflop
