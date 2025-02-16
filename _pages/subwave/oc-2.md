@@ -21,12 +21,34 @@ A simplified version of the circuit can be found [here](http://toshi.life.coocan
 The OC-2 circuit is made out of a number of distinct subcircuits:
 
 1. The input stage (buffer)
-2. The sub octave creator (appearing twice, to create the -2 octave)
-3. The output stage (mixing)
-4. The analyser (tracking the input signal)
+2. The analyser (tracking the input signal)
+3. The sub octave creator (appearing twice, to create the -2 octave)
+4. The output stage (mixing)
 
 ## Input stage
 
 The input stage raises the signal to the virtual ground (as we use a single supply, a virtual ground is used between the actual ground and the 9V supply voltage) and amplifies the input signal by a factor of around 5.
 
 {% include svgfix file="/assets/images/subwave/OC2-input-stage.svg" width="500px" %}
+
+The input stage operates as a high pass filter, but the cut-off point is very low, so both phase shift and amplitude are not effected at frequencies >50Hz.
+
+## Analyser stage
+
+The analyser stage looks at the input signal and "detects" the fundamental frequency. After that, this fundamental is used as an input to a descrete flip-flop stage that creates a square wave that is half the fundamental frequency, and a square wave that is a quarter of the fundamental frequency. These control frequences are used in the sub octave creator stages.
+
+{% include svgfix file="/assets/images/subwave/OC2-analyser-stage1.svg" width="800px" %}
+
+The first part of the analyser stage is filtering out the fundamental frequency. It starts with a low pass filter (stage 1) and continues with a circuit that creates two square waves: one that has peaks at the top of the output of stage 1, and an inverted one that has peaks at the bottom of the output of stage 2, as is depicted in the figure below.
+
+{% include svgtrim file="/assets/images/subwave/OC2-analyser-triggers.svg" width="500px" %}
+
+The first part of the CD4013 is used to create a square wave that ideally follows peaks of the original signal, so it is in 90 degrees phase of the original. The second part of the CD4013 is used to half the original frequency. The original circuit continues with a BA634, replaced in the simplified version with a CD4027. This simply halfs the frequency again, for the -2 octave.
+
+{% include svgfix file="/assets/images/subwave/OC2-analyser-stage2.svg" width="500px" %}
+
+As the flip-flow will set and reset at the rising edge of the square wave, ideally this should correspond with the peaks of the original input wave. This is pretty ok for 440Hz, as depicted below, but falls short at 220Hz or 880Hz! The graph below shows the original input signal (in red) and the corresponding square wave at half the frequency. At 220Hz the square wave is too early, at 880Hz the square wave lags behind.
+
+{% include svgtrim file="/assets/images/subwave/OC2-analyser-220hz.svg" width="500px" %}
+{% include svgtrim file="/assets/images/subwave/OC2-analyser-440hz.svg" width="500px" %}
+{% include svgtrim file="/assets/images/subwave/OC2-analyser-880hz.svg" width="500px" %}
