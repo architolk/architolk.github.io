@@ -333,3 +333,5 @@ subwave:
       url: /subwave/zcd
     - title: "Flip-flop divider"
       url: /subwave/flipflop
+    - title: "AD633"
+      url: /subwave/AD633

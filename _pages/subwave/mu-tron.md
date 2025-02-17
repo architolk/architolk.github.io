@@ -19,3 +19,5 @@ classes: wide
 The operating principle of the mu-tron uses flip-flops to divide the frequency. The original mu-tron doens't use batteries, but is instead powered by AC mains power (as most units were sold in the US, this means 110V). The circuit operates with +12V and -12V, which makes it difficult to replicate the circuit with regular 9V DC power (or a 9V battery).
 
 The [BYOC Divided OCtave](https://byocelectronics.com/dividedoctaveinstructions.pdf) clone uses a [MAX1044](https://www.analog.com/media/en/technical-documentation/data-sheets/icl7660-max1044.pdf) IC that is able to create a dual voltage supply ±9V. The workings of this IC are explained in this [electrosmash article](https://www.electrosmash.com/klon-centaur-analysis) of the Klon Centaur. Using the circuit in the Klon Cenataur, a supply voltage of ±13.5V is possible.
+
+The [LT1054](https://www.ti.com/lit/ds/symlink/lt1054.pdf) is recommended to use instead of the MAX1044, as it can deliver more current, can deal with higher voltage, has protection circuitry and the opinion seems to be that it produces less noise.
