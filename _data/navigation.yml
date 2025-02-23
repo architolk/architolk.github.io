@@ -323,8 +323,10 @@ subwave:
       url: /subwave/mu-tron
     - title: "OC-2"
       url: /subwave/oc-2
-  - title: Design
+  - title: Build
     children:
+    - title: "Design"
+      url: /subwave/design
     - title: "Analyser"
       url: /subwave/analyser
   - title: Theory
