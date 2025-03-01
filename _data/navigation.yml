@@ -345,3 +345,5 @@ subwave:
       url: /subwave/clamper
     - title: "Square root circuit"
       url: /subwave/square-root
+    - title: "Sign restorer"
+      url: /subwave/sign-restorer
