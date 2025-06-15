@@ -293,6 +293,8 @@ calculator:
       url: /calculator/keymatrix
     - title: "MCU Pins"
       url: /calculator/arduino
+    - title: "ESP32"
+      url: /calculator/esp32
     - title: "Breadboard"
       url: /calculator/breadboard
     - title: "Power"
