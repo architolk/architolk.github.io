@@ -67,6 +67,13 @@ feature_row:
     excerpt: "The ongoing project to create a sub-octaver"
     url: "/subwave"
     btn_class: "btn--info"
-
+  - image_path: "assets/thumbs/somfy.png"
+    title: "Somfy screens"
+    excerpt: "The ongoing project to integrate screens with home automation"
+    url: "/somfy"
+  - image_path: "assets/thumbs/calendar.png"
+    title: "e-Ink calendar"
+    excerpt: "The ongoing project to create a dynamic calendar"
+    url: "/calendar"
 ---
 {% include feature_row %}

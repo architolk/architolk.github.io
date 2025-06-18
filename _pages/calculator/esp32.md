@@ -48,4 +48,4 @@ The table below gives all the inputs we need
 |GP26|-|-|6|Slider scan output|
 |GP33|-|-|7|Slider scan output|
 
-For the 12 input pins, we will use two daisy-chained 74HC165 as described [here](https://www.gammon.com.au/forum/?id=11979) => paralel to serial
+For the 12 input pins, we will use two daisy-chained 74HC165 as described [here](https://www.gammon.com.au/forum/?id=11979) => paralel to serial. These chips have internal pull-down resistors, so we don't have to worry about that.

@@ -349,3 +349,11 @@ subwave:
       url: /subwave/square-root
     - title: "Sign restorer"
       url: /subwave/sign-restorer
+
+somfy:
+  - title: Introduction
+    url: /somfy
+
+calendar:
+  - title: Introduction
+    url: /calendar
