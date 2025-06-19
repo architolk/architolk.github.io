@@ -16,8 +16,4 @@ Our screens are controlled by a somfy remote. But home automation should be much
 
 But it is not as simple as it seems... The RTS protocol of Somfy doesn't work at the usuals 433.92Mhz, but at 433.42Mhz. And we need to "hack" into the protocol, essentially making the ESP32 work like just another control.
 
-Some information:
-
-- [Controlling Somfy roller shutters using an ESP32 and ESPHome](https://www.die-welt.net/2021/06/controlling-somfy-roller-shutters-using-an-esp32-and-esphome/)
-- [Github ESP-Somfy RTS](https://github.com/rstrouse/ESPSomfy-RTS?tab=readme-ov-file)
-- [Home assistant ESP Somfy RTS Integration](https://community.home-assistant.io/t/esp-somfy-rts-integration/543401)
+We will use the Github ESP-Somfy RTS as it is a very well documented solution, and is a perfect fit for our case! AND it is very easy to install!

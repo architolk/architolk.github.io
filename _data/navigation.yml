@@ -353,6 +353,14 @@ subwave:
 somfy:
   - title: Introduction
     url: /somfy
+  - title: Build
+    children:
+    - title: ESP32
+      url: /somfy/esp32
+    - title: firmware
+      url: /somfy/firmware
+  - title: Resources
+    url: /somfy/resources
 
 calendar:
   - title: Introduction
