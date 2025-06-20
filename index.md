@@ -69,7 +69,7 @@ feature_row:
     btn_class: "btn--info"
   - image_path: "assets/thumbs/somfy.png"
     title: "Somfy screens"
-    excerpt: "The ongoing project to integrate screens with home automation"
+    excerpt: "An ESP32 Home automation Somfy controler"
     url: "/somfy"
   - image_path: "assets/thumbs/calendar.png"
     title: "e-Ink calendar"
