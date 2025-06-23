@@ -359,9 +359,17 @@ somfy:
       url: /somfy/esp32
     - title: firmware
       url: /somfy/firmware
+    - title: configuration
+      url: /somfy/configuration
   - title: Resources
     url: /somfy/resources
 
 calendar:
   - title: Introduction
     url: /calendar
+  - title: build
+    children:
+    - title: ESP32
+      url: /calendar/esp32
+  - title: Resources
+    url: /calendar/resources
