@@ -35,17 +35,20 @@ The table below gives all the inputs we need
 |-|45|-|-|Filament F+|
 |TX0|-|-|-|Serial port|
 |RX0|-|-|-|Serial port|
-|GP25|-|-|-|Audio DAC|
-|GP12|-|-|-|SPI output from 74HC165 shift registers (HSPI MISO pin on ESP32)|
-|GP13|-|-|-|HSPI MOSI pin on ESP32, not usable as it is used by the SPI library|
-|GP14|-|-|-|SCK Clock for SPI (HSPI)|
-|GP15|-|-|-|LOAD trigger for SPI|
+|GP16|-|-|-|RX UART Serial for audio module|
+|GP17|-|-|-|TX UART Serial for audio module|
+|GP21|-|-|-|SDA I2C bus|
+|GP22|-|-|-|SCL I2C bus|
 |GP2|-|8|-|Key scan output|
 |GP4|-|9|-|Key scan output|
-|GP16|-|10|-|Key scan output|
-|GP17|-|11|-|Key scan output|
+|GP25|-|10|-|Key scan output|
+|GP26|-|11|-|Key scan output|
 |GP27|-|-|5|Slider scan output|
-|GP26|-|-|6|Slider scan output|
+|GP32|-|-|6|Slider scan output|
 |GP33|-|-|7|Slider scan output|
 
-For the 12 input pins, we will use two daisy-chained 74HC165 as described [here](https://www.gammon.com.au/forum/?id=11979) => paralel to serial. These chips have internal pull-down resistors, so we don't have to worry about that.
+For the 12 input pins, we could use two daisy-chained 74HC165 as described [here](https://www.gammon.com.au/forum/?id=11979) => paralel to serial. These chips have internal pull-down resistors, so we don't have to worry about that.
+
+...but we finaly settled for the [MCP23017](https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf). Communication is over the I2C bus, this chip is configured in "input" mode, with pull-up resistors.
+
+GP16 and GP17 are used for the serial communcation with the audio module, we will use the [DFRobot Voice Module DFR0534](https://wiki.dfrobot.com/Voice_Module_SKU__DFR0534)
