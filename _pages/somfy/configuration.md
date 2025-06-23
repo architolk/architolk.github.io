@@ -48,9 +48,9 @@ We actually want to control 7 screens, so we need to configure seven screens (th
 |&#x25cf; &#x25CB; &#x25CB; &#x25CB;|1 (left most)||
 |&#x25cf; &#x25CB; &#x25CB; &#x25CB;|2||
 |&#x25cf; &#x25CB; &#x25CB; &#x25CB;|3||
-|&#x25CB; &#x25cf; &#x25CB; &#x25CB;|4||
+|&#x25CB; &#x25cf; &#x25CB; &#x25CB;|4|8447235|
 |&#x25CB; &#x25CB; &#x25cf; &#x25CB;|5|8512771|
-|&#x25CB; &#x25CB; &#x25cf; &#x25cf;|6||
-|&#x25CB; &#x25CB; &#x25CB; &#x25cf;|7 (right most)||
+|&#x25CB; &#x25CB; &#x25cf; &#x25cf;|6|8578300|
+|&#x25CB; &#x25CB; &#x25CB; &#x25cf;|7 (right most)|8578307|
 
 Screen 6 is controlled with both channels 3 and 4, we will use channel 4 to pair. We will start with pairing screens 4 and 5, which are easiest: screen 4 has a unique channel, and if we unplug screens 6 and 7, screen 5 also has a unique channel.
