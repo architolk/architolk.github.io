@@ -36,3 +36,5 @@ The pin connections are according to the table below:
 Pin is the pin number on the CC1101 board (L=Left, R=Right). Pin nr is the pin als printed on the ESP32 PCB. Board is the letter on the connection PCB I made to connect the ESP32 pins to the CC1101 board.
 
 This is a bit different from [ESP-Somfy hardware guide](https://github.com/rstrouse/ESPSomfy-RTS/wiki/Simple-ESPSomfy-RTS-device), as the pinout doesn't seem to be the same for the serial TX/RX pins. May the ESP-Somfy uses bitbanging and not the hardware serial port? It seems that the communication with the CC1101 isn't exactly serial communication! I first tried to use pin 16 (U2_RXD) and pin 17 (U2_TX2) but that didn't seem to work - I could see log entries, but no transmission. Then I changed to the original pin settings as described in the manual (as displayed above). But again: only logs, and no transmission. But when I swapped the configuration, I could send out the correct codes, but no logs! Finally, I set both RX and TX to pin 13. That worked! It seems that my version of the CC1101 can only work via GDO0 and GDO2 doesn't do anything...
+
+![](/assets/images/somfy/radio-config.png)
