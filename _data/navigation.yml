@@ -371,5 +371,7 @@ calendar:
     children:
     - title: ESP32
       url: /calendar/esp32
+    - title: Driver
+      url: /calendar/driver
   - title: Resources
     url: /calendar/resources
