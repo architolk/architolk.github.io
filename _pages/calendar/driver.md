@@ -39,4 +39,8 @@ It would seem that the Waveshare and GooDisplay screens are exactly the same. Wh
 
 It seems that the GDEW075Z08 is the old version (v2?) of the board, and the GDEY075Z08 is the new version (V3?). The [comparison](/calendar/compare) between the init functions for V2 old and V3 seems to indicate such a thing. The GDEY075Z08 init routine in de software code is exactly the same als the new version.
 
-The [GDEY075Z08_ESP32 Sample code](https://www.good-display.com/companyfile/1391.html) works, after setting the PWR pin to HIGH. The [EPD_7in5b_V2 test code](https://github.com/waveshareteam/e-Paper/blob/master/Arduino_R4/src/Examples/EPD_7in5b_V2_test.cpp) doesn't work, but that is probably due to not setting the pins correctly, have to check that again.
+The [GDEY075Z08_ESP32 Sample code](https://www.good-display.com/companyfile/1391.html) works, after setting the PWR pin to HIGH. The [EPD_7in5b_V2 test code](https://github.com/waveshareteam/e-Paper/blob/master/Arduino_R4/src/Examples/EPD_7in5b_V2_test.cpp) als works, out of the box. The EP-7in5b-V2 code is targeted at Arduino R4, but also works (with the proper pin settings) for ESP32.
+
+The corresponding code (with the pin settings for the temporary dev board) is available here: [GDEY075Z08_Arduino](https://github.com/architolk/arduino-projects/tree/master/calendar/GDEY075Z08_Arduino) and [Waveshare EPD-Test](https://github.com/architolk/arduino-projects/tree/master/calendar/EPD-Test)
+
+I haven't tried the GxEPD2 library yet. The board I'm using isn't supported and it seems overkill, although the use of the Adafruit_GFX would be nice.
