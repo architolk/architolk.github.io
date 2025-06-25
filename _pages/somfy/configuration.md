@@ -45,9 +45,9 @@ We actually want to control 7 screens, so we need to configure seven screens (th
 
 |Channel|Screen|Software address|
 |-------|------|----------------|
-|&#x25cf; &#x25CB; &#x25CB; &#x25CB;|1 (left most)||
-|&#x25cf; &#x25CB; &#x25CB; &#x25CB;|2||
-|&#x25cf; &#x25CB; &#x25CB; &#x25CB;|3||
+|&#x25cf; &#x25CB; &#x25CB; &#x25CB;|1 (left most)|8381650|
+|&#x25cf; &#x25CB; &#x25CB; &#x25CB;|2|8381600|
+|&#x25cf; &#x25CB; &#x25CB; &#x25CB;|3|8381699|
 |&#x25CB; &#x25cf; &#x25CB; &#x25CB;|4|8447235|
 |&#x25CB; &#x25CB; &#x25cf; &#x25CB;|5|8512771|
 |&#x25CB; &#x25CB; &#x25cf; &#x25cf;|6|8578300|
