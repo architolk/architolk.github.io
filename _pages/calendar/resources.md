@@ -21,3 +21,5 @@ classes: wide
 - [Waveshare HAT rev 2.3 instructions](https://www.waveshare.com/wiki/E-Paper_Driver_HAT)
 - [Waveshare Github e-paper](https://github.com/waveshareteam/e-Paper)
 - [GxEPD2 library](https://github.com/ZinggJM/GxEPD2)
+- [Weather icons](https://github.com/erikflowers/weather-icons)
+- [Using AdafruitGFX with waveshare](https://github.com/tomekness/waveshare_Epd5in83b-adafruitGFX/blob/main/arduino_codeExample/arduino_codeExample.ino): it is done with the canvas buffer object!
