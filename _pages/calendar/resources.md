@@ -23,3 +23,6 @@ classes: wide
 - [GxEPD2 library](https://github.com/ZinggJM/GxEPD2)
 - [Weather icons](https://github.com/erikflowers/weather-icons)
 - [Using AdafruitGFX with waveshare](https://github.com/tomekness/waveshare_Epd5in83b-adafruitGFX/blob/main/arduino_codeExample/arduino_codeExample.ino): it is done with the canvas buffer object!
+- [ESP32 deep sleep tutorial](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
+- [ESP32 pinout reference](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
+- [ESP32-S3 pinout reference](https://randomnerdtutorials.com/esp32-s3-devkitc-pinout-guide/)

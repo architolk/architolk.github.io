@@ -20,7 +20,7 @@ The table below gives all the inputs we need
 
 |ESP32|VFD|Key pins|Slider pins|Description|
 |5V|-|-|-|5V input from 5V regulator|
-|?|-|-|-|Test LED (blinking)|
+|GPIO2|-|-|-|Test LED (blinking)|
 |-|1|-|-|Filament F-|
 |3.3V|5|-|-|Vdd, same for ESP32 Vdd|
 |-|8|-|-|Vdisp-ON, to enable Vdisp, via the NPN-PNP high side, dual power rail transistor circuit|
@@ -39,7 +39,7 @@ The table below gives all the inputs we need
 |GP17|-|-|-|TX UART Serial for audio module|
 |GP21|-|-|-|SDA I2C bus|
 |GP22|-|-|-|SCL I2C bus|
-|GP2|-|8|-|Key scan output|
+|GP13|-|8|-|Key scan output|
 |GP4|-|9|-|Key scan output|
 |GP25|-|10|-|Key scan output|
 |GP26|-|11|-|Key scan output|

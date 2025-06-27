@@ -17,3 +17,4 @@ classes: wide
 - [Noritake-elec - VFD operation](https://www.noritake-elec.com/technology/general-technical-information/vfd-operation)
 - [Futaba VFD application note](https://www.vwlowen.co.uk/arduino/vfd/VFDApplication-Note.pdf)
 - [EEVBlog - How to hack VFD displays](https://www.youtube.com/watch?v=clUVEyi_YNM)
+- [ESP32 pinout reference](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
