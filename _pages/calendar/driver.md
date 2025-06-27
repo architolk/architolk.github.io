@@ -43,4 +43,4 @@ The [GDEY075Z08_ESP32 Sample code](https://www.good-display.com/companyfile/1391
 
 The corresponding code (with the pin settings for the temporary dev board) is available here: [GDEY075Z08_Arduino](https://github.com/architolk/arduino-projects/tree/master/calendar/GDEY075Z08_Arduino) and [Waveshare EPD-Test](https://github.com/architolk/arduino-projects/tree/master/calendar/EPD-Test)
 
-I haven't tried the GxEPD2 library yet. The board I'm using isn't supported and it seems overkill, although the use of the Adafruit_GFX would be nice.
+I haven't tried the GxEPD2 library yet. The board I'm using isn't supported and it seems overkill. However, using the Adafruit_GFX library was actually not that hard, using the GFXCanvas1 object! The corresponding code is available here: [POC-ePaper-GFX](https://github.com/architolk/arduino-projects/tree/master/calendar/POC-ePaper-GFX).
