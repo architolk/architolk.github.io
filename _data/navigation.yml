@@ -373,5 +373,11 @@ calendar:
       url: /calendar/esp32
     - title: Driver
       url: /calendar/driver
+    - title: UI design
+      url: /calendar/ui-design
+  - title: APIs
+    children:
+    - title: KNMI (weerlive)
+      url: /calendar/api-weerlive
   - title: Resources
     url: /calendar/resources

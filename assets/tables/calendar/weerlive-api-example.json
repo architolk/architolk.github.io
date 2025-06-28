@@ -1,0 +1,96 @@
+{ "liveweer": [
+    {"plaats": "Amsterdam"
+    , "timestamp": 1751095685
+    , "time": "28-06-2025 09:28:05"
+    , "temp": 21.4
+    , "gtemp": 19.8
+    , "samenv": "Zwaar bewolkt"
+    , "lv": 74
+    , "windr": "W"
+    , "windrgr": 249.6
+    , "windms": 6.66
+    , "windbft": 4
+    , "windknp": 12.9
+    , "windkmh": 24
+    , "luchtd": 1023.12
+    , "ldmmhg": 767
+    , "dauwp": 16.6
+    , "zicht": 34900
+    , "gr": 306
+    , "verw": "Eerst veel zon, later meer bewolking. Zondag zonniger en warmer"
+    , "sup": "05:19"
+    , "sunder": "22:08"
+    , "image": "bewolkt"
+    , "alarm": 0
+    , "lkop": "Er zijn geen waarschuwingen"
+    , "ltekst": " Er zijn momenteel geen waarschuwingen van kracht."
+    , "wrschklr": "groen"
+    , "wrsch_g": "-"
+    , "wrsch_gts": 0
+    , "wrsch_gc": "-"
+    }
+  ],
+  "wk_verw":[
+    {"dag":"28-06-2025"
+    ,"image":"halfbewolkt"
+    ,"max_temp":26
+    ,"min_temp":19
+    ,"windbft":3
+    ,"windkmh":18
+    ,"windknp":10
+    ,"windms":5
+    ,"windrgr":257
+    ,"windr":"ZW"
+    ,"neersl_perc_dag":0
+    ,"zond_perc_dag":97
+    },
+    {"dag":"29-06-2025","image":"halfbewolkt","max_temp":28,"min_temp":18,"windbft":3,"windkmh":14,"windknp":8,"windms":4,"windrgr":253,"windr":"ZW","neersl_perc_dag":0,"zond_perc_dag":100},
+    {"dag":"30-06-2025","image":"halfbewolkt","max_temp":32,"min_temp":17,"windbft":2,"windkmh":10,"windknp":6,"windms":3,"windrgr":196,"windr":"Z","neersl_perc_dag":0,"zond_perc_dag":94},
+    {"dag":"01-07-2025","image":"halfbewolkt","max_temp":31,"min_temp":20,"windbft":2,"windkmh":10,"windknp":6,"windms":3,"windrgr":203,"windr":"Z","neersl_perc_dag":0,"zond_perc_dag":90},
+    {"dag":"02-07-2025","image":"halfbewolkt","max_temp":33,"min_temp":18,"windbft":3,"windkmh":14,"windknp":8,"windms":4,"windrgr":172,"windr":"Z","neersl_perc_dag":60,"zond_perc_dag":77}
+  ],
+  "uur_verw":[
+    {"uur":"28-06-2025 10:00"
+    ,"timestamp":1751097600
+    ,"image":"bewolkt"
+    ,"temp":21
+    ,"windbft":3
+    ,"windkmh":18
+    ,"windknp":10
+    ,"windms":5
+    ,"windrgr":249
+    ,"windr":"ZW"
+    ,"neersl":0
+    ,"gr":202
+    },
+    {"uur":"28-06-2025 11:00","timestamp":1751101200,"image":"bewolkt","temp":21,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":249,"windr":"ZW","neersl":0,"gr":219},
+    {"uur":"28-06-2025 12:00","timestamp":1751104800,"image":"bewolkt","temp":22,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":243,"windr":"ZW","neersl":0,"gr":349},
+    {"uur":"28-06-2025 13:00","timestamp":1751108400,"image":"bewolkt","temp":23,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":234,"windr":"ZW","neersl":0,"gr":460},
+    {"uur":"28-06-2025 14:00","timestamp":1751112000,"image":"halfbewolkt","temp":25,"windbft":3,"windkmh":14,"windknp":8,"windms":4,"windrgr":244,"windr":"ZW","neersl":0,"gr":626},
+    {"uur":"28-06-2025 15:00","timestamp":1751115600,"image":"bewolkt","temp":25,"windbft":4,"windkmh":21,"windknp":12,"windms":6,"windrgr":264,"windr":"W","neersl":0,"gr":607},
+    {"uur":"28-06-2025 16:00","timestamp":1751119200,"image":"bewolkt","temp":25,"windbft":4,"windkmh":21,"windknp":12,"windms":6,"windrgr":251,"windr":"ZW","neersl":0,"gr":338},
+    {"uur":"28-06-2025 17:00","timestamp":1751122800,"image":"halfbewolkt","temp":25,"windbft":4,"windkmh":21,"windknp":12,"windms":6,"windrgr":248,"windr":"ZW","neersl":0,"gr":283},
+    {"uur":"28-06-2025 18:00","timestamp":1751126400,"image":"lichtbewolkt","temp":25,"windbft":4,"windkmh":21,"windknp":12,"windms":6,"windrgr":244,"windr":"ZW","neersl":0,"gr":393},
+    {"uur":"28-06-2025 19:00","timestamp":1751130000,"image":"zonnig","temp":25,"windbft":4,"windkmh":21,"windknp":12,"windms":6,"windrgr":238,"windr":"ZW","neersl":0,"gr":263},
+    {"uur":"28-06-2025 20:00","timestamp":1751133600,"image":"zonnig","temp":24,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":234,"windr":"ZW","neersl":0,"gr":136},
+    {"uur":"28-06-2025 21:00","timestamp":1751137200,"image":"zonnig","temp":23,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":227,"windr":"ZW","neersl":0,"gr":33},
+    {"uur":"28-06-2025 22:00","timestamp":1751140800,"image":"zonnig","temp":23,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":230,"windr":"ZW","neersl":0,"gr":0},
+    {"uur":"28-06-2025 23:00","timestamp":1751144400,"image":"helderenacht","temp":22,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":237,"windr":"ZW","neersl":0,"gr":0},
+    {"uur":"29-06-2025 00:00","timestamp":1751148000,"image":"helderenacht","temp":22,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":231,"windr":"ZW","neersl":0,"gr":0},
+    {"uur":"29-06-2025 01:00","timestamp":1751151600,"image":"helderenacht","temp":21,"windbft":3,"windkmh":18,"windknp":10,"windms":5,"windrgr":251,"windr":"ZW","neersl":0,"gr":0},
+    {"uur":"29-06-2025 02:00","timestamp":1751155200,"image":"helderenacht","temp":20,"windbft":3,"windkmh":14,"windknp":8,"windms":4,"windrgr":256,"windr":"ZW","neersl":0,"gr":0},
+    {"uur":"29-06-2025 03:00","timestamp":1751158800,"image":"helderenacht","temp":19,"windbft":2,"windkmh":10,"windknp":6,"windms":3,"windrgr":271,"windr":"W","neersl":0,"gr":0},
+    {"uur":"29-06-2025 04:00","timestamp":1751162400,"image":"helderenacht","temp":19,"windbft":2,"windkmh":10,"windknp":6,"windms":3,"windrgr":289,"windr":"W","neersl":0,"gr":0},
+    {"uur":"29-06-2025 05:00","timestamp":1751166000,"image":"helderenacht","temp":19,"windbft":2,"windkmh":7,"windknp":4,"windms":2,"windrgr":307,"windr":"NW","neersl":0,"gr":8},
+    {"uur":"29-06-2025 06:00","timestamp":1751169600,"image":"zonnig","temp":19,"windbft":2,"windkmh":7,"windknp":4,"windms":2,"windrgr":2,"windr":"N","neersl":0,"gr":86},
+    {"uur":"29-06-2025 07:00","timestamp":1751173200,"image":"zonnig","temp":20,"windbft":2,"windkmh":7,"windknp":4,"windms":2,"windrgr":12,"windr":"NO","neersl":0,"gr":205},
+    {"uur":"29-06-2025 08:00","timestamp":1751176800,"image":"zonnig","temp":21,"windbft":2,"windkmh":10,"windknp":6,"windms":3,"windrgr":353,"windr":"N","neersl":0,"gr":352},
+    {"uur":"29-06-2025 09:00","timestamp":1751180400,"image":"zonnig","temp":23,"windbft":2,"windkmh":10,"windknp":6,"windms":3,"windrgr":349,"windr":"N","neersl":0,"gr":493}
+  ],
+  "api":[
+    {"bron":"Bron: Weerdata KNMI/NOAA via Weerlive.nl"
+    ,"max_verz":300
+    ,"rest_verz":0
+    }
+  ]
+}
