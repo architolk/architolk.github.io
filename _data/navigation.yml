@@ -379,5 +379,7 @@ calendar:
     children:
     - title: KNMI (weerlive)
       url: /calendar/api-weerlive
+    - title: Font conversion
+      url: /calendar/fontconvert
   - title: Resources
     url: /calendar/resources
