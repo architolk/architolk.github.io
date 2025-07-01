@@ -27,5 +27,6 @@ classes: wide
 - [ESP32 pinout reference](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
 - [ESP32-S3 pinout reference](https://randomnerdtutorials.com/esp32-s3-devkitc-pinout-guide/)
 - [ESP32 Wifi tutorial](https://randomnerdtutorials.com/esp32-useful-wi-fi-functions-arduino/)
+- [ESP32 http client tutorial](https://randomnerdtutorials.com/esp32-http-get-post-arduino/)
 - [Weerlive API](https://weerlive.nl/delen.php) Alleen beperkte info, KNMI biedt wel meer, maar dan alleen gehele datasets, dat is veel minder handig
 - [Magister iCal API](https://magister.nl/help/agenda-delen/)

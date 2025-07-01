@@ -27,11 +27,13 @@ The design of the user interface is made in SVG to make it easy to port that to 
 - Font size 30
 - Font size 80 (only numbers)
 
+(drawings of characters starts from the bottom left position)
+
 ## Bottom screen
 
 ![](/assets/images/calendar/ui-design-bottom.svg)
 
-- Weather icons: 1.5 scale (font size 48)
+- Weather icons: 1.5 scale (font size 26)
 - Weather icons: 2.0 scale (font size 64)
 - Font size 16 (only numbers, the letters B m f t and the symbols % °)
 - Font size 20
