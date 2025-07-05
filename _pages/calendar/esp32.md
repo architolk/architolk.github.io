@@ -22,29 +22,40 @@ The Waveshare HAT uses a 3 or 4 line SPI, we opt for the (regular) 4 line SPI. N
 
 |Waveshare HAT|ESP32|Pin|Description|
 |-------------|-----|---|-----------|
-|PWR |D13  | 11 | Power signal to e-Paper |
-|BUSY|D12  | 12 | Busy signal from e-Paper |
+|PWR |D12  | 12 | Power signal to e-Paper |
+|BUSY|A1   |  5 | Busy signal from e-Paper |
 |RST |D11  | 13 | Reset pin of e-Paper |
 |DC  |D10  | 14 | Data / Command selection |
-|CS  |D5   |  7 | SPI Chip Select |
+|CS  |A3   |  8 | SPI Chip Select |
 |CLK |SCK  | 17 | SPI Clock |
 |DIN |MOSI | 15 | SPI Master Output Slave Input |
 |    |MISO | 16 | SPI Master Input Slave Output (not used) |
 |GND | GND | GND| Ground |
 |VCC | 3V3 | 3V3| Power source |
-|    |A0   | 4  | Analog input pin for voltage measurement |
+|    | A0  |  4 | Analog input pin for voltage measurement |
+|    | T10 | 10 | Touch pin |
 
 The second screen should also have some pins:
 
 |Waveshare HAT|ESP32|Pin|Description|
 |-------------|-----|---|-----------|
-|PWR |A1  | 11 | Power signal to e-Paper |
-|BUSY|A2  | 10 | Busy signal from e-Paper |
-|RST |A3  |  8 | Reset pin of e-Paper |
-|DC  |A4  |  6 | Data / Command selection |
-|CS  |A5  |  5 | SPI Chip Select |
+|PWR |D7  |  9 | Power signal to e-Paper |
+|BUSY|A2  |  6 | Busy signal from e-Paper |
+|RST |D6  | 18 | Reset pin of e-Paper |
+|DC  |D5  |  7 | Data / Command selection |
+|CS  |D3  | 38 | SPI Chip Select |
 
-This Firebeetle doesn't seem to have a way to measure battery status :-(. We could make a small circuit that does just that, as described in [this reddit post](https://www.reddit.com/r/esp32/comments/1arkvg2/read_battery_voltage_on_a_firebeetle_2_esp32s3/).
+Pins to avoid:
+|ESP32|Pin|Description|
+|-----|---|-----------|
+|D9|0|Boot|
+|D2|3|JTAG boot|
+|D14|47|User key (button on board)|
+|D13|21|LED on board|
+
+This means that 4 pins are shared (3V3, GND, SCK, MOSI).
+
+This Firebeetle doesn't seem to have a way to measure battery status :-(. We could make a small circuit that does just that, as described in [this reddit post](https://www.reddit.com/r/esp32/comments/1arkvg2/read_battery_voltage_on_a_firebeetle_2_esp32s3/). According to [this blog](https://cellsaviors.com/blog/creating-a-simple-battery-level-indicator) the resistor should be between 10k and 242k. We choose 220k resistors.
 
 To test the software, I will first use a different WROOM-32 ESP board, with this pin configuration:
 
