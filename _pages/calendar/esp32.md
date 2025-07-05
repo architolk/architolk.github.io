@@ -12,12 +12,14 @@ action: false
 classes: wide
 
 ---
+# MCU - ESP32 S3
 We will use the [DFRobot Firebeetle 2 ESP32 S3](https://wiki.dfrobot.com/_SKU_DFR1145_FireBeetle_2_ESP32_S3_N4_IoT_development_board) development board as the controller MCU:
 
 ![](/assets/images/calendar/firebeetle2-s3-pins.png)
 
 It might be a bit overkill, but this ESP32 board at least has the charging circuit and good documentation. As we don't have that much room for the boards, we opt to solder all connections directly to the board. This means that we have to be sure which connections we are making!
 
+# HAT connection
 The Waveshare HAT uses a 3 or 4 line SPI, we opt for the (regular) 4 line SPI. Next to the SPI interface, some other pins are needed:
 
 |Waveshare HAT|ESP32|Pin|Description|
@@ -46,6 +48,7 @@ The second screen should also have some pins:
 |CS  |D3  | 38 | SPI Chip Select |
 
 Pins to avoid:
+
 |ESP32|Pin|Description|
 |-----|---|-----------|
 |D9|0|Boot|
@@ -56,6 +59,14 @@ Pins to avoid:
 This means that 4 pins are shared (3V3, GND, SCK, MOSI).
 
 This Firebeetle doesn't seem to have a way to measure battery status :-(. We could make a small circuit that does just that, as described in [this reddit post](https://www.reddit.com/r/esp32/comments/1arkvg2/read_battery_voltage_on_a_firebeetle_2_esp32s3/). According to [this blog](https://cellsaviors.com/blog/creating-a-simple-battery-level-indicator) the resistor should be between 10k and 242k. We choose 220k resistors.
+
+## Connection via the breakout board
+
+![](/assets/images/calendar/pinout-breakout.png)
+
+The breakout board is directly connected to the MCU, with combined connections for GND, 3V3, SPI SCK and SPI MOSI. Via the breakout board it is easy to connect both displays, using the 9 pins cable (colors correspond to the colors of the cable).
+
+## Pinout testing board
 
 To test the software, I will first use a different WROOM-32 ESP board, with this pin configuration:
 
