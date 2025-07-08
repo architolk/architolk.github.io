@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+category: System
+tags: [schedule, event, confirm, appointment, planning, date, reminder, online, organize, verify]
+version: "2.10"
+unicode: "f824"
+-->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <path
+     style="color:#000000;fill:#000000;stroke-miterlimit:0;stroke-width:0;stroke-dasharray:none"
+     d="M 6,4 C 4.354992,4 3,5.354992 3,7 v 12 c 0,1.645008 1.354992,3 3,3 h 5.5 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 H 6 C 5.4358712,20 5,19.564129 5,19 V 7 C 5,6.4358712 5.4358712,6 6,6 h 12 c 0.564129,0 1,0.4358712 1,1 v 6 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 V 7 C 21,5.354992 19.645008,4 18,4 Z"
+     id="path1" />
+  <path
+     style="color:#000000;fill:#000000;stroke-miterlimit:0;stroke-width:0;stroke-dasharray:none"
+     d="m 16,2 a 1,1 0 0 0 -1,1 v 4 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 V 3 A 1,1 0 0 0 16,2 Z"
+     id="path2" />
+  <path
+     style="color:#000000;fill:#000000;stroke-miterlimit:0;stroke-width:0;stroke-dasharray:none"
+     d="M 8,2 A 1,1 0 0 0 7,3 V 7 A 1,1 0 0 0 8,8 1,1 0 0 0 9,7 V 3 A 1,1 0 0 0 8,2 Z"
+     id="path3" />
+  <path
+     style="color:#000000;fill:#000000;stroke-miterlimit:0;stroke-width:0;stroke-dasharray:none"
+     d="m 4,10 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 16 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+     id="path4" />
+  <path
+     style="color:#000000;fill:#000000;stroke-miterlimit:0;stroke-width:0;stroke-dasharray:none"
+     d="M 20.292969,16.292969 17,19.585937 15.707031,18.292969 a 1,1 0 0 0 -1.414062,0 1,1 0 0 0 0,1.414062 l 2,2 a 1.0001,1.0001 0 0 0 1.414062,0 l 4,-4 a 1,1 0 0 0 0,-1.414062 1,1 0 0 0 -1.414062,0 z"
+     id="path5" />
+</svg>

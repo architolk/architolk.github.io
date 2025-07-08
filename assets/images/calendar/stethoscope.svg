@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+tags: [doctor, medical, physician, test, examination, health, illness, sickness, scrutiny, hospital]
+version: "1.33"
+category: Health
+unicode: "edbe"
+-->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="stethoscope.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="11.949153"
+     inkscape:cy="12"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="M 5,3 C 3.354992,3 2,4.354992 2,6 V 9.5 C 2,13.078004 4.9219984,16 8.5,16 12.078002,16 15,13.078004 15,9.5 V 6 C 15,4.354992 13.645008,3 12,3 h -1 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 1 c 0.564129,0 1,0.4358712 1,1 V 9.5 C 13,11.997126 10.997124,14 8.5,14 6.0028756,14 4,11.997126 4,9.5 V 6 C 4,5.4358712 4.4358712,5 5,5 H 6 A 1,1 0 0 0 7,4 1,1 0 0 0 6,3 Z"
+     id="path1" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="m 20,11 a 1,1 0 0 0 -1,1 v 3 c 0,2.773268 -2.226734,5 -5,5 -2.773266,0 -5,-2.226732 -5,-5 A 1,1 0 0 0 8,14 1,1 0 0 0 7,15 c 0,3.854147 3.145856,7 7,7 3.854144,0 7,-3.145853 7,-7 v -3 a 1,1 0 0 0 -1,-1 z"
+     id="path2" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="m 11,2 a 1,1 0 0 0 -1,1 v 2 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 V 3 A 1,1 0 0 0 11,2 Z"
+     id="path3" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="M 6,2 A 1,1 0 0 0 5,3 V 5 A 1,1 0 0 0 6,6 1,1 0 0 0 7,5 V 3 A 1,1 0 0 0 6,2 Z"
+     id="path4" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="M 20,7 C 19.277779,7 18.542119,7.2353477 17.960937,7.7519531 17.379756,8.2685585 17,9.0833344 17,10 c 0,0.916666 0.379756,1.731441 0.960937,2.248047 C 18.542119,12.764652 19.277779,13 20,13 20.722221,13 21.457881,12.764652 22.039062,12.248047 22.620244,11.731441 23,10.916666 23,10 23,9.0833344 22.620244,8.2685585 22.039062,7.7519531 21.457881,7.2353477 20.722221,7 20,7 Z m 0,2 c 0.277778,0 0.54212,0.097987 0.710937,0.2480469 C 20.879755,9.3981072 21,9.5833341 21,10 21,10.416666 20.879755,10.601893 20.710937,10.751953 20.54212,10.902013 20.277778,11 20,11 19.722222,11 19.45788,10.902013 19.289062,10.751953 19.120245,10.601893 19,10.416666 19,10 19,9.5833341 19.120245,9.3981072 19.289062,9.2480469 19.45788,9.0979866 19.722222,9 20,9 Z"
+     id="path5" />
+</svg>

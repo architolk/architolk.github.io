@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+category: E-commerce
+tags: [present, birthday, celebration, wish, bonus, souvenire, surprise]
+version: "1.2"
+unicode: "eb68"
+-->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="gift.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="11.949153"
+     inkscape:cy="12"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="M 4,7 C 2.9072762,7 2,7.9072762 2,9 v 2 c 0,1.092724 0.9072762,2 2,2 h 16 c 1.092724,0 2,-0.907276 2,-2 V 9 C 22,7.9072762 21.092724,7 20,7 Z m 0,2 h 16 v 2 H 4 Z"
+     id="path1" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="m 12,7 a 1,1 0 0 0 -1,1 v 13 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 V 8 A 1,1 0 0 0 12,7 Z"
+     id="path2" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="m 5,11 a 1,1 0 0 0 -1,1 v 7 c 0,1.645008 1.354992,3 3,3 h 10 c 1.645008,0 3,-1.354992 3,-3 v -7 a 1,1 0 0 0 -1,-1 1,1 0 0 0 -1,1 v 7 c 0,0.564129 -0.435871,1 -1,1 H 7 C 6.4358712,20 6,19.564129 6,19 V 12 A 1,1 0 0 0 5,11 Z"
+     id="path3" />
+  <path
+     style="color:#000000;fill:#000000;stroke-width:0;stroke-dasharray:none"
+     d="M 7.4902344,2.0019531 C 6.4113863,2.0048314 5.4749302,2.444463 4.8769531,3.1171875 4.2770145,3.7921187 4,4.6527787 4,5.5 4,6.3472213 4.2770145,7.2078813 4.8769531,7.8828125 5.4768917,8.5577437 6.416668,9 7.5,9 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 C 6.9166677,7 6.6064404,6.8172553 6.3730469,6.5546875 6.1396534,6.2921197 6,5.9027775 6,5.5 6,5.0972225 6.1396534,4.7078803 6.3730469,4.4453125 6.6064404,4.1827447 6.9166677,4 7.5,4 a 1.0001,1.0001 0 0 0 0.017578,0 c 0.6470538,-0.011274 1.3069737,0.295943 1.9511719,1.0117187 0.644198,0.7157758 1.220195,1.8301334 1.558594,3.2246094 a 1.0001,1.0001 0 0 0 1.945312,0 C 13.311055,6.8418521 13.887052,5.7274945 14.53125,5.0117187 15.175448,4.295943 15.835368,3.9887265 16.482422,4 A 1.0001,1.0001 0 0 0 16.5,4 c 0.583332,0 0.89356,0.1827447 1.126953,0.4453125 C 17.860347,4.7078803 18,5.0972225 18,5.5 18,5.9027775 17.860347,6.2921197 17.626953,6.5546875 17.39356,6.8172553 17.083332,7 16.5,7 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 C 17.583332,9 18.523108,8.5577437 19.123047,7.8828125 19.722985,7.2078813 20,6.3472213 20,5.5 20,4.6527787 19.722985,3.7921187 19.123047,3.1171875 18.52507,2.444463 17.588614,2.0048314 16.509766,2.0019531 15.185796,1.9817384 13.97017,2.6457742 13.044922,3.6738281 12.642877,4.1205451 12.308,4.6668327 12,5.2441406 11.692,4.6668327 11.357123,4.1205451 10.955078,3.6738281 10.02983,2.6457742 8.8142035,1.9817384 7.4902344,2.0019531 Z"
+     id="path4" />
+</svg>

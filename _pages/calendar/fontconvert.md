@@ -69,3 +69,5 @@ The weather icons are created from their SVG using the [icomoon.io](https://icom
 |48|./fontconvert WeatherIcons.ttf 48 65 79 > WeatherIcons48pt.h|
 |64|./fontconvert WeatherIcons.ttf 64 65 79 > WeatherIcons64pt.h|
 |80|./fontconvert WeatherIcons.ttf 80 65 79 > WeatherIcons80pt.h|
+
+The calendar icons are created from their SVG using the icon library [tabler-icons](https://github.com/tabler/tabler-icons/tree/main) at github.
