@@ -73,7 +73,7 @@ feature_row:
     url: "/somfy"
   - image_path: "assets/thumbs/calendar.png"
     title: "e-Ink calendar"
-    excerpt: "The ongoing project to create a dynamic calendar"
+    excerpt: "Creating a dynamic calendar"
     url: "/calendar"
 ---
 {% include feature_row %}
