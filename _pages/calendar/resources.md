@@ -30,3 +30,4 @@ classes: wide
 - [ESP32 http client tutorial](https://randomnerdtutorials.com/esp32-http-get-post-arduino/)
 - [Weerlive API](https://weerlive.nl/delen.php) Alleen beperkte info, KNMI biedt wel meer, maar dan alleen gehele datasets, dat is veel minder handig
 - [Magister iCal API](https://magister.nl/help/agenda-delen/)
+- [LIPO battery voltage curve](https://www.ufinebattery.com/blog/useful-overview-of-lipo-battery-voltage/)
