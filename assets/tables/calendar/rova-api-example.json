@@ -1,0 +1,72 @@
+[
+  {"id":2559851
+  ,"date":"2025-12-24T00:00:00Z"
+  ,"wasteType":
+    {"id":3
+    ,"code":"PAP"
+    ,"title":"Oud papier en karton"
+    ,"icon":"papier-karton"
+    ,"notificationTitle":"Herinnering oud papier en karton"
+    ,"notificationText":"Morgen komen we bij u langs om uw oud papier en karton op te halen."
+    ,"notificationTitleSameDay":"Herinnering oud papier en karton"
+    ,"notificationTextSameDay":"Vandaag komen we bij u langs om uw oud papier en karton op te halen."
+    }
+  ,"isIrregular":false
+  },
+  {"id":2559839
+  ,"date":"2025-12-27T00:00:00Z"
+  ,"wasteType":
+    {"id":2
+    ,"code":"GFT"
+    ,"title":"Gft"
+    ,"icon":"gft"
+    ,"notificationTitle":"Herinnering gft"
+    ,"notificationText":"Morgen komen we bij je langs om jouw gft op te halen. "
+    ,"notificationTitleSameDay":"Herinnering gft"
+    ,"notificationTextSameDay":"Vandaag komen we bij je langs om jouw gft op te halen. "
+    }
+  ,"isIrregular":true
+  },
+  {"id":2574243
+  ,"date":"2026-01-02T00:00:00Z"
+  ,"wasteType":
+    {"id":6
+    ,"code":"PMD"
+
+    ,"title":"Pmd"
+    ,"icon":"pmd"
+    ,"notificationTitle":"Herinnering pmd"
+    ,"notificationText":"Morgen komen we bij je langs om jouw pmd op te halen. "
+    ,"notificationTitleSameDay":"Herinnering pmd"
+    ,"notificationTextSameDay":"Vandaag komen we bij je langs om jouw pmd op te halen. "
+    }
+  ,"isIrregular":false
+  },
+  {"id":2574205
+  ,"date":"2026-01-09T00:00:00Z"
+  ,"wasteType":
+    {"id":2
+    ,"code":"GFT"
+    ,"title":"Gft"
+    ,"icon":"gft"
+    ,"notificationTitle":"Herinnering gft"
+    ,"notificationText":"Morgen komen we bij je langs om jouw gft op te halen. "
+    ,"notificationTitleSameDay":"Herinnering gft"
+    ,"notificationTextSameDay":"Vandaag komen we bij je langs om jouw gft op te halen. "
+    }
+  ,"isIrregular":false
+  },
+  {"id":2574206
+  ,"date":"2026-01-23T00:00:00Z"
+  ,"wasteType":
+    {"id":2,"code":"GFT"
+    ,"title":"Gft"
+    ,"icon":"gft"
+    ,"notificationTitle":"Herinnering gft"
+    ,"notificationText":"Morgen komen we bij je langs om jouw gft op te halen. "
+    ,"notificationTitleSameDay":"Herinnering gft"
+    ,"notificationTextSameDay":"Vandaag komen we bij je langs om jouw gft op te halen. "
+    }
+  ,"isIrregular":false
+  }
+]

@@ -385,5 +385,7 @@ calendar:
       url: /calendar/api-calendar
     - title: Font conversion
       url: /calendar/fontconvert
+    - title: ROVA (garbage collection)
+      url: /calendar/api-rova
   - title: Resources
     url: /calendar/resources
