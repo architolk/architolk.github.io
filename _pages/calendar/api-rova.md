@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: false
-permalink: /calendar/api-weerlive
+permalink: /calendar/api-rova
 
 sidebar:
   nav: "calendar"
