@@ -1,0 +1,28 @@
+<div>
+<div class="euclidPattern" style="position:relative;">
+  <input type="range" class="input-knob" min="0" max="16" step="1" data-diameter="200" data-src="/assets/images/geomatron/dial.png"/>
+  <svg class="euclidVis"></svg>
+</div>
+<div class="euclidPattern" style="position:relative;">
+  <input type="range" class="input-knob" min="0" max="16" step="1" data-diameter="200" data-src="/assets/images/geomatron/dial.png"/>
+  <svg class="euclidVis"></svg>
+</div>
+<div class="euclidPattern" style="position:relative;">
+  <input type="range" class="input-knob"  min="0" max="16" step="1" data-diameter="200" data-src="/assets/images/geomatron/dial.png"/>
+  <svg class="euclidVis"></svg>
+</div>
+<div class="euclidPattern" style="position:relative;">
+  <input type="range" class="input-knob" min="0" max="16" step="1" data-diameter="200" data-src="/assets/images/geomatron/dial.png"/>
+  <svg class="euclidVis"></svg>
+</div>
+<div style="display: inline flex; position:relative;">
+  <input id="bpm" type="range" class="input-knob" min="20" max="200" step="5" data-diameter="200" data-src="/assets/images/geomatron/dial.png"  oninput="setbpm(this)" ondblclick="toggleplay(this)"/>
+  <span id="txtstatus" style="pointer-events: none;width:62px;font-size:36px;font-family:sans-serif;color:#4eb2e0;position:absolute;top:50px;left:68px;text-align:center;">▶︎</span>
+  <span id="txtbpm" style="pointer-events: none;width:62px;font-size:24px;font-family:sans-serif;color:#4eb2e0;position:absolute;top:100px;left:68px;text-align:center;">100</span>
+</div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tone/0.12.10/Tone.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dynamics.js/1.1.5/dynamics.js'></script>
+<script src="/assets/js/input-knobs.js"></script>
+<script src="/assets/js/euclid.js"></script>

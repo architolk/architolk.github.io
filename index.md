@@ -75,5 +75,9 @@ feature_row:
     title: "e-Ink calendar"
     excerpt: "Creating a dynamic calendar"
     url: "/calendar"
+  - image_path: "assets/thumbs/geomatron.png"
+    title: "Geomatron"
+    excerpts: "The ongoing project to create a rhythm and chord generator"
+    url: "/geomatron"
 ---
 {% include feature_row %}

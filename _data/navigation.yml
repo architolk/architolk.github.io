@@ -389,3 +389,19 @@ calendar:
       url: /calendar/api-rova
   - title: Resources
     url: /calendar/resources
+
+geomatron:
+  - title: Introduction
+    url: /geomatron
+  - title: Theory
+    children:
+    - title: "Scales and modes"
+      url: /geomatron/scales-modes
+    - title: "Chords"
+      url: /geomatron/chords
+  - title: Simulators
+    children:
+    - title: "Euclidian rhythm generator"
+      url: /geomatron/drum-machine
+    - title: "Chord builder"
+      url: /geomatron/chord-machine
