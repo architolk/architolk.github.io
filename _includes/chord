@@ -1,0 +1,3 @@
+<svg id="{{include.id}}" width="150" height="150"/>
+<script type="text/javascript" src="/assets/js/chord.js"></script>
+<script>showChordGeo("{{include.id}}",{{include.chord}});</script>

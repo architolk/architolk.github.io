@@ -9,6 +9,12 @@ function setbpm(e) {
   Tone.Transport.bpm.value = e.value;
 }
 
+function setswing(e) {
+  const swingEl = document.getElementById("txtswing");
+  swingEl.innerHTML = e.value + "%";
+  Tone.Transport.swing = 0.01 * e.value;
+}
+
 function toggleplay(e) {
   const statusEl = document.getElementById("txtstatus");
   e.playStatus = !e.playStatus;
@@ -194,7 +200,7 @@ Tone.Buffer.on('load', () => {
 });
 
 Tone.Transport.swing = 0; //Should be possible to be a parameter 0.1 = 10% = pretty swingy
-Tone.Transport.swingSubdivision = "1n";
+Tone.Transport.swingSubdivision = "8n"; //Subdivision is import with respect to the pattern! -> Should be able to change this
 Tone.Transport.bpm.value = 100;
 const bpmEl = document.getElementById("bpm");
 bpmEl.value = 100;

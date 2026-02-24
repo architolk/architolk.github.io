@@ -14,6 +14,19 @@ classes: wide
 ---
 ![](/assets/thumbs/geomatron.png)
 
+The relationship between music and geometry is astounding. However, this is not that visible in musical instruments! The geomatron is a conceptual instrument that fixes this, and will show the these astounding similarities.
+
+Both rhythms and chords are depicted in a circular fashion, making it possible to create geometrical shapes of these rhythms and chords. By using a M5Dial, a rotary encoder with a circular display, we can create a user interface to set the correct "shape", and in this way, the particular rhythm or chord.
+
+The geometric shapes below show how this works for chords. The first three chords are the major chords in the C-major scale. As you might notice, these three chords have the same "shape", only rotated. This is true for any color of a chord: the shape remains the same for the same color, regardless of the root note of the chord. The fourth chord is a minor chord, which has a different shape. The fifth chord is a diminished chord with -again- a different shape. And we could add more notes to the chord, for example creating a C7 chord.
+
+{% include chord id="chord1" chord="[0,4,7]" %}
+{% include chord id="chord2" chord="[5,9,0]" %}
+{% include chord id="chord3" chord="[7,11,2]" %}
+{% include chord id="chord4" chord="[2,5,9]" %}
+{% include chord id="chord5" chord="[11,2,5]" %}
+{% include chord id="chord6" chord="[0,4,7,10]" %}
+
 This idea revolves the M5Dial, a rotary encoder with a display from M5Stack.
 
 The device is called a "Geomatron", indicating the geometrical patterns in music, the automaton that generate these rhythms, and a metronome - having a steady rhythm.

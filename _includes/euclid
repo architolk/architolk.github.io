@@ -20,6 +20,11 @@
   <span id="txtstatus" style="pointer-events: none;width:62px;font-size:36px;font-family:sans-serif;color:#4eb2e0;position:absolute;top:50px;left:68px;text-align:center;">▶︎</span>
   <span id="txtbpm" style="pointer-events: none;width:62px;font-size:24px;font-family:sans-serif;color:#4eb2e0;position:absolute;top:100px;left:68px;text-align:center;">100</span>
 </div>
+<div style="display: inline flex; position:relative;">
+  <input id="swing" type="range" class="input-knob" min="0" max="100" step="1" data-diameter="200" data-src="/assets/images/geomatron/dial.png"  oninput="setswing(this)"/>
+  <span id="txtswing" style="pointer-events: none;width:62px;font-size:36px;font-family:sans-serif;color:#4eb2e0;position:absolute;top:50px;left:68px;text-align:center;">0%</span>
+  <span style="pointer-events: none;width:62px;font-size:24px;font-family:sans-serif;color:#4eb2e0;position:absolute;top:100px;left:68px;text-align:center;">swing</span>
+</div>
 </div>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/0.12.10/Tone.min.js'></script>

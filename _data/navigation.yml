@@ -393,12 +393,20 @@ calendar:
 geomatron:
   - title: Introduction
     url: /geomatron
+  - title: Build
+    children:
+    - title: "Design"
+      url: /geomatron/design
   - title: Theory
     children:
+    - title: "Euclydian rythms"
+      url: /geomatron/euclydian
     - title: "Scales and modes"
       url: /geomatron/scales-modes
     - title: "Chords"
       url: /geomatron/chords
+    - title: "Rotator harmonic generator"
+      url: /geomatron/rotator
   - title: Simulators
     children:
     - title: "Euclidian rhythm generator"

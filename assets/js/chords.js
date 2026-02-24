@@ -5,6 +5,9 @@ var scaleMode = "io";
 var scaleDegree = 0; //Counting from zero = "degree 1"
 var chordColor = "maj";
 var chordName = "C";
+var doParallel = false;
+var doSecDom = false;
+var doUpperExt = -1;
 
 const keyLabels = {
   knob1: ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"],
@@ -260,6 +263,34 @@ function updateGuitarFretboard() {
 function setScaleRoot(root) {
   scaleRoot = root;
   setChord();
+}
+
+function setParallel() {
+  doSecDom = false;
+  doParallel = !doParallel;
+  updateButton("secdom","",false);
+  updateButton("parallel","",doParallel);
+}
+
+function setSecDom() {
+  doParallel = false;
+  doSecDom = !doSecDom;
+  updateButton("parallel","",false);
+  updateButton("secdom","",doSecDom);
+}
+
+function setUpper(upper) {
+  if (upper>doUpperExt) {
+    doUpperExt = upper;
+  } else {
+    doUpperExt = -1;
+  }
+  for (var i=0; i<=doUpperExt; i++) {
+    updateButton("upp",i,true);
+  }
+  for (var i=doUpperExt+1; i<3; i++) {
+    updateButton("upp",i,false);
+  }
 }
 
 function setScaleDegree(degree) {
