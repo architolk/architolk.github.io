@@ -96,6 +96,16 @@ const modes = {
   "ae": ["min","dim","maj","min","min","maj","maj"],
   "lo": ["dim","maj","min","min","maj","maj","min"]
 };
+//Parallel modes work for major/minor but also for other keys - in a way...
+const parallels = {
+  "io": "ae",
+  "do": "ly",
+  "ph": "mi",
+  "ly": "do",
+  "mi": "ph",
+  "ae": "io",
+  "lo": "do"
+};
 const romans = {
   "io": ["I","ii","iii","IV","V","vi","vii°"],
   "do": ["i","ii","III","IV","v","vi°","VII"],
@@ -213,19 +223,23 @@ function updateChordKeyboard(press) {
   if (press) {
     for (var i=0; i<currentChord.length; i++) {
       const key = document.getElementById("midi"+currentChord[i]);
-      key.setAttribute("oldstyle",key.getAttribute("style"));
-      key.setAttribute("style", "fill: #f1973a; stroke: black");
+      if (key) {
+        key.setAttribute("oldstyle",key.getAttribute("style"));
+        key.setAttribute("style", "fill: #f1973a; stroke: black");
+      }
     }
   } else {
     for (var i=0; i<currentChord.length; i++) {
       const key = document.getElementById("midi"+currentChord[i]);
-      key.setAttribute("style",key.getAttribute("oldstyle"));
+      if (key) {
+        key.setAttribute("style",key.getAttribute("oldstyle"));
+      }
     }
   }
 }
 
-function updateChordName() {
-  var note = scaleRoot + notes[scaleMode][scaleDegree];
+function updateChordName(note) {
+  //var note = scaleRoot + notes[scaleMode][scaleDegree];
   if (note>71) {
     note = note - 12;
   }
@@ -243,18 +257,20 @@ function updateChordName() {
 
 function updateGuitarFretboard() {
   const chord = strings[chordName];
-  for (var i=0; i<chord.length; i++) {
-    const muteString = document.getElementById("mute"+i);
-    const dotString = document.getElementById("string"+i);
-    if (chord[i]<0) {
-      muteString.setAttribute("y",70);
-      dotString.setAttribute("cy",-20);
-    } else {
-      muteString.setAttribute("y",-20);
-      if (chord[i]>0) {
-        dotString.setAttribute("cy",37+chord[i]*30);
-      } else {
+  if (chord) {
+    for (var i=0; i<chord.length; i++) {
+      const muteString = document.getElementById("mute"+i);
+      const dotString = document.getElementById("string"+i);
+      if (chord[i]<0) {
+        muteString.setAttribute("y",70);
         dotString.setAttribute("cy",-20);
+      } else {
+        muteString.setAttribute("y",-20);
+        if (chord[i]>0) {
+          dotString.setAttribute("cy",37+chord[i]*30);
+        } else {
+          dotString.setAttribute("cy",-20);
+        }
       }
     }
   }
@@ -321,7 +337,11 @@ function setScaleKey(scalekey) {
 }
 
 function setChord() {
-  setChordStyle(modes[scaleMode][scaleDegree]);
+  if (doParallel) {
+    setChordStyle(modes[parallels[scaleMode]][scaleDegree]);
+  } else {
+    setChordStyle(modes[scaleMode][scaleDegree]);
+  }
 }
 
 function play() {
@@ -341,12 +361,35 @@ function setChordStyle(style) {
   //Extra
   updateButton("ch",chordColor,false);
   chordColor = style;
+  if (doSecDom) {
+    chordColor = "dom7";
+  }
   updateButton("ch",chordColor,true);
   updateChordKeyboard(false);
   //Calculate the new chord
-  currentChord = chords[style].slice();
-  for (var i=0; i<currentChord.length; i++) {
-    currentChord[i] = currentChord[i] + scaleRoot + notes[scaleMode][scaleDegree];
+  currentChord = chords[chordColor].slice();
+  switch (doUpperExt) {
+    case 2: currentChord.push(21); //Upper would be 21 (octave + major sixth = 9 intervals)
+    case 1: currentChord.push(17); //Upper would be 17 (octave + perfect fourth = 5 intervals)
+    case 0: currentChord.push(14); currentChord.push(10); //Upper would be 14 (or sometimes 13???)
+  };
+  if (doSecDom) {
+    //In case of secondary dominant, we need the fifth scaleDegree, of the scaleroot of that note!
+    var primary = scaleRoot + notes[scaleMode][scaleDegree];
+    if (primary>71) {
+      primary = primary - 12;
+    }
+    for (var i=0; i<currentChord.length; i++) {
+      currentChord[i] = currentChord[i] + primary + notes[scaleMode][4];
+    }
+  } else {
+    for (var i=0; i<currentChord.length; i++) {
+      if (doParallel) {
+        currentChord[i] = currentChord[i] + scaleRoot + notes[parallels[scaleMode]][scaleDegree];
+      } else {
+        currentChord[i] = currentChord[i] + scaleRoot + notes[scaleMode][scaleDegree];
+      }
+    }
   }
   if (currentChord[0]>71) { //If root note of chord is C5 or highter, lower with an octave
     for (var i=0; i<currentChord.length; i++) {
@@ -355,12 +398,20 @@ function setChordStyle(style) {
   }
   play();
   updateChordKeyboard(true);
-  updateChordName();
+  updateChordName(currentChord[0]);
   updateGuitarFretboard();
   const keyDialEl = document.getElementById("knob3");
   const keyIndex = keyValues.knob3.indexOf(keys[scaleMode][scaleRoot-60]);
   if (keyIndex>=0) {
     keyDialEl.value = keyIndex;
     dochange(keyDialEl,"knob3");
+  }
+  //Reset extra color notes
+  setUpper(-1);
+  if (doSecDom) {
+    setSecDom();
+  }
+  if (doParallel) {
+    setParallel();
   }
 }
