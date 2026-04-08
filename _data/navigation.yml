@@ -231,6 +231,8 @@ mikrophonie:
     children:
     - title: OpAmps
       url: /mikrophonie/opamps
+    - title: Charge amplifier
+      url: /mikrophone/chargeamp
   - title: Resources
     url: /mikrophonie/resources
 
