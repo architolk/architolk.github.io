@@ -232,7 +232,9 @@ mikrophonie:
     - title: OpAmps
       url: /mikrophonie/opamps
     - title: Charge amplifier
-      url: /mikrophone/chargeamp
+      url: /mikrophonie/chargeamp
+    - title: Phantom power
+      url: /mikrophonie/phantom
   - title: Resources
     url: /mikrophonie/resources
 
