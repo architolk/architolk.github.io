@@ -227,6 +227,12 @@ springreverb:
 mikrophonie:
   - title: Introduction
     url: /mikrophonie
+  - title: Build
+    children:
+    - title: Design
+      url: /mikrophonie/design
+    - title: Material
+      url: /mikrophonie/materials
   - title: Theory
     children:
     - title: OpAmps
@@ -235,6 +241,8 @@ mikrophonie:
       url: /mikrophonie/chargeamp
     - title: Phantom power
       url: /mikrophonie/phantom
+    - title: Signal levels
+      url: /mikrophonie/levels
   - title: Resources
     children:
     - title: Information
