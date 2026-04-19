@@ -236,7 +236,11 @@ mikrophonie:
     - title: Phantom power
       url: /mikrophonie/phantom
   - title: Resources
-    url: /mikrophonie/resources
+    children:
+    - title: Information
+      url: /mikrophonie/resources
+    - title: Noise boxes
+      url: /mikrophonie/noise-boxes
 
 the-internet:
   - title: Introduction
