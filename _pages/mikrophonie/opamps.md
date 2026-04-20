@@ -22,6 +22,8 @@ Newer are:
 Even better:
 - FET: OPA1641, OPA1642 (single, dual) - not available for through hole;
 
+Interessant: hier is een adapter-versie voor through hole verkrijgbaar: https://www.audiophonics.fr/en/opa/audiophonics-opa1642-aop-double-dip8-p-19371.html?srsltid=AfmBOopsuuLXOpS0ikVENg_OeqKJ5PIMIyYRL_UXswr0Xn1QGEcv_Hq9
+
 Special audio:
 - AD797 (but not usefull for us?)
 
