@@ -17,3 +17,4 @@ Fire alarms:
 - [Murata - Piezoelectric Sound Components Application Manual](https://www.murata.com/~/media/webrenewal/support/library/catalog/products/sound/p15e.ashx)
 - [Datasheet for MC14468 - A smoke detector IC](https://www.nxp.com/docs/en/data-sheet/MC14468.pdf)
 - [How smoke detectors actually work](http://robruark.com/other/Radiation/smoke_detector/smoke.html)
+- [What's the third wire on a piezo buzzer](https://electronics.stackexchange.com/questions/18212/whats-the-third-wire-on-a-piezo-buzzer)
