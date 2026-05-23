@@ -429,3 +429,23 @@ geomatron:
       url: /geomatron/drum-machine
     - title: "Chord builder"
       url: /geomatron/chord-machine
+
+radio:
+  - title: Introduction
+    url: /radio
+  - title: Build
+    children:
+    - title: "Design"
+      url: /radio/design
+    - title: "The guts"
+      url: /radio/guts
+    - title: "ESP32 Pin routing"
+      url: /radio/routing
+    - title: "Changing the old radio"
+      url: /radio/oldradiochange
+  - title: Theory
+    children:
+    - title: "Charlieplexing"
+      url: /radio/charlieplexing
+  - title: Resources
+    url: /radio/resources
