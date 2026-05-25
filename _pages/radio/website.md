@@ -24,6 +24,6 @@ Some extra information about the internet stations is displayed in the "informat
 
 ![](/assets/images/radio/stations.png){:width="300px"}
 
-At [http://radiomarco.local](http://radiomarco.local/stations) you can find the current list of all radio stations that are configured. You can add, delete or edit these radio stations via this webpage. Status updates will be displayed below the row of buttons.
+At [http://radiomarco.local/stations](http://radiomarco.local/stations) you can find the current list of all radio stations that are configured. You can add, delete or edit these radio stations via this webpage. Status updates will be displayed below the row of buttons.
 
 After you have made a change, these changes will directly be available at the radio (using the tuning dial or preset tuning dials). However, the information will only be stored in persistent memory after pressing the <Save> button.
