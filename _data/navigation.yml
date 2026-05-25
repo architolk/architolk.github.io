@@ -433,6 +433,14 @@ geomatron:
 radio:
   - title: Introduction
     url: /radio
+  - title: User manual
+    children:
+    - title: "Physical radio"
+      url: /radio/manual
+    - title: "Wifi configuration"
+      url: /radio/wificonfig
+    - title: "Website"
+      url: /radio/website
   - title: Build
     children:
     - title: "Design"
