@@ -28,7 +28,7 @@ classes: wide
 
 - [ESP32 memory partitioning](https://forum.arduino.cc/t/esp32-s3-partition-tables-and-optimizing-memory-for-arduino-ide-2-x/1320358/12)
 - [ESP32 S3 partition tables](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-guides/partition-tables.html)
-- [ESP32 S3-DevKitC-1](ttps://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html)
+- [ESP32 S3-DevKitC-1](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html)
 - [16MB partition table](https://github.com/schreibfaul1/ESP32-MiniWebRadio/blob/master/boards/miniwebradio16MB.csv) - Need something similar, but with littlefs instead of fat
 - [OTA with ElegantOTA](https://randomnerdtutorials.com/esp32-ota-elegantota-arduino/)
 - [OTAWebUpdater.ino](https://github.com/espressif/arduino-esp32/blob/master/libraries/Update/examples/OTAWebUpdater/OTAWebUpdater.ino) - Example of web update without any external libraries

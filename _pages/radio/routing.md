@@ -16,6 +16,8 @@ The ESP32 S3 N16R8 is explained at [randomnerdtutorials](https://randomnerdtutor
 
 ![](/assets/images/radio/ESP32-S3-pinout.jpg.webp)
 
+> Important: this is version 1.1 of the board! In version 1.0 the RGB GPIO pin is actually pin 48, which I'm using for the I2S. Would you use version 1.0, the RGB LED will always be on. Don't use version 1.0!
+
 ## MAX98357A I2S audio board with 3W amplifier
 
 The MAX98357A board is explained at [adafruit](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts.
