@@ -27,3 +27,11 @@ Some extra information about the internet stations is displayed in the "informat
 At [http://radiomarco.local/stations](http://radiomarco.local/stations) you can find the current list of all radio stations that are configured. You can add, delete or edit these radio stations via this webpage. Status updates will be displayed below the row of buttons.
 
 After you have made a change, these changes will directly be available at the radio (using the tuning dial or preset tuning dials). However, the information will only be stored in persistent memory after pressing the <Save> button.
+
+## Upload and download stations
+
+![](/assets/images/radio/upload.png){:width="300px"}
+
+It is also possible to upload (and download) the stations.txt file. Please make sure that the format of the stations.txt is correct! The best approach is first to download the current file, change this file according to your needs, and upload this file again.
+
+If all fails, you can always delete the file. The radio will then fall back to the factory defaults.
