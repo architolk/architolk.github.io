@@ -17,7 +17,7 @@ classes: wide
 Most of the radio works as expected. Some minor changes:
 
 - Touch button FM4 doesn't work. Instead, you have to touch button's FM2 and FM3 together. This will set the preset to FM4.
-- R125 (the fine tuning dial) doesn't have a function yet.
+- The tuning dial works as expected, but has discrete intervals of whole numbers (86, 88, .. 108). You will need the fine tuning dial to tune in fractions
 - SK-A doesn't work (nothing is attached to it), but the attached LED does work, and turning that dial will also turn the LED. Don't do this, as you can turn this dial completely around, which will break the wires to that LED!
 - SK-F is "silent tuning". In the "off" position, you may turn the large tuning dial (VC-1), but no change will occur. In the "on" position, the tuning dial will work as expected: changing the radio station.
 

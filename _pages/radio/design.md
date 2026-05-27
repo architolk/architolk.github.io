@@ -32,7 +32,7 @@ The original radio had an FM / AM / etc swich, we won't use that one. The tuning
 | 220V | Mains power | Mains power |
 | SK-A | Band select | No function (LED light still works) |
 | VC-1 | Tuner | Tuner |
-| R125 | Fine tuning | Tuner / extra options |
+| R125 | Fine tuning | Tuner |
 | SK-F | Silent tuning | Lock frequency dials |
 | SK-E | AFC (Automatic Frequency Control) | No function |
 | SK-C | Power On/Off | Power On/Off |
