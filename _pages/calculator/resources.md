@@ -18,3 +18,4 @@ classes: wide
 - [Futaba VFD application note](https://www.vwlowen.co.uk/arduino/vfd/VFDApplication-Note.pdf)
 - [EEVBlog - How to hack VFD displays](https://www.youtube.com/watch?v=clUVEyi_YNM)
 - [ESP32 pinout reference](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
+- [Canon calculator keys and glossary](https://support.usa.canon.com/kb/s/article/ART172300)
