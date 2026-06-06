@@ -299,6 +299,10 @@ oktava-mk12:
 calculator:
   - title: Introduction
     url: /calculator
+  - title: "User manual"
+    children:
+    - title: "Keys"
+      url: /calculator/keys
   - title: Build
     children:
     - title: "Calculator power"

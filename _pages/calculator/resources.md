@@ -19,3 +19,4 @@ classes: wide
 - [EEVBlog - How to hack VFD displays](https://www.youtube.com/watch?v=clUVEyi_YNM)
 - [ESP32 pinout reference](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
 - [Canon calculator keys and glossary](https://support.usa.canon.com/kb/s/article/ART172300)
+- [User manual for the P1211-D](https://support.usa.canon.com/kb/s/article/ART172273) - A comparable calculator
